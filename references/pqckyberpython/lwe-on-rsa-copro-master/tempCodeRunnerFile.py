@@ -1,0 +1,1 @@
+print u"<%s> Prec: %2d, ell: %s"%(skipper.__name__, ceil(skipper.prec(kyber)), l)
