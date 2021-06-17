@@ -1,0 +1,15 @@
+C:/Users/PC/Desktop/ram/alram10k.v {1 {vlog -work alram10k -stats=none C:/Users/PC/Desktop/ram/alram10k.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alram10k
+
+Top level modules:
+	alram10k
+
+} {} {}} C:/Users/PC/Desktop/ram/tb_alram10k.v {1 {vlog -work alram10k -stats=none C:/Users/PC/Desktop/ram/tb_alram10k.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_alram10k
+
+Top level modules:
+	tb_alram10k
+
+} {} {}}
