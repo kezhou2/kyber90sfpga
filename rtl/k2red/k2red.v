@@ -56,7 +56,7 @@ fulladder2f #(16) ifulladder2f2 (subrs1,addrs1,firstrs);
 wire [11:0] clp;
 wire [11:0] chp;
 
-assign chp = {4'b0,firstrs[15:8]};
+assign chp = {{4{firstrs[15]}},firstrs[15:8]};
 assign clp = {4'b0,firstrs[7:0]};
 
 //pre-shifting 2

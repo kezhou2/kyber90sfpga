@@ -31,14 +31,60 @@ c = 1;
 #100;
 //$display ("DZO NE` 2");
 c = 24'd3330;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
 #100;
 c = 24'd99999;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
 #100;
-c = 24'd65536;
+c = 24'd133456;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
 #100;
 c = 24'd600000;
-#200;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
 #100;
+c = 24'd16777;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
+#100;
+c = 2**16;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
+#100;
+c = 24'd223;
+#1;
+if (cred != ((169*c)%3329))
+begin
+$display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
+$finish;
+end
 end
 
 
