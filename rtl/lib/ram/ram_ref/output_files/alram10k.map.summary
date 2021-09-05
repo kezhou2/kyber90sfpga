@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sat Apr 20 20:23:41 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : alram10k
+Top-level Entity Name : alram10k
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 256
+Total pins : 532
+Total virtual pins : 0
+Total block memory bits : 65,536
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PC/Desktop/ram
+valram112x
+Z1 !s110 1555776798
+!i10b 1
+!s100 088HSNS`U`[UaPOXf?_5Y1
+Iac[Kn7Lb2Q3`5l=DcZi4l2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1555776599
+8C:/Users/PC/Desktop/ram/alram112x.v
+FC:/Users/PC/Desktop/ram/alram112x.v
+L0 15
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1555776798.000000
+!s107 C:/Users/PC/Desktop/ram/alram112x.v|
+!s90 -reportprogress|300|-work|alramtest|-stats=none|C:/Users/PC/Desktop/ram/alram112x.v|
+!i113 1
+Z5 o-work alramtest
+Z6 tCvgOpt 0
+vtb_alram112x
+R1
+!i10b 1
+!s100 XX9dliTPOeWVYCK_PlN@k0
+IES;gHi`0^Y<L>7e9oEf5]1
+R2
+R0
+w1555776638
+8C:/Users/PC/Desktop/ram/tb_alram112x.v
+FC:/Users/PC/Desktop/ram/tb_alram112x.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/ram/tb_alram112x.v|
+!s90 -reportprogress|300|-work|alramtest|-stats=none|C:/Users/PC/Desktop/ram/tb_alram112x.v|
+!i113 1
+R5
+R6

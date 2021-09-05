@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PC/Desktop/ram
+valram112x
+Z1 !s110 1555773128
+!i10b 1
+!s100 8_MECN]H:>6iYhHA22Vcc2
+IMjU^g^J:J4g_[0h2VE?GK3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1555772411
+8C:/Users/PC/Desktop/ram/alram112x.v
+FC:/Users/PC/Desktop/ram/alram112x.v
+Z3 L0 14
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1555773128.000000
+!s107 C:/Users/PC/Desktop/ram/alram112x.v|
+!s90 -reportprogress|300|-work|alram113x|-stats=none|C:/Users/PC/Desktop/ram/alram112x.v|
+!i113 1
+Z6 o-work alram113x
+Z7 tCvgOpt 0
+valram113x
+R1
+!i10b 1
+!s100 a[I`?Bzg14^zL35Hhz3Hm0
+IGQ6m[;FN5^]QKUHZ?zXn^0
+R2
+R0
+w1555771276
+8C:/Users/PC/Desktop/ram/alram113x.v
+FC:/Users/PC/Desktop/ram/alram113x.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/PC/Desktop/ram/alram113x.v|
+!s90 -reportprogress|300|-work|alram113x|-stats=none|C:/Users/PC/Desktop/ram/alram113x.v|
+!i113 1
+R6
+R7
+vtb_alram113x
+R1
+!i10b 1
+!s100 O]e7;dQk>lWBXc4B1G?Ef1
+I4;NC4Uo>]P:0fb9G4X=Lj1
+R2
+R0
+w1555771177
+8C:/Users/PC/Desktop/ram/tb_alram113x.v
+FC:/Users/PC/Desktop/ram/tb_alram113x.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/PC/Desktop/ram/tb_alram113x.v|
+!s90 -reportprogress|300|-work|alram113x|-stats=none|C:/Users/PC/Desktop/ram/tb_alram113x.v|
+!i113 1
+R6
+R7
