@@ -1,0 +1,594 @@
+# Compile of k2red.v failed with 2 errors.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 1 failed with 2 errors.
+# Compile of k2red.v failed with 1 errors.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 1 failed with 1 error.
+# Compile of k2red.v failed with 1 errors.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 1 failed with 1 error.
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui kyber.tb_k2red
+# vsim -gui kyber.tb_k2red 
+# Start time: 18:06:24 on Sep 05,2021
+# Loading kyber.tb_k2red
+# Loading kyber.k2red
+# Loading kyber.full_sub
+# Loading kyber.fulladder2f
+# Loading kyber.full_adder
+# Loading kyber.half_adder
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cred'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 76
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 76
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 76
+# Error loading design
+# End time: 18:06:24 on Sep 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 19
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui kyber.tb_k2red
+# vsim -gui kyber.tb_k2red 
+# Start time: 18:09:20 on Sep 05,2021
+# Loading kyber.tb_k2red
+# Loading kyber.k2red
+# Loading kyber.full_sub
+# Loading kyber.fulladder2f
+# Loading kyber.full_adder
+# Loading kyber.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+quit -sim
+# End time: 18:14:15 on Sep 05,2021, Elapsed time: 0:04:55
+# Errors: 0, Warnings: 12
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui tb_k2red
+# vsim -gui tb_k2red 
+# Start time: 18:14:33 on Sep 05,2021
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+add wave -position insertpoint  \
+sim:/tb_k2red/clk \
+sim:/tb_k2red/t_rst \
+sim:/tb_k2red/c \
+sim:/tb_k2red/cred
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        0 and c reduction =    x
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+run
+run
+run
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+run
+# DZO NE`
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+run
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_k2red/t_rst'. 
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+run
+# DZO NE`
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+run
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+run
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_k2red/clk'. 
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+run
+# DZO NE`
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+# DZO NE` 2
+# c =     3330 and c reduction =    x
+# c =    99999 and c reduction =    x
+# c =    65536 and c reduction =    x
+# c =   600000 and c reduction =    x
+add wave -position insertpoint sim:/tb_k2red/ik2red/*
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+run
+# DZO NE`
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+# DZO NE` 2
+# c =     3330 and c reduction =    x
+# c =    99999 and c reduction =    x
+# c =    65536 and c reduction =    x
+# c =   600000 and c reduction =    x
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f1 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_k2red/ik2red/clx2'. 
+run -continue
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+# c =     3330 and c reduction =    x
+# c =    99999 and c reduction =    x
+# c =    65536 and c reduction =    x
+# c =   600000 and c reduction =    x
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'b'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'sub'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifullsub2 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'input2'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'answer'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f4 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 81
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+# c =     3330 and c reduction =    x
+# c =    99999 and c reduction =    x
+# c =    65536 and c reduction =    x
+# c =   600000 and c reduction =    x
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'input1'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_k2red/ik2red/ifulladder2f3 File: K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v Line: 78
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_k2red/ik2red/null'. 
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =    x
+# c =     3330 and c reduction =    x
+# c =    99999 and c reduction =    x
+# c =    65536 and c reduction =    x
+# c =   600000 and c reduction =    x
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_k2red/ik2red/clpx2'. 
+# Compile of half_adder.v was successful.
+# Compile of mux_xx1.v was successful.
+# 10 compiles, 0 failed with no errors.
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        1 and c reduction =  169
+# c =     3330 and c reduction =  169
+# c =    99999 and c reduction = 1827
+# c =    65536 and c reduction = 3841
+# c =   600000 and c reduction = 1989

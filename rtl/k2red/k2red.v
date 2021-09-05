@@ -13,15 +13,20 @@ module k2red
 /////////
 
 parameter WID=24;
-parameter WID2 = WID/2;
+parameter WID2 = 12;
+
+////////////////////////
 
 input [WID-1:0] c;
 output [WID2-1:0] cred;
 
-wire [15:0] ch;
-wire [7:0] cl;
 
-assign cl = c[7:0];
+/////////////////////////////////
+
+wire [15:0] ch;
+wire [15:0] cl;
+
+assign cl = {8'b0,c[7:0]};
 assign ch = c[23:8];
 
 wire [15:0] subrs1;//rs = result
@@ -41,18 +46,18 @@ assign clx4 = cl << 2;
 
 // first addition layer
 
-full_sub #(16) ifullsub1 (clx8,ch,subrs1,null);
-fulladder2f #(16) ifulladder2f1 (clx2,cl,addrs1);
+full_sub #(16) ifullsub1 (clx8,ch,subrs1,null1);
+fulladder2f #(16) ifulladder2f1 (clx4,cl,addrs1);
 
 //second addtion
 fulladder2f #(16) ifulladder2f2 (subrs1,addrs1,firstrs);
 
 //////second layer of shifting
-wire [7:0] clp;
-wire [7:0] chp;
+wire [11:0] clp;
+wire [11:0] chp;
 
-assign chp = firstrs[15:8];
-assign clp = firstrs[7:0];
+assign chp = {4'b0,firstrs[15:8]};
+assign clp = {4'b0,firstrs[7:0]};
 
 //pre-shifting 2
 
@@ -63,17 +68,17 @@ assign clpx8 = clp << 3;
 assign clpx4 = clp << 2;
 
 /////second layer of addtion
-wire [15:0] subrs2;//rs = result
-wire [15:0] addrs2;
-wire [15:0] finalrs;
+wire [11:0] subrs2;//rs = result
+wire [11:0] addrs2;
+wire [11:0] finalrs;
 
 wire null2; //carry
 
 full_sub #(12) ifullsub2 (clpx8,chp,subrs2,null2);
-fulladder2f #(12) ifulladder2f2 (clpx2,clp,addrs2);
+fulladder2f #(12) ifulladder2f3 (clpx4,clp,addrs2);
 
 //second addtion
-fulladder2f #(12) ifulladder2f2 (subrs2,addrs2,finalrs);
+fulladder2f #(12) ifulladder2f4 (subrs2,addrs2,finalrs);
 
 assign cred = finalrs;
 
