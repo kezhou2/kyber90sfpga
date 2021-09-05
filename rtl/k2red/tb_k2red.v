@@ -25,18 +25,23 @@ k2red ik2red
 
 //operation
 
+reg [23:0] counter;
+
 initial begin
+    counter = 0;
+while(counter<=(2**23)) begin
 //$display ("DZO NE`");
-c = 1;
-#100;
-//$display ("DZO NE` 2");
-c = 24'd3330;
+c = counter;
 #1;
 if (cred != ((169*c)%3329))
 begin
 $display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
 $finish;
 end
+counter = counter + 1;
+end
+end
+/*
 #100;
 c = 24'd99999;
 #1;
@@ -86,6 +91,7 @@ $display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la 
 $finish;
 end
 end
+*/
 
 
 initial begin
