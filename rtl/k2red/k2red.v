@@ -56,7 +56,7 @@ fulladder2f #(16) ifulladder2f2 (subrs1,addrs1,firstrs);
 wire [11:0] clp;
 wire [11:0] chp;
 
-assign chp = {4'b0,firstrs[15:8]};
+assign chp = {{4{firstrs[15]}},firstrs[15:8]};
 assign clp = {4'b0,firstrs[7:0]};
 
 //pre-shifting 2
@@ -78,8 +78,12 @@ full_sub #(12) ifullsub2 (clpx8,chp,subrs2,null2);
 fulladder2f #(12) ifulladder2f3 (clpx4,clp,addrs2);
 
 //second addtion
+wire [11:0] negativers;
+
 fulladder2f #(12) ifulladder2f4 (subrs2,addrs2,finalrs);
 
-assign cred = finalrs;
+fulladder2f #(12) ifulladder2f5 (finalrs,12'd3329,negativers); //3319 case for c = 453
+
+assign cred = (finalrs[11] && finalrs >= 12'd3329)? negativers : finalrs;
 
 endmodule
