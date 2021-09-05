@@ -1,18 +1,18 @@
-`timescale 1ns/1ps
+`timescale 1ps/1ps
 module tb_k2red;
 
-reg clk;
-reg t_rst;
-
+//reg clk;
+/*
 always begin
 clk = 0;
 #1 clk=1;
 #1;
 end
+*/
 //input reg/output wire
 
 reg [23:0] c;
-red [11:0] cred;
+wire [11:0] cred;
 //instant
 
 k2red ik2red
@@ -26,11 +26,10 @@ k2red ik2red
 //operation
 
 initial begin
-c = 0;
-t_rst = 1'b0;
-#3 t_rst = 1'b1;
-#2 t_rst = 1'b0;
+//$display ("DZO NE`");
+c = 1;
 #100;
+//$display ("DZO NE` 2");
 c = 24'd3330;
 #100;
 c = 24'd99999;
@@ -40,7 +39,6 @@ c = 24'd65536;
 c = 24'd600000;
 #200;
 #100;
-$finish;
 end
 
 
