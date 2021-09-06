@@ -1,16 +1,9 @@
-K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v
+K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module k2red
+-- Compiling module mux_xx1
 
 Top level modules:
-	k2red
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_adder.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_adder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module full_adder
-
-Top level modules:
-	full_adder
+	mux_xx1
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/half_adder.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/half_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -19,26 +12,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	half_adder
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_adder.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_xx1
+-- Compiling module full_adder
 
 Top level modules:
-	mux_xx1
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb_k2red
-
-Top level modules:
-	tb_k2red
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module fulladder2f
-
-Top level modules:
-	fulladder2f
+	full_adder
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/fflopx.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/fflopx.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -47,6 +26,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fflopx
 
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/fulladder2f.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder2f
+
+Top level modules:
+	fulladder2f
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_k2red
+
+Top level modules:
+	tb_k2red
+
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/full_sub.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module full_sub
@@ -54,18 +47,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	full_sub
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ffxkclk
-
-Top level modules:
-	ffxkclk
-
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclkx.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclkx.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ffxkclkx
 
 Top level modules:
 	ffxkclkx
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ffxkclk
+
+Top level modules:
+	ffxkclk
 
 } {} {}}
