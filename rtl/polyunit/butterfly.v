@@ -27,3 +27,17 @@ input [WID-1:0]     b0,
 input [WID-1:0]     b1,
 
 input [SELWID-1:0]     sel //mode of operation
+
+//////////////
+//instant adder mult and sub
+
+//wiring
+
+//end-wiring
+
+addsub iaddsub(
+    .sub(),
+    .a(),
+    .b(),
+    .o()
+);

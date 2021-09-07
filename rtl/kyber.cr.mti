@@ -1,4 +1,11 @@
-K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v
+K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module k2red
+
+Top level modules:
+	k2red
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v {1 {vlog -work kyber -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mux_xx1
 
