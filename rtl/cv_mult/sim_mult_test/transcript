@@ -1,0 +1,13 @@
+# Compile of sim_mult.v was successful.
+vsim -gui work.sim_mult
+# vsim -gui work.sim_mult 
+# Start time: 19:31:21 on Sep 07,2021
+# Loading work.sim_mult
+add wave -position insertpoint sim:/sim_mult/#ASSIGN#32/*
+add wave -position insertpoint sim:/sim_mult/*
+force -freeze sim:/sim_mult/a 011110 0
+force -freeze sim:/sim_mult/b 011110000 0
+# WARNING: No extended dataflow license exists
+run
+# End time: 20:10:19 on Sep 07,2021, Elapsed time: 0:38:58
+# Errors: 0, Warnings: 2

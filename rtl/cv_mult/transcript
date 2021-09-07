@@ -1,24 +1,11 @@
-# Compile of k2red.v was successful.
-# Compile of tb_k2red.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# Compile of mux_xx1.v was successful.
-# 10 compiles, 0 failed with no errors.
-vsim -t ps -L work -L work_lib -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver kyber.tb_k2red
-# vsim -t ps -L work -L work_lib -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver kyber.tb_k2red 
-# Start time: 18:13:25 on Sep 07,2021
-# Loading kyber.tb_k2red
-# Loading kyber.k2red
-# Loading kyber.full_sub
-# Loading kyber.fulladder2f
-# Loading kyber.full_adder
-# Loading kyber.half_adder
-# can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": can't set "gm": invalid command name "SimObjView"
-# error on .main_pane.wave -closecommand : can't read "vsimPriv(.main_pane.wave.interior.cs.body.pw.wf:current_tree)": no such element in array
-# End time: 18:14:15 on Sep 07,2021, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 2
+vsim -gui work.cv_mult
+# vsim -gui work.cv_mult 
+# Start time: 19:23:37 on Sep 07,2021
+# Loading work.cv_mult
+# ** Error: (vsim-3033) Instantiation of 'altera_mult_add' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cv_mult File: K:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/cv_mult_sim/cv_mult.v Line: 37
+#         Searched libraries:
+#             K:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/libraries/work
+# Error loading design
+# End time: 19:23:37 on Sep 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
