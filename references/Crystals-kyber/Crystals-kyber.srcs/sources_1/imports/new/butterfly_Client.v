@@ -55,7 +55,7 @@ always @(*) case(sel_s0)
 	1'h 1 : sub1_s0 = 12'h 0;
 endcase
 
-assign sum_in0 = add0_a0 + add0_a1 - 12'h d01;
+assign sum_in0 = add0_a0 + add0_a1 - 12'h d01;//3329
 assign sum_in1 = add1_a0 + in1[23:12] - 12'h d01;
 assign diff_in0 = in0[11:0] - sub1_s0;
 assign diff_in1 = in0[23:12] - in1[23:12];
