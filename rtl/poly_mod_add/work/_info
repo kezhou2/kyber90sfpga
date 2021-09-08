@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/sim_mult_test
+vpoly_mod_add
+Z0 !s110 1631109510
+!i10b 1
+!s100 <V_`3ZdW5MPMe766l^GdZ1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?ojMc:YKWPVjW]:J5O8k[1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dK:/kyber90sfpga/kyber90sfpga/rtl/poly_mod_add
+w1631109491
+8K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v
+!i122 29
+L0 25 19
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1631109510.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vpoly_mod_add_tb
+R0
+!i10b 1
+!s100 XfYU6;=eT8]0LId?Q0M872
+R1
+IWUQc^iQlk;ToK2U92nC[_1
+R2
+R3
+w1631108154
+8K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/polu_mod_add_tb.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/polyunit/polu_mod_add_tb.v
+!i122 30
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/polu_mod_add_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/polu_mod_add_tb.v|
+!i113 1
+R6
+R7
+vpoly_mod_diff
+Z8 !s110 1631121814
+!i10b 1
+!s100 ?PlcXgVBe5UkVPXfTIXn;1
+R1
+IYI>oH?jDT2Z<:0mGhD=YW3
+R2
+R3
+w1631121623
+8K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v
+!i122 55
+L0 25 21
+R4
+r1
+!s85 0
+31
+Z9 !s108 1631121814.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v|
+!i113 1
+R6
+R7
+vpoly_mod_diff_tb
+R8
+!i10b 1
+!s100 lCX=3`RCK0Fl=8`Pa[1hB0
+R1
+I]EGi`[AAjaH?b2kJ5X3[H3
+R2
+R3
+w1631121809
+8K:/kyber90sfpga/kyber90sfpga/rtl/poly_mod_add/poly_mod_diff_tb.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/poly_mod_add/poly_mod_diff_tb.v
+!i122 56
+L0 1 33
+R4
+r1
+!s85 0
+31
+R9
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/poly_mod_add/poly_mod_diff_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/poly_mod_add/poly_mod_diff_tb.v|
+!i113 1
+R6
+R7

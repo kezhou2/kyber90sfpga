@@ -60,7 +60,7 @@ assign sum_in1 = add1_a0 + in1[23:12] - 12'h d01;
 assign diff_in0 = in0[11:0] - sub1_s0;
 assign diff_in1 = in0[23:12] - in1[23:12];
 always @(*) case({sel_a1,sum_in0[12],sum_in0[0]})
-	3'b 011, 3'b 001, 3'b 110, 3'b 111 : q_sum0 = 13'h d01;
+	3'b 011, 3'b 001, 3'b 110, 3'b 111 : q_sum0 = 13'h d01; //3329
 	3'b 010 : q_sum0 = 13'h 1a02;
 	default : q_sum0 = 13'h 0;
 endcase
