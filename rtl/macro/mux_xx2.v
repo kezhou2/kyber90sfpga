@@ -35,12 +35,12 @@ parameter WIDTH = 1;
 input     s;
 input [WIDTH-1:0] a,b,c,d;
 
-output [WIDTH-1:0] o;
+output reg [WIDTH-1:0] o;
 
 ////////////////////////////////////////////////////////////////////////////////
 // Local logic and instantiation
 
-always @(*) case(sel)
+always @(*) case(s)
 	2'h 0 : o = a;
 	2'h 1 : o = b;
 	2'h 2 : o = c;
