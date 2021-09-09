@@ -47,6 +47,10 @@ output done;
 //POLY FSM
 reg [POLYWID-1:0] poly_state;
 
+wire      polyisrun; 
+
+assign    polyisrun = run;
+
 wire      polyisidle; 
 
 assign    polyisidle = poly_state == P_IDLE;
@@ -67,9 +71,21 @@ wire      polyisdatain;
 
 assign    polyisdatain = poly_state == P_DATAIN;
 
-wire      polyisrun; 
+wire      modeisntt; 
 
-assign    polyisrun = run;
+assign    modeisntt = mode == M_NTT;
+
+wire      modeisintt; 
+
+assign    modeisintt = mode == M_INTT;
+
+wire      modeisbypass; 
+
+assign    modeisbypass = mode == M_BYPASS;
+
+wire      modeisdatain; 
+
+assign    modeisdatain = mode == M_DATAIN;
 
 always@(posedge clk)
     begin
@@ -79,24 +95,46 @@ always@(posedge clk)
         end
     else
         begin
-        if(polyisrun & polyisidle & (mode == 2'b01))
+        if(polyisrun & polyisidle & modeisntt)
             begin
             poly_state <= P_NTT;            
             end
-        else if(polyisrun & polyisidle & (mode == 2'b11))
+        else if(polyisrun & polyisidle & modeisintt)
             begin
             poly_state <= P_INTT;    
             end
-        else if(polyisrun & polyisidle & (mode == 2'b00))
+        else if(polyisrun & polyisidle & modeisbypass)
             begin
             poly_state <= P_BYPASS;     
             end
-        else if(polyisrun & polyisidle & (mode == 2'b11))
+        else if(polyisrun & polyisidle & modeisdatain)
             begin
             poly_state <= P_BYPASS;     
             end
         end
     end
 
+/////////////////////////////
+//ROM w00 w10 w11
+
+mem_gen1 #(WID) imem_gen1 (clk,addr_mem1,wr_ena,data_mem1);//w00
+mem_gen2 #(WID) imem_gen2 (clk,addr_mem2,wr_ena,data_mem2);//w10
+mem_gen3 #(WID) imem_gen (clk,addr_mem3,wr_ena,data_mem3);//w11
+
+////////////////////////////
+//NTT_RAM
+alram112x #(WID) ialram112x
+    (
+     .clkw(),//clock write
+     .clkr(),//clock read
+     .rst(),
+     
+     .rdo(),//data from ram
+     .ra(),//read address
+     
+     .wdi(),//data to ram
+     .wa(),//write address
+     .we() //write enable
+     );
 /////////////////////////////////
 endmodule

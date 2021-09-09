@@ -8,20 +8,20 @@ sub main {
 	open ($MEM_V, "> $TARGET_FILE");
 	
 	printf $MEM_V ("module mem_1 (clk, addr, wr_ena, data);\n");
-	printf $MEM_V ("parameter DATA_WIDTH = 3;\n");
+	printf $MEM_V ("parameter DATA_WIDTH = 12;\n");
 	printf $MEM_V ("input clk;\n");
-	printf $MEM_V ("input [10:0] addr;\n");
+	printf $MEM_V ("input [6:0] addr;\n");
 	printf $MEM_V ("input wr_ena;\n");
 	printf $MEM_V ("output [DATA_WIDTH-1:0] data;\n");
 	printf $MEM_V ("reg [DATA_WIDTH-1:0] data;\n");
 	printf $MEM_V ("always@(posedge clk) begin\n");
 	printf $MEM_V (" case (addr)\n");
-	printf $MEM_V ("    0: data <= 3'b000;\n");
+	printf $MEM_V ("    0: data <= 12'b0;\n");
 	$count = 0;
 	foreach $line (<$MEM_CASE>){
 	chop($line);
 	$count = $count + 1;
-	printf $MEM_V ("    $count : data <= 3'b$line;\n");
+	printf $MEM_V ("    $count : data <= 12'b$line;\n");
 	}
 	printf $MEM_V ("    default : data <= 0;\n");
 	printf $MEM_V ("    endcase\n");
