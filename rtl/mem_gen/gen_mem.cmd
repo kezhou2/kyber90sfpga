@@ -1,0 +1,1 @@
+perl gen_mem_1.pl mem_1.txt mem_gen1.v & gen_mem_3.pl mem_3.txt mem_gen3.v & perl gen_mem_2.pl mem_2.txt mem_gen2.v

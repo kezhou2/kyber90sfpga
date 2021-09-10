@@ -7,7 +7,7 @@ sub main {
 	open ($MEM_CASE, "$INPUT_FILE") || die("There is no skeleton file \n");
 	open ($MEM_V, "> $TARGET_FILE");
 	
-	printf $MEM_V ("module mem_gen1 (clk, addr, wr_ena, data);\n");
+	printf $MEM_V ("module mem_gen2 (clk, addr, wr_ena, data);\n");
 	printf $MEM_V ("parameter DATA_WIDTH = 12;\n");
 	printf $MEM_V ("input clk;\n");
 	printf $MEM_V ("input [6:0] addr;\n");

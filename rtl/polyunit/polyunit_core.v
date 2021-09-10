@@ -111,8 +111,19 @@ always@(posedge clk)
             begin
             poly_state <= P_BYPASS;     
             end
+        else if(polyisdone & !polyisidle)
+            begin
+            poly_state <= P_IDLE;     
+            end
+        else //default state because the sun
+            begin
+            poly_state <= poly_state;     
+            end
         end
     end
+//////////////////////////////
+//BUFFER REWRITE TO RAM
+
 
 /////////////////////////////
 //ROM w00 w10 w11
