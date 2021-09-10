@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/kyber90sfpga/kyber90sfpga/rtl/poly_mod_add
+vbutterfly
+Z0 !s110 1631125314
+!i10b 1
+!s100 [dhk;oAIL?ec90fa`7XCH3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I93@mzW]QXjz=50b?`WiBj3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dK:/kyber90sfpga/kyber90sfpga/rtl/butterfly
+w1631125312
+8K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/butterfly.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/polyunit/butterfly.v
+!i122 14
+L0 1 87
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1631125314.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/butterfly.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/butterfly.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfflopx
+Z8 !s110 1631125315
+!i10b 1
+!s100 c[XDNRVEALC[aoHXQC2K[2
+R1
+I=8gU]L7>bKVizee>DSFJ61
+R2
+R3
+Z9 w1630829153
+8K:/kyber90sfpga/kyber90sfpga/rtl/macro/fflopx.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/macro/fflopx.v
+!i122 17
+L0 14 25
+R4
+r1
+!s85 0
+31
+Z10 !s108 1631125315.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/macro/fflopx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/macro/fflopx.v|
+!i113 1
+R6
+R7
+vffxkclk
+R8
+!i10b 1
+!s100 g^0dKMEcU0XE7<k>>76Dc3
+R1
+Ino8>jcEl9Q?n<8C>Lo49;2
+R2
+R3
+w1631119687
+8K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v
+!i122 18
+Z11 L0 14 36
+R4
+r1
+!s85 0
+31
+R10
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclk.v|
+!i113 1
+R6
+R7
+vffxkclkx
+R8
+!i10b 1
+!s100 fJn4gcoh0JOXPL2gBVj<W2
+R1
+IVTGWF4AoDDodPL:K6E6GV2
+R2
+R3
+w1631119709
+8K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclkx.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclkx.v
+!i122 19
+R11
+R4
+r1
+!s85 0
+31
+R10
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclkx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/macro/ffxkclkx.v|
+!i113 1
+R6
+R7
+vmux_xx1
+R8
+!i10b 1
+!s100 llEm9NFG0WaAd`K6Vm_6?0
+R1
+I?<G=EiEm@Iij3j6EFNWDd1
+R2
+R3
+R9
+8K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v
+!i122 20
+L0 14 30
+R4
+r1
+!s85 0
+31
+R10
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx1.v|
+!i113 1
+R6
+R7
+vmux_xx2
+R8
+!i10b 1
+!s100 _ULJo>`j]BaWFV9`o3=2k3
+R1
+I5_XMYP861W19:z`?Za[KH1
+R2
+R3
+w1631125268
+8K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx2.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx2.v
+!i122 21
+L0 14 37
+R4
+r1
+!s85 0
+31
+R10
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/macro/mux_xx2.v|
+!i113 1
+R6
+R7
+vpoly_mod_add
+R0
+!i10b 1
+!s100 ncFPK@CGO]K5L@dPk?IcV3
+R1
+ICET[zgCSL6i_HYg@zMRiF0
+R2
+R3
+w1631120308
+8K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v
+!i122 15
+L0 25 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_add.v|
+!i113 1
+R6
+R7
+vpoly_mod_diff
+R0
+!i10b 1
+!s100 ?PlcXgVBe5UkVPXfTIXn;1
+R1
+IYI>oH?jDT2Z<:0mGhD=YW3
+R2
+R3
+w1631121923
+8K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v
+!i122 16
+L0 25 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/poly_mod_diff.v|
+!i113 1
+R6
+R7
+vsim_mult
+R8
+!i10b 1
+!s100 >2A4b;`UPPaIE=z<kZ2_b0
+R1
+I;Pj7aYh@H7ZKG;TP:?i6P3
+R2
+R3
+w1631017715
+8K:/kyber90sfpga/kyber90sfpga/rtl/macro/sim_mult.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/macro/sim_mult.v
+!i122 22
+L0 23 12
+R4
+r1
+!s85 0
+31
+R10
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/macro/sim_mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/macro/sim_mult.v|
+!i113 1
+R6
+R7

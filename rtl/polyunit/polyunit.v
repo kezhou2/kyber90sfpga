@@ -1,5 +1,0 @@
-module polyunit(
-    clk,
-    rst,
-    
-)

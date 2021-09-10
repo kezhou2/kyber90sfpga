@@ -13,7 +13,7 @@ module k2red
 /////////
 
 parameter WID=24;
-parameter WID2 = 12;
+parameter WID2 = WID/2;
 
 ////////////////////////
 

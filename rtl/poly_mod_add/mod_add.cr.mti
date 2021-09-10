@@ -1,0 +1,8 @@
+K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/polu_mod_add_tb.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/polyunit/polu_mod_add_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module poly_mod_add_tb
+
+Top level modules:
+	poly_mod_add_tb
+
+} {} {}}

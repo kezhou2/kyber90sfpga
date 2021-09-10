@@ -1,0 +1,8 @@
+K:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/cv_mult_sim/cv_mult.v {1 {vlog -work test_mult -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/cv_mult_sim/cv_mult.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cv_mult
+
+Top level modules:
+	cv_mult
+
+} {} {}}

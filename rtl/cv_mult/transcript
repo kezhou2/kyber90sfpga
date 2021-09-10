@@ -1,0 +1,11 @@
+vsim -gui work.cv_mult
+# vsim -gui work.cv_mult 
+# Start time: 19:23:37 on Sep 07,2021
+# Loading work.cv_mult
+# ** Error: (vsim-3033) Instantiation of 'altera_mult_add' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cv_mult File: K:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/cv_mult_sim/cv_mult.v Line: 37
+#         Searched libraries:
+#             K:/kyber90sfpga/kyber90sfpga/rtl/cv_mult/libraries/work
+# Error loading design
+# End time: 19:23:37 on Sep 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
