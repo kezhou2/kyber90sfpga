@@ -1,69 +1,6 @@
 # Compile of butterfly.v was successful.
 # Compile of poly_mod_add.v was successful.
 # Compile of poly_mod_diff.v was successful.
-# Compile of polyunit_core.v failed with 4 errors.
-# Compile of addsub.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# Compile of modfa.v was successful.
-# Compile of mux_xx1.v was successful.
-# Compile of mux_xx2.v was successful.
-# Compile of sim_mult.v was successful.
-# Compile of mem_gen1.v was successful.
-# Compile of mem_gen2.v was successful.
-# Compile of mem_gen3.v was successful.
-# Compile of alram112x.v was successful.
-# 20 compiles, 1 failed with 4 errors.
-# Compile of butterfly.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of polyunit_core.v failed with 1 errors.
-# Compile of addsub.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# Compile of modfa.v was successful.
-# Compile of mux_xx1.v was successful.
-# Compile of mux_xx2.v was successful.
-# Compile of sim_mult.v was successful.
-# Compile of mem_gen1.v was successful.
-# Compile of mem_gen2.v was successful.
-# Compile of mem_gen3.v was successful.
-# Compile of alram112x.v was successful.
-# 20 compiles, 1 failed with 1 error.
-# Compile of butterfly.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of polyunit_core.v failed with 22 errors.
-# Compile of addsub.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# Compile of modfa.v was successful.
-# Compile of mux_xx1.v was successful.
-# Compile of mux_xx2.v was successful.
-# Compile of sim_mult.v was successful.
-# Compile of mem_gen1.v was successful.
-# Compile of mem_gen2.v was successful.
-# Compile of mem_gen3.v was successful.
-# Compile of alram112x.v was successful.
-# 20 compiles, 1 failed with 22 errors.
-# Compile of butterfly.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
 # Compile of polyunit_core.v was successful.
 # Compile of addsub.v was successful.
 # Compile of fflopx.v was successful.
