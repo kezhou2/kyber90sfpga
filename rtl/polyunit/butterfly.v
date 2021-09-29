@@ -58,7 +58,7 @@ fflopx #(WID) ifflopx6(clk,rst,w0,w1);
 assign diff1 = (sel==2'b00)? a3 : a0;
 assign diff2 = (sel==2'b00)? red_rslt : b0;
 
-assign adder1 = (sel==2'b00)? red_rslt : b3;
+assign adder1 = (sel==2'b00)? red_rs  lt : b3;
 assign adder2 = a3;
 
 assign mul1 = (sel==2'b00)? w0 : w1;

@@ -1,5 +1,5 @@
 Flow report for butterfly
-Wed Sep 29 09:59:09 2021
+Wed Sep 29 13:19:39 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Sep 29 09:59:09 2021       ;
+; Flow Status                     ; Successful - Wed Sep 29 13:19:39 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; butterfly                                   ;
 ; Top-level Entity Name           ; butterfly                                   ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/29/2021 09:57:32 ;
+; Start date & time ; 09/29/2021 13:18:23 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; butterfly           ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 104252179705287.163288425203768        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 104252179705287.163289630211348        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,10 +95,10 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4835 MB             ; 00:00:28                           ;
-; Fitter               ; 00:01:00     ; 1.0                     ; 6625 MB             ; 00:01:26                           ;
-; Assembler            ; 00:00:12     ; 1.0                     ; 4829 MB             ; 00:00:08                           ;
-; Total                ; 00:01:30     ; --                      ; --                  ; 00:02:02                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4840 MB             ; 00:00:29                           ;
+; Fitter               ; 00:00:50     ; 1.0                     ; 6626 MB             ; 00:01:27                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4830 MB             ; 00:00:08                           ;
+; Total                ; 00:01:13     ; --                      ; --                  ; 00:02:04                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

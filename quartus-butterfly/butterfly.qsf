@@ -51,19 +51,11 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name VERILOG_FILE alpha/tb_alram112x.v
 set_global_assignment -name VERILOG_FILE alpha/sim_mult.v
-set_global_assignment -name VERILOG_FILE alpha/polyunit_core.v
-set_global_assignment -name VERILOG_FILE alpha/poly_mod_diff_tb.v
 set_global_assignment -name VERILOG_FILE alpha/poly_mod_diff.v
 set_global_assignment -name VERILOG_FILE alpha/poly_mod_add.v
-set_global_assignment -name VERILOG_FILE alpha/polu_mod_add_tb.v
 set_global_assignment -name VERILOG_FILE alpha/mux_xx2.v
 set_global_assignment -name VERILOG_FILE alpha/mux_xx1.v
-set_global_assignment -name VERILOG_FILE alpha/modfa.v
-set_global_assignment -name VERILOG_FILE alpha/mem_gen3.v
-set_global_assignment -name VERILOG_FILE alpha/mem_gen2.v
-set_global_assignment -name VERILOG_FILE alpha/mem_gen1.v
 set_global_assignment -name VERILOG_FILE alpha/k2red.v
 set_global_assignment -name VERILOG_FILE alpha/half_adder.v
 set_global_assignment -name VERILOG_FILE alpha/fulladder2f.v
@@ -73,6 +65,4 @@ set_global_assignment -name VERILOG_FILE alpha/ffxkclkx.v
 set_global_assignment -name VERILOG_FILE alpha/ffxkclk.v
 set_global_assignment -name VERILOG_FILE alpha/fflopx.v
 set_global_assignment -name VERILOG_FILE alpha/butterfly.v
-set_global_assignment -name VERILOG_FILE alpha/alram112x.v
-set_global_assignment -name VERILOG_FILE alpha/addsub.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

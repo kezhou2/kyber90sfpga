@@ -1,5 +1,5 @@
 Analysis & Synthesis report for butterfly
-Wed Sep 29 09:57:50 2021
+Wed Sep 29 13:18:37 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Sep 29 09:57:50 2021       ;
+; Analysis & Synthesis Status     ; Successful - Wed Sep 29 13:18:37 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; butterfly                                   ;
 ; Top-level Entity Name           ; butterfly                                   ;
@@ -1065,7 +1065,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -1075,36 +1075,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Sep 29 09:57:31 2021
+    Info: Processing started: Wed Sep 29 13:18:22 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off butterfly -c butterfly
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/tb_alram112x.v
-    Info (12023): Found entity 1: tb_alram112x File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/tb_alram112x.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/sim_mult.v
     Info (12023): Found entity 1: sim_mult File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v Line: 23
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/polyunit_core.v
-    Info (12023): Found entity 1: polyunit_core File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polyunit_core.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/poly_mod_diff_tb.v
-    Info (12023): Found entity 1: poly_mod_diff_tb File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff_tb.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/poly_mod_diff.v
     Info (12023): Found entity 1: poly_mod_diff File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/poly_mod_add.v
     Info (12023): Found entity 1: poly_mod_add File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/polu_mod_add_tb.v
-    Info (12023): Found entity 1: poly_mod_add_tb File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polu_mod_add_tb.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/mux_xx2.v
     Info (12023): Found entity 1: mux_xx2 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/mux_xx1.v
     Info (12023): Found entity 1: mux_xx1 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx1.v Line: 14
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/modfa.v
-    Info (12023): Found entity 1: modfa File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/modfa.v Line: 14
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/mem_gen3.v
-    Info (12023): Found entity 1: mem_gen3 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mem_gen3.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/mem_gen2.v
-    Info (12023): Found entity 1: mem_gen2 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mem_gen2.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/mem_gen1.v
-    Info (12023): Found entity 1: mem_gen1 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mem_gen1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/k2red.v
     Info (12023): Found entity 1: k2red File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/half_adder.v
@@ -1123,16 +1107,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file alpha/f
     Info (12023): Found entity 1: fflopx File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file alpha/butterfly.v
     Info (12023): Found entity 1: butterfly File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alpha/alram112x.v
-    Info (12023): Found entity 1: alram112x File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/alram112x.v Line: 15
-Info (12021): Found 2 design units, including 2 entities, in source file alpha/addsub.v
-    Info (12023): Found entity 1: addsub File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/addsub.v Line: 23
-    Info (12023): Found entity 2: addsub_tb File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/addsub.v Line: 50
-Warning (10236): Verilog HDL Implicit Net warning at polyunit_core.v(282): created implicit net for "wr_ena" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polyunit_core.v Line: 282
-Critical Warning (10846): Verilog HDL Instantiation warning at polyunit_core.v(369): instance has no name File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polyunit_core.v Line: 369
-Critical Warning (10846): Verilog HDL Instantiation warning at polyunit_core.v(370): instance has no name File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polyunit_core.v Line: 370
-Critical Warning (10846): Verilog HDL Instantiation warning at polyunit_core.v(371): instance has no name File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polyunit_core.v Line: 371
-Critical Warning (10846): Verilog HDL Instantiation warning at polyunit_core.v(372): instance has no name File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/polyunit_core.v Line: 372
 Info (12127): Elaborating entity "butterfly" for the top level hierarchy
 Info (12128): Elaborating entity "fflopx" for hierarchy "fflopx:ifflopx1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 46
 Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 50
@@ -1166,10 +1140,10 @@ Info (21057): Implemented 545 device resources after synthesis - the final resou
     Info (21059): Implemented 24 output pins
     Info (21061): Implemented 480 logic cells
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 16 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Wed Sep 29 09:57:50 2021
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:28
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4840 megabytes
+    Info: Processing ended: Wed Sep 29 13:18:37 2021
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:29
 
 
