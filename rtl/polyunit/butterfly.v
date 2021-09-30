@@ -53,12 +53,14 @@ ffxkclkx #(DELAY,WID) iffxkclkx2 (clk,rst,b0,b3);
 fflopx #(WID) ifflopx5(clk,rst,b3,b4);
 fflopx #(WID) ifflopx6(clk,rst,w0,w1);
 
+wire [WID-1:0] cmux,dmux;
+
 /////////////////////////////////////////////////
 
 assign diff1 = (sel==2'b00)? a3 : a0;
 assign diff2 = (sel==2'b00)? red_rslt : b0;
 
-assign adder1 = (sel==2'b00)? red_rs  lt : b3;
+assign adder1 = (sel==2'b00)? red_rslt : b3;
 assign adder2 = a3;
 
 assign mul1 = (sel==2'b00)? w0 : w1;
@@ -80,8 +82,11 @@ sim_mult #(WID) isim_mult(mul1,mul2,mul_rslt);
 k2red #(2*WID) ik2red (mul_rslt,red_rslt);
 poly_mod_add #(WID) ipoly_mod_add (adder1,adder2,add_rslt);
 poly_mod_diff #(WID) ipoly_mod_diff (diff1,diff2,diff_rslt);
-mux_xx2 #(WID) imux_xx21 (apwb_fin,apb_fin,a_fin,12'b0,sel,c);
-mux_xx2 #(WID) imux_xx22 (amwb_fin,ambw_fin,b_fin,12'b0,sel,d);
+mux_xx2 #(WID) imux_xx21 (apwb_fin,apb_fin,a_fin,12'b0,sel,cmux);
+mux_xx2 #(WID) imux_xx22 (amwb_fin,ambw_fin,b_fin,12'b0,sel,dmux);
+
+assign c = cmux;
+assign d = dmux;
 
 //////////////////
 endmodule

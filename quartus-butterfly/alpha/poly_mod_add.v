@@ -36,8 +36,8 @@ wire [12:0] sum_in2;
 
 assign sum_in0 = a + b;//3329
 
-assign sum_in1 = (sum_in0>=3329)? sum_in0 - 3329 : sum_in0;
-assign sum_in2 = (sum_in1>=3329)? sum_in1 - 3329 : sum_in1;
+assign sum_in1 = (sum_in0>=13'd3329)? sum_in0 - 13'd3329 : sum_in0;
+assign sum_in2 = (sum_in1>=13'd3329)? sum_in1 - 13'd3329 : sum_in1;
 assign o = sum_in2;
 
 endmodule

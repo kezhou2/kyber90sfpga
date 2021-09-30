@@ -32,7 +32,7 @@ parameter WIDTH = 1;
 ////////////////////////////////////////////////////////////////////////////////
 // Output declarations
 
-input     s;
+input     [1:0] s;
 input [WIDTH-1:0] a,b,c,d;
 
 output reg [WIDTH-1:0] o;
