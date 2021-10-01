@@ -28,7 +28,7 @@ parameter WIDTH = 12;
 parameter METHOD = 1'b0;//NOTHING
 /////////////////////////////
 input [WIDTH-1:0] a,b;
-output [WIDTH:0] o;
+output [WIDTH-1:0] o;
 ////////////////////////////////////
 wire [WIDTH+1:0] diff_in0;
 wire [WIDTH+1:0] diff_in1;
@@ -40,7 +40,7 @@ assign diff_in0 = a - b + 14'd 6658;//3329
 assign diff_in1 = (diff_in0>=14'd3329)? diff_in0 - 14'd3329 : diff_in0;
 assign diff_in2 = (diff_in1>=14'd3329)? diff_in1 - 14'd3329 : diff_in1;
 assign diff_in3 = (diff_in2>=14'd3329)? diff_in2 - 14'd3329 : diff_in2;
-assign o = diff_in3[12:0];
+assign o = diff_in3[11:0];
 
 endmodule
 

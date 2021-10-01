@@ -48,10 +48,10 @@ wire [15:0] cl1;
 wire [15:0] clx81;
 wire [15:0] clx41;
 
-fflopx #(WID) ifflopx2(clk,rst,ch,ch1);
-fflopx #(WID) ifflopx3(clk,rst,cl,cl1);
-fflopx #(WID) ifflopx4(clk,rst,clx8,clx81);
-fflopx #(WID) ifflopx5(clk,rst,clx4,clx41);
+fflopx #(16) ifflopx2(clk,rst,ch,ch1);
+fflopx #(16) ifflopx3(clk,rst,cl,cl1);
+fflopx #(16) ifflopx4(clk,rst,clx8,clx81);
+fflopx #(16) ifflopx5(clk,rst,clx4,clx41);
 
 //done shift
 
@@ -65,7 +65,7 @@ fulladder2f #(16) ifulladder2f2 (subrs1,addrs1,firstrs);
 
 wire [15:0] firstrs1;
 
-fflopx #(WID) ifflopx6(clk,rst,firstrs,firstrs1);
+fflopx #(16) ifflopx6(clk,rst,firstrs,firstrs1);
 
 //////second layer of shifting
 wire [11:0] clp;
@@ -82,15 +82,15 @@ wire [11:0] clpx4;
 assign clpx8 = clp << 3;
 assign clpx4 = clp << 2;
 
-wire [15:0] chp1;
-wire [15:0] clp1;
-wire [15:0] clpx81;
-wire [15:0] clpx41;
+wire [11:0] chp1;
+wire [11:0] clp1;
+wire [11:0] clpx81;
+wire [11:0] clpx41;
 
-fflopx #(WID) ifflopx7(clk,rst,chp,chp1);
-fflopx #(WID) ifflopx8(clk,rst,clp,clp1);
-fflopx #(WID) ifflopx9(clk,rst,clpx8,clpx81);
-fflopx #(WID) ifflopx10(clk,rst,clpx4,clpx41);
+fflopx #(WID2) ifflopx7(clk,rst,chp,chp1);
+fflopx #(WID2) ifflopx8(clk,rst,clp,clp1);
+fflopx #(WID2) ifflopx9(clk,rst,clpx8,clpx81);
+fflopx #(WID2) ifflopx10(clk,rst,clpx4,clpx41);
 
 /////second layer of addtion
 wire [11:0] subrs2;//rs = result
@@ -112,6 +112,8 @@ wire [WID2-1:0] finalrs1;
 ffxkclkx #(DELAY,WID2) iffxkclkx1 (clk,rst,finalrs,finalrs1);
 
 fulladder2f #(12) ifulladder2f5 (finalrs1,12'd3329,negativers1); //3319 case for c = 453
+
+wire checkflag;
 
 assign checkflag = finalrs1 >= 12'd3329;
 

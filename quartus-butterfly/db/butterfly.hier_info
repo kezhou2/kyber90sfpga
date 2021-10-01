@@ -1,6 +1,6 @@
 |butterfly
 clk => clk.IN16
-rst => rst.IN15
+rst => rst.IN16
 a[0] => a[0].IN1
 a[1] => a[1].IN1
 a[2] => a[2].IN1
@@ -37,30 +37,30 @@ w[8] => w[8].IN1
 w[9] => w[9].IN1
 w[10] => w[10].IN1
 w[11] => w[11].IN1
-c[0] << mux_xx2:imux_xx21.port5
-c[1] << mux_xx2:imux_xx21.port5
-c[2] << mux_xx2:imux_xx21.port5
-c[3] << mux_xx2:imux_xx21.port5
-c[4] << mux_xx2:imux_xx21.port5
-c[5] << mux_xx2:imux_xx21.port5
-c[6] << mux_xx2:imux_xx21.port5
-c[7] << mux_xx2:imux_xx21.port5
-c[8] << mux_xx2:imux_xx21.port5
-c[9] << mux_xx2:imux_xx21.port5
-c[10] << mux_xx2:imux_xx21.port5
-c[11] << mux_xx2:imux_xx21.port5
-d[0] << mux_xx2:imux_xx22.port5
-d[1] << mux_xx2:imux_xx22.port5
-d[2] << mux_xx2:imux_xx22.port5
-d[3] << mux_xx2:imux_xx22.port5
-d[4] << mux_xx2:imux_xx22.port5
-d[5] << mux_xx2:imux_xx22.port5
-d[6] << mux_xx2:imux_xx22.port5
-d[7] << mux_xx2:imux_xx22.port5
-d[8] << mux_xx2:imux_xx22.port5
-d[9] << mux_xx2:imux_xx22.port5
-d[10] << mux_xx2:imux_xx22.port5
-d[11] << mux_xx2:imux_xx22.port5
+c[0] <= mux_xx2:imux_xx21.port5
+c[1] <= mux_xx2:imux_xx21.port5
+c[2] <= mux_xx2:imux_xx21.port5
+c[3] <= mux_xx2:imux_xx21.port5
+c[4] <= mux_xx2:imux_xx21.port5
+c[5] <= mux_xx2:imux_xx21.port5
+c[6] <= mux_xx2:imux_xx21.port5
+c[7] <= mux_xx2:imux_xx21.port5
+c[8] <= mux_xx2:imux_xx21.port5
+c[9] <= mux_xx2:imux_xx21.port5
+c[10] <= mux_xx2:imux_xx21.port5
+c[11] <= mux_xx2:imux_xx21.port5
+d[0] <= mux_xx2:imux_xx22.port5
+d[1] <= mux_xx2:imux_xx22.port5
+d[2] <= mux_xx2:imux_xx22.port5
+d[3] <= mux_xx2:imux_xx22.port5
+d[4] <= mux_xx2:imux_xx22.port5
+d[5] <= mux_xx2:imux_xx22.port5
+d[6] <= mux_xx2:imux_xx22.port5
+d[7] <= mux_xx2:imux_xx22.port5
+d[8] <= mux_xx2:imux_xx22.port5
+d[9] <= mux_xx2:imux_xx22.port5
+d[10] <= mux_xx2:imux_xx22.port5
+d[11] <= mux_xx2:imux_xx22.port5
 sel[0] => sel[0].IN2
 sel[1] => sel[1].IN2
 
@@ -953,6 +953,7 @@ odat[11] <= odat[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 |butterfly|sim_mult:isim_mult
 clk => clk.IN3
+rst => rst.IN3
 a[0] => a[0].IN1
 a[1] => a[1].IN1
 a[2] => a[2].IN1
@@ -1001,7 +1002,6 @@ o[20] <= ffxkclkx:iffxkclkx3.port3
 o[21] <= ffxkclkx:iffxkclkx3.port3
 o[22] <= ffxkclkx:iffxkclkx3.port3
 o[23] <= ffxkclkx:iffxkclkx3.port3
-o[24] <= ffxkclkx:iffxkclkx3.port3
 
 
 |butterfly|sim_mult:isim_mult|ffxkclkx:iffxkclkx1
@@ -1533,22 +1533,6 @@ clk => odat[12]~reg0.CLK
 clk => odat[13]~reg0.CLK
 clk => odat[14]~reg0.CLK
 clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -1581,14 +1565,6 @@ idat[12] => odat.DATAA
 idat[13] => odat.DATAA
 idat[14] => odat.DATAA
 idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1605,14 +1581,6 @@ odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx3
@@ -1632,22 +1600,6 @@ clk => odat[12]~reg0.CLK
 clk => odat[13]~reg0.CLK
 clk => odat[14]~reg0.CLK
 clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -1680,14 +1632,6 @@ idat[12] => odat.DATAA
 idat[13] => odat.DATAA
 idat[14] => odat.DATAA
 idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1704,14 +1648,6 @@ odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx4
@@ -1731,22 +1667,6 @@ clk => odat[12]~reg0.CLK
 clk => odat[13]~reg0.CLK
 clk => odat[14]~reg0.CLK
 clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -1779,14 +1699,6 @@ idat[12] => odat.DATAA
 idat[13] => odat.DATAA
 idat[14] => odat.DATAA
 idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1803,14 +1715,6 @@ odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx5
@@ -1830,22 +1734,6 @@ clk => odat[12]~reg0.CLK
 clk => odat[13]~reg0.CLK
 clk => odat[14]~reg0.CLK
 clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -1878,14 +1766,6 @@ idat[12] => odat.DATAA
 idat[13] => odat.DATAA
 idat[14] => odat.DATAA
 idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1902,14 +1782,6 @@ odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|full_sub:ifullsub1
@@ -2259,22 +2131,6 @@ clk => odat[12]~reg0.CLK
 clk => odat[13]~reg0.CLK
 clk => odat[14]~reg0.CLK
 clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -2307,14 +2163,6 @@ idat[12] => odat.DATAA
 idat[13] => odat.DATAA
 idat[14] => odat.DATAA
 idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -2331,14 +2179,6 @@ odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx7
@@ -2354,30 +2194,6 @@ clk => odat[8]~reg0.CLK
 clk => odat[9]~reg0.CLK
 clk => odat[10]~reg0.CLK
 clk => odat[11]~reg0.CLK
-clk => odat[12]~reg0.CLK
-clk => odat[13]~reg0.CLK
-clk => odat[14]~reg0.CLK
-clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -2402,18 +2218,6 @@ idat[8] => odat.DATAA
 idat[9] => odat.DATAA
 idat[10] => odat.DATAA
 idat[11] => odat.DATAA
-idat[12] => odat.DATAA
-idat[13] => odat.DATAA
-idat[14] => odat.DATAA
-idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -2426,18 +2230,6 @@ odat[8] <= odat[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[9] <= odat[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[10] <= odat[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[11] <= odat[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx8
@@ -2453,30 +2245,6 @@ clk => odat[8]~reg0.CLK
 clk => odat[9]~reg0.CLK
 clk => odat[10]~reg0.CLK
 clk => odat[11]~reg0.CLK
-clk => odat[12]~reg0.CLK
-clk => odat[13]~reg0.CLK
-clk => odat[14]~reg0.CLK
-clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -2501,18 +2269,6 @@ idat[8] => odat.DATAA
 idat[9] => odat.DATAA
 idat[10] => odat.DATAA
 idat[11] => odat.DATAA
-idat[12] => odat.DATAA
-idat[13] => odat.DATAA
-idat[14] => odat.DATAA
-idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -2525,18 +2281,6 @@ odat[8] <= odat[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[9] <= odat[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[10] <= odat[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[11] <= odat[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx9
@@ -2552,30 +2296,6 @@ clk => odat[8]~reg0.CLK
 clk => odat[9]~reg0.CLK
 clk => odat[10]~reg0.CLK
 clk => odat[11]~reg0.CLK
-clk => odat[12]~reg0.CLK
-clk => odat[13]~reg0.CLK
-clk => odat[14]~reg0.CLK
-clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -2600,18 +2320,6 @@ idat[8] => odat.DATAA
 idat[9] => odat.DATAA
 idat[10] => odat.DATAA
 idat[11] => odat.DATAA
-idat[12] => odat.DATAA
-idat[13] => odat.DATAA
-idat[14] => odat.DATAA
-idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -2624,18 +2332,6 @@ odat[8] <= odat[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[9] <= odat[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[10] <= odat[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[11] <= odat[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|fflopx:ifflopx10
@@ -2651,30 +2347,6 @@ clk => odat[8]~reg0.CLK
 clk => odat[9]~reg0.CLK
 clk => odat[10]~reg0.CLK
 clk => odat[11]~reg0.CLK
-clk => odat[12]~reg0.CLK
-clk => odat[13]~reg0.CLK
-clk => odat[14]~reg0.CLK
-clk => odat[15]~reg0.CLK
-clk => odat[16]~reg0.CLK
-clk => odat[17]~reg0.CLK
-clk => odat[18]~reg0.CLK
-clk => odat[19]~reg0.CLK
-clk => odat[20]~reg0.CLK
-clk => odat[21]~reg0.CLK
-clk => odat[22]~reg0.CLK
-clk => odat[23]~reg0.CLK
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
-rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
 rst => odat.OUTPUTSELECT
@@ -2699,18 +2371,6 @@ idat[8] => odat.DATAA
 idat[9] => odat.DATAA
 idat[10] => odat.DATAA
 idat[11] => odat.DATAA
-idat[12] => odat.DATAA
-idat[13] => odat.DATAA
-idat[14] => odat.DATAA
-idat[15] => odat.DATAA
-idat[16] => odat.DATAA
-idat[17] => odat.DATAA
-idat[18] => odat.DATAA
-idat[19] => odat.DATAA
-idat[20] => odat.DATAA
-idat[21] => odat.DATAA
-idat[22] => odat.DATAA
-idat[23] => odat.DATAA
 odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[2] <= odat[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -2723,18 +2383,6 @@ odat[8] <= odat[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[9] <= odat[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[10] <= odat[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[11] <= odat[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[12] <= odat[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[13] <= odat[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[14] <= odat[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[15] <= odat[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[16] <= odat[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[17] <= odat[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[18] <= odat[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[19] <= odat[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[20] <= odat[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[21] <= odat[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[22] <= odat[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-odat[23] <= odat[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|k2red:ik2red|full_sub:ifullsub2
@@ -3227,7 +2875,6 @@ o[8] <= sum_in2.DB_MAX_OUTPUT_PORT_TYPE
 o[9] <= sum_in2.DB_MAX_OUTPUT_PORT_TYPE
 o[10] <= sum_in2.DB_MAX_OUTPUT_PORT_TYPE
 o[11] <= sum_in2.DB_MAX_OUTPUT_PORT_TYPE
-o[12] <= sum_in2.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|poly_mod_diff:ipoly_mod_diff
@@ -3267,7 +2914,6 @@ o[8] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
 o[9] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
 o[10] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
 o[11] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
-o[12] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly|mux_xx2:imux_xx21

@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Thu Sep 30 13:36:13 2021
+Analysis & Synthesis Status : Successful - Thu Sep 30 22:58:38 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : butterfly
 Top-level Entity Name : butterfly
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 320
+Total registers : 356
 Total pins : 64
 Total virtual pins : 0
 Total block memory bits : 0

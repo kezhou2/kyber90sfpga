@@ -20,17 +20,17 @@
 // other product not provided by Altera.
 /////////////////////////////////////////////////////////////////////////////
 
-module sim_mult (clk,a,b,o);
+module sim_mult (clk,rst,a,b,o);
 
 parameter WIDTH = 12;
 parameter OWID = 2*WIDTH;
 parameter METHOD = 1;
 parameter DELAY = 2;
 parameter DELAYO = 1;
-input clk;
+input clk,rst;
 input [WIDTH-1:0] a,b;
-output [OWID:0] o;
-wire [OWID:0] multrs;
+output [OWID-1:0] o;
+wire [OWID-1:0] multrs;
 
 wire [WIDTH-1:0] areg,breg;
 

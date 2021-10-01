@@ -28,7 +28,7 @@ parameter WIDTH = 12;
 parameter METHOD = 1;//NOTHING
 /////////////////////////////
 input [WIDTH-1:0] a,b;
-output [WIDTH:0] o;
+output [WIDTH-1:0] o;
 ////////////////////////////////////
 wire [12:0] sum_in0;
 wire [12:0] sum_in1;
@@ -38,7 +38,7 @@ assign sum_in0 = a + b;//3329
 
 assign sum_in1 = (sum_in0>=13'd3329)? sum_in0 - 13'd3329 : sum_in0;
 assign sum_in2 = (sum_in1>=13'd3329)? sum_in1 - 13'd3329 : sum_in1;
-assign o = sum_in2;
+assign o = sum_in2[11:0];
 
 endmodule
 
