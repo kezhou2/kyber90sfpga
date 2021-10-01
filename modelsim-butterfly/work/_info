@@ -1,0 +1,356 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/kyber90sfpga/kyber90sfpga/rtl/poly_main
+vbutterfly
+Z0 !s110 1632916057
+!i10b 1
+!s100 MEAM`RJR8nfzaS14ofI6c0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INb8ThE66^RbmziWm4YL`K1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dK:/kyber90sfpga/kyber90sfpga/modelsim-butterfly
+w1632916044
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v
+!i122 103
+L0 1 92
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1632916057.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vbutterfly_tb
+Z8 !s110 1632916059
+!i10b 1
+!s100 :::IG1T5cRUfjPj1@9]mD0
+R1
+IXG4:hbB^GP75HzKBjEgW10
+R2
+R3
+w1632913134
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly_tb.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly_tb.v
+!i122 117
+L0 1 50
+R4
+r1
+!s85 0
+31
+Z9 !s108 1632916059.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly_tb.v|
+!i113 1
+R6
+R7
+vfflopx
+R0
+!i10b 1
+!s100 c[XDNRVEALC[aoHXQC2K[2
+R1
+I2I<EUJLzi8GSQ;QC2:9N91
+R2
+R3
+Z10 w1630829153
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v
+!i122 104
+L0 14 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v|
+!i113 1
+R6
+R7
+vffxkclk
+R0
+!i10b 1
+!s100 g^0dKMEcU0XE7<k>>76Dc3
+R1
+I@9g=Cb[Z:eb98BTBMbZ8j2
+R2
+R3
+w1631119687
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v
+!i122 105
+Z11 L0 14 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v|
+!i113 1
+R6
+R7
+vffxkclkx
+R0
+!i10b 1
+!s100 fJn4gcoh0JOXPL2gBVj<W2
+R1
+IN?C]GQ64J`[S@0<InId9N1
+R2
+R3
+w1631119709
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v
+!i122 106
+R11
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v|
+!i113 1
+R6
+R7
+vfull_adder
+R0
+!i10b 1
+!s100 6A4>[gE<<AI3hAf5O`Z110
+R1
+IJOQjR<fJidNhBj3`Rg=K51
+R2
+R3
+R10
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v
+!i122 107
+L0 14 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v|
+!i113 1
+R6
+R7
+vfull_sub
+Z12 !s110 1632916058
+!i10b 1
+!s100 _?X]]lFjbnITU]iIU?Xj62
+R1
+IBnaj1@OL[FWL@082To7[10
+R2
+R3
+R10
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v
+!i122 108
+L0 14 56
+R4
+r1
+!s85 0
+31
+Z13 !s108 1632916058.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v|
+!i113 1
+R6
+R7
+vfulladder2f
+R12
+!i10b 1
+!s100 ERo8PmU[Z?:z:Q8hkRkCz2
+R1
+IF9GIT6JjO=XKE6e<H=8HO1
+R2
+R3
+w1630866082
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v
+!i122 109
+L0 3 18
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v|
+!i113 1
+R6
+R7
+vhalf_adder
+R12
+!i10b 1
+!s100 ePGWWXIoGX;OznmR[c>`i2
+R1
+I[HdBjO<AF`dY^6N?zoT^B0
+R2
+R3
+R10
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v
+!i122 110
+L0 4 6
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v|
+!i113 1
+R6
+R7
+vk2red
+R12
+!i10b 1
+!s100 Sz?W9A[]]cUg@`aa@ZoPL1
+R1
+I98Qd0B;CLe2BRLInlWVjS0
+R2
+R3
+w1631122984
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v
+!i122 111
+L0 1 89
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v|
+!i113 1
+R6
+R7
+vmux_xx1
+R12
+!i10b 1
+!s100 llEm9NFG0WaAd`K6Vm_6?0
+R1
+I5H@8`T5e<3Iz`M87?b9L90
+R2
+R3
+R10
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx1.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx1.v
+!i122 112
+L0 14 30
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx1.v|
+!i113 1
+R6
+R7
+vmux_xx2
+R12
+!i10b 1
+!s100 LI`CJH@ia0^ez8<_iC:IG3
+R1
+I96X3jOhWXoBU5jf@1Pgzz0
+R2
+R3
+w1632915978
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v
+!i122 113
+L0 14 37
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v|
+!i113 1
+R6
+R7
+vpoly_mod_add
+R12
+!i10b 1
+!s100 ncFPK@CGO]K5L@dPk?IcV3
+R1
+IglAJAiln9Oo;n1JN0aR=Y0
+R2
+R3
+w1631120308
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v
+!i122 114
+L0 25 19
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v|
+!i113 1
+R6
+R7
+vpoly_mod_diff
+R12
+!i10b 1
+!s100 ?PlcXgVBe5UkVPXfTIXn;1
+R1
+I:]DU4Y>6940S9TgWRTIRh2
+R2
+R3
+w1631121923
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v
+!i122 115
+L0 25 21
+R4
+r1
+!s85 0
+31
+R13
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v|
+!i113 1
+R6
+R7
+vsim_mult
+R8
+!i10b 1
+!s100 >2A4b;`UPPaIE=z<kZ2_b0
+R1
+I2K;VXaHdIBKN^9cCgPm[43
+R2
+R3
+w1631017715
+8K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v
+FK:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v
+!i122 116
+L0 23 12
+R4
+r1
+!s85 0
+31
+R9
+!s107 K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v|
+!i113 1
+R6
+R7

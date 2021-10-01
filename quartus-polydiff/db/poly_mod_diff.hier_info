@@ -1,0 +1,40 @@
+|poly_mod_diff
+a[0] => Add0.IN24
+a[1] => Add0.IN23
+a[2] => Add0.IN22
+a[3] => Add0.IN21
+a[4] => Add0.IN20
+a[5] => Add0.IN19
+a[6] => Add0.IN18
+a[7] => Add0.IN17
+a[8] => Add0.IN16
+a[9] => Add0.IN15
+a[10] => Add0.IN14
+a[11] => Add0.IN13
+b[0] => Add0.IN12
+b[1] => Add0.IN11
+b[2] => Add0.IN10
+b[3] => Add0.IN9
+b[4] => Add0.IN8
+b[5] => Add0.IN7
+b[6] => Add0.IN6
+b[7] => Add0.IN5
+b[8] => Add0.IN4
+b[9] => Add0.IN3
+b[10] => Add0.IN2
+b[11] => Add0.IN1
+o[0] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[4] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[5] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[6] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[7] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[8] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[9] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[10] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[11] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+o[12] <= diff_in3.DB_MAX_OUTPUT_PORT_TYPE
+
+

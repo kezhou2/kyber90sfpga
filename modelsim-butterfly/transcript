@@ -1,0 +1,253 @@
+# Compile of butterfly.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of butterfly_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.butterfly_tb
+# vsim -gui work.butterfly_tb 
+# Start time: 18:06:14 on Sep 29,2021
+# Loading work.butterfly_tb
+# Loading work.butterfly
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.poly_mod_add
+# Loading work.poly_mod_diff
+# Loading work.mux_xx2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (25) does not match connection size (24) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/isim_mult File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_add File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_diff File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx21 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx22 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 84
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/butterfly_tb/ibutterfly/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hakatu  Hostname: DESKTOP-B3O1HT9  ProcessID: 7188
+#           Attempting to use alternate WLF file "./wlftrx3njq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrx3njq
+add wave -position insertpoint sim:/butterfly_tb/*
+run
+run
+run
+run
+run
+# Compile of butterfly.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of butterfly_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/butterfly_tb/ibutterfly/imux_xx21/*
+add wave -position insertpoint sim:/butterfly_tb/ibutterfly/imux_xx22/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.butterfly_tb
+# Loading work.butterfly
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.poly_mod_add
+# Loading work.poly_mod_diff
+# Loading work.mux_xx2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (25) does not match connection size (24) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/isim_mult File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_add File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_diff File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx21 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx22 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 84
+run
+run
+run
+run
+# Compile of butterfly.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of butterfly_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.butterfly_tb
+# Loading work.butterfly
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.poly_mod_add
+# Loading work.poly_mod_diff
+# Loading work.mux_xx2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (25) does not match connection size (24) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/isim_mult File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_add File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_diff File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx21 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx22 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 84
+run
+run
+run
+# Compile of butterfly.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of butterfly_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.butterfly_tb
+# Loading work.butterfly
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.poly_mod_add
+# Loading work.poly_mod_diff
+# Loading work.mux_xx2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (25) does not match connection size (24) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/isim_mult File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_add File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_diff File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx21 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/imux_xx22 File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 84
+run
+run
+run
+run
+# Compile of butterfly.v failed with 2 errors.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of butterfly_tb.v was successful.
+# 15 compiles, 1 failed with 2 errors.
+# Compile of butterfly.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of butterfly_tb.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.butterfly_tb
+# Loading work.butterfly
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.poly_mod_add
+# Loading work.poly_mod_diff
+# Loading work.mux_xx2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (25) does not match connection size (24) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/sim_mult.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/isim_mult File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_add.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_add File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (12) for port 'o'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/poly_mod_diff.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /butterfly_tb/ibutterfly/ipoly_mod_diff File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/butterfly.v Line: 84
+run
+run
+run
+run

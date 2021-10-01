@@ -1,0 +1,8 @@
+
+State Machine - |polyunit_core|poly_state
+Name poly_state.P_BYPASS poly_state.P_INTT poly_state.P_NTT poly_state.P_IDLE poly_state.P_DATAIN 
+poly_state.P_IDLE 0 0 0 0 0 
+poly_state.P_NTT 0 0 1 1 0 
+poly_state.P_INTT 0 1 0 1 0 
+poly_state.P_BYPASS 1 0 0 1 0 
+poly_state.P_DATAIN 0 0 0 1 1 
