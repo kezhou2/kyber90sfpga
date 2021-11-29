@@ -1,5 +1,5 @@
 Assembler report for butterfly
-Thu Sep 30 22:59:44 2021
+Thu Oct 21 02:23:08 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Sep 30 22:59:44 2021 ;
+; Assembler Status      ; Successful - Thu Oct 21 02:23:08 2021 ;
 ; Revision Name         ; butterfly                             ;
 ; Top-level Entity Name ; butterfly                             ;
 ; Family                ; Cyclone V                             ;
@@ -77,14 +77,14 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 30 22:59:36 2021
+    Info: Processing started: Thu Oct 21 02:22:59 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off butterfly -c butterfly
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4834 megabytes
-    Info: Processing ended: Thu Sep 30 22:59:44 2021
-    Info: Elapsed time: 00:00:08
+    Info: Processing ended: Thu Oct 21 02:23:08 2021
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:08
 
 

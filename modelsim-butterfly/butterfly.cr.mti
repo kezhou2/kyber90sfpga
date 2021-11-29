@@ -1,16 +1,16 @@
-K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module fflopx
-
-Top level modules:
-	fflopx
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v
+K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ffxkclkx
 
 Top level modules:
 	ffxkclkx
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ffxkclk
+
+Top level modules:
+	ffxkclk
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -26,26 +26,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux_xx1
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_xx2
-
-Top level modules:
-	mux_xx2
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ffxkclk
-
-Top level modules:
-	ffxkclk
-
 } {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module half_adder
 
 Top level modules:
 	half_adder
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fflopx
+
+Top level modules:
+	fflopx
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/mux_xx2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_xx2
+
+Top level modules:
+	mux_xx2
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

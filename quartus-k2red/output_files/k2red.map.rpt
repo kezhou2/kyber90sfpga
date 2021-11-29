@@ -1,5 +1,5 @@
 Analysis & Synthesis report for k2red
-Wed Sep 29 13:21:50 2021
+Thu Oct 21 01:16:51 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,27 +13,54 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Top-level Entity: |k2red
- 10. Parameter Settings for User Entity Instance: full_sub:ifullsub1
- 11. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f1
- 12. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f2
- 13. Parameter Settings for User Entity Instance: full_sub:ifullsub2
- 14. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f3
- 15. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f4
- 16. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f5
- 17. Port Connectivity Checks: "fulladder2f:ifulladder2f5"
- 18. Port Connectivity Checks: "fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[11].f"
- 19. Port Connectivity Checks: "fulladder2f:ifulladder2f3"
- 20. Port Connectivity Checks: "full_sub:ifullsub2|full_adder:FAgen[0].fai"
- 21. Port Connectivity Checks: "full_sub:ifullsub2"
- 22. Port Connectivity Checks: "fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[15].f"
- 23. Port Connectivity Checks: "fulladder2f:ifulladder2f1"
- 24. Port Connectivity Checks: "full_sub:ifullsub1|full_adder:FAgen[0].fai"
- 25. Port Connectivity Checks: "full_sub:ifullsub1"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: Top-level Entity: |k2red
+ 12. Parameter Settings for User Entity Instance: fflopx:ifflopx2
+ 13. Parameter Settings for User Entity Instance: fflopx:ifflopx3
+ 14. Parameter Settings for User Entity Instance: fflopx:ifflopx4
+ 15. Parameter Settings for User Entity Instance: fflopx:ifflopx5
+ 16. Parameter Settings for User Entity Instance: full_sub:ifullsub1
+ 17. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f1
+ 18. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f2
+ 19. Parameter Settings for User Entity Instance: fflopx:ifflopx6
+ 20. Parameter Settings for User Entity Instance: fflopx:ifflopx7
+ 21. Parameter Settings for User Entity Instance: fflopx:ifflopx8
+ 22. Parameter Settings for User Entity Instance: fflopx:ifflopx9
+ 23. Parameter Settings for User Entity Instance: fflopx:ifflopx10
+ 24. Parameter Settings for User Entity Instance: full_sub:ifullsub2
+ 25. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f3
+ 26. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f4
+ 27. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1
+ 28. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
+ 29. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
+ 30. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
+ 31. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
+ 32. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
+ 33. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
+ 34. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
+ 35. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
+ 36. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
+ 37. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
+ 38. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
+ 39. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
+ 40. Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f5
+ 41. Parameter Settings for User Entity Instance: fflopx:ifflopx1
+ 42. Port Connectivity Checks: "fulladder2f:ifulladder2f5"
+ 43. Port Connectivity Checks: "full_sub:ifullsub2|full_adder:FAgen[0].fai"
+ 44. Port Connectivity Checks: "full_sub:ifullsub2"
+ 45. Port Connectivity Checks: "fflopx:ifflopx10"
+ 46. Port Connectivity Checks: "fflopx:ifflopx9"
+ 47. Port Connectivity Checks: "fflopx:ifflopx8"
+ 48. Port Connectivity Checks: "full_sub:ifullsub1|full_adder:FAgen[0].fai"
+ 49. Port Connectivity Checks: "full_sub:ifullsub1"
+ 50. Port Connectivity Checks: "fflopx:ifflopx5"
+ 51. Port Connectivity Checks: "fflopx:ifflopx4"
+ 52. Port Connectivity Checks: "fflopx:ifflopx3"
+ 53. Post-Synthesis Netlist Statistics for Top Partition
+ 54. Elapsed Time Per Partition
+ 55. Analysis & Synthesis Messages
 
 
 
@@ -59,14 +86,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Sep 29 13:21:50 2021       ;
+; Analysis & Synthesis Status     ; Successful - Thu Oct 21 01:16:51 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; k2red                                       ;
 ; Top-level Entity Name           ; k2red                                       ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 36                                          ;
+; Total registers                 ; 80                                          ;
+; Total pins                      ; 38                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -175,10 +202,11 @@ refer to the applicable agreement for further details.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -188,117 +216,138 @@ refer to the applicable agreement for further details.
 ; File Name with User-Entered Path         ; Used in Netlist ; File Type              ; File Name with Absolute Path                                       ; Library ;
 +------------------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
 ; ../quartus-butterfly/alpha/k2red.v       ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v       ;         ;
-; ../quartus-butterfly/alpha/half_adder.v  ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/half_adder.v  ;         ;
 ; ../quartus-butterfly/alpha/fulladder2f.v ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v ;         ;
 ; ../quartus-butterfly/alpha/full_sub.v    ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v    ;         ;
 ; ../quartus-butterfly/alpha/full_adder.v  ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_adder.v  ;         ;
+; ../quartus-butterfly/alpha/ffxkclkx.v    ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v    ;         ;
+; ../quartus-butterfly/alpha/ffxkclk.v     ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclk.v     ;         ;
+; ../quartus-butterfly/alpha/fflopx.v      ; yes             ; User Verilog HDL File  ; K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v      ;         ;
 +------------------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimate of Logic utilization (ALMs needed) ; 89         ;
-;                                             ;            ;
-; Combinational ALUT usage for logic          ; 128        ;
-;     -- 7 input functions                    ; 0          ;
-;     -- 6 input functions                    ; 50         ;
-;     -- 5 input functions                    ; 39         ;
-;     -- 4 input functions                    ; 17         ;
-;     -- <=3 input functions                  ; 22         ;
-;                                             ;            ;
-; Dedicated logic registers                   ; 0          ;
-;                                             ;            ;
-; I/O pins                                    ; 36         ;
-;                                             ;            ;
-; Total DSP Blocks                            ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; c[1]~input ;
-; Maximum fan-out                             ; 21         ;
-; Total fan-out                               ; 669        ;
-; Average fan-out                             ; 3.35       ;
-+---------------------------------------------+------------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 60        ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 103       ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 5         ;
+;     -- 5 input functions                    ; 22        ;
+;     -- 4 input functions                    ; 20        ;
+;     -- <=3 input functions                  ; 56        ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 80        ;
+;                                             ;           ;
+; I/O pins                                    ; 38        ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 80        ;
+; Total fan-out                               ; 673       ;
+; Average fan-out                             ; 2.60      ;
++---------------------------------------------+-----------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                          ;
-+-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node                    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                    ; Entity Name ; Library Name ;
-+-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------+-------------+--------------+
-; |k2red                                        ; 128 (14)            ; 0 (0)                     ; 0                 ; 0          ; 36   ; 0            ; |k2red                                                                 ; k2red       ; work         ;
-;    |full_sub:ifullsub1|                       ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1                                              ; full_sub    ; work         ;
-;       |full_adder:FAgen[10].fai|              ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[10].fai                     ; full_adder  ; work         ;
-;       |full_adder:FAgen[11].fai|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[11].fai                     ; full_adder  ; work         ;
-;       |full_adder:FAgen[12].fai|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[12].fai                     ; full_adder  ; work         ;
-;       |full_adder:FAgen[13].fai|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[13].fai                     ; full_adder  ; work         ;
-;       |full_adder:FAgen[14].fai|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[14].fai                     ; full_adder  ; work         ;
-;       |full_adder:FAgen[3].fai|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[3].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[4].fai|               ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[4].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[5].fai|               ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[5].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[6].fai|               ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[6].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[8].fai|               ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[8].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[9].fai|               ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[9].fai                      ; full_adder  ; work         ;
-;    |full_sub:ifullsub2|                       ; 14 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2                                              ; full_sub    ; work         ;
-;       |full_adder:FAgen[1].fai|               ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[1].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[2].fai|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[2].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[4].fai|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[4].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[5].fai|               ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[5].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[6].fai|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[6].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[7].fai|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[7].fai                      ; full_adder  ; work         ;
-;       |full_adder:FAgen[8].fai|               ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[8].fai                      ; full_adder  ; work         ;
-;    |fulladder2f:ifulladder2f1|                ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1                                       ; fulladder2f ; work         ;
-;       |full_adder:generate_N_bit_Adder[3].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[3].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[4].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[4].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[5].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[5].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[6].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[6].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[7].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[7].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[8].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[8].f  ; full_adder  ; work         ;
-;    |fulladder2f:ifulladder2f2|                ; 20 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2                                       ; fulladder2f ; work         ;
-;       |full_adder:generate_N_bit_Adder[10].f| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[10].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[11].f| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[11].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[13].f| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[13].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[14].f| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[14].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[15].f| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[15].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[1].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[1].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[2].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[2].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[3].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[3].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[4].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[4].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[5].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[5].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[6].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[6].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[7].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[7].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[8].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|full_adder:generate_N_bit_Adder[8].f  ; full_adder  ; work         ;
-;       |half_adder:generate_N_bit_Adder[0].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2|half_adder:generate_N_bit_Adder[0].f  ; half_adder  ; work         ;
-;    |fulladder2f:ifulladder2f3|                ; 28 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3                                       ; fulladder2f ; work         ;
-;       |full_adder:generate_N_bit_Adder[2].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[2].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[3].f|  ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[3].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[4].f|  ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[4].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[5].f|  ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[5].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[6].f|  ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[6].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[7].f|  ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[7].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[8].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[8].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[9].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[9].f  ; full_adder  ; work         ;
-;    |fulladder2f:ifulladder2f4|                ; 20 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4                                       ; fulladder2f ; work         ;
-;       |full_adder:generate_N_bit_Adder[10].f| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[10].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[11].f| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[11].f ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[1].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[1].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[2].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[2].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[3].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[3].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[4].f|  ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[4].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[5].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[5].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[6].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[6].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[7].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[7].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[8].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[8].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[9].f|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4|full_adder:generate_N_bit_Adder[9].f  ; full_adder  ; work         ;
-;    |fulladder2f:ifulladder2f5|                ; 7 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5                                       ; fulladder2f ; work         ;
-;       |full_adder:generate_N_bit_Adder[1].f|  ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5|full_adder:generate_N_bit_Adder[1].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[2].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5|full_adder:generate_N_bit_Adder[2].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[3].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5|full_adder:generate_N_bit_Adder[3].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[5].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5|full_adder:generate_N_bit_Adder[5].f  ; full_adder  ; work         ;
-;       |full_adder:generate_N_bit_Adder[7].f|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5|full_adder:generate_N_bit_Adder[7].f  ; full_adder  ; work         ;
-+-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------+-------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                            ;
++-----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node        ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                  ; Entity Name ; Library Name ;
++-----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------+-------------+--------------+
+; |k2red                            ; 103 (3)             ; 80 (0)                    ; 0                 ; 0          ; 38   ; 0            ; |k2red                                               ; k2red       ; work         ;
+;    |fflopx:ifflopx10|             ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fflopx:ifflopx10                              ; fflopx      ; work         ;
+;    |fflopx:ifflopx1|              ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |k2red|fflopx:ifflopx1                               ; fflopx      ; work         ;
+;    |fflopx:ifflopx2|              ; 0 (0)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |k2red|fflopx:ifflopx2                               ; fflopx      ; work         ;
+;    |fflopx:ifflopx3|              ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fflopx:ifflopx3                               ; fflopx      ; work         ;
+;    |fflopx:ifflopx6|              ; 0 (0)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |k2red|fflopx:ifflopx6                               ; fflopx      ; work         ;
+;    |fflopx:ifflopx7|              ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fflopx:ifflopx7                               ; fflopx      ; work         ;
+;    |ffxkclkx:iffxkclkx1|          ; 0 (0)               ; 12 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1                           ; ffxkclkx    ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[10].flxodat| ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[11].flxodat| ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[2].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[3].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[4].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[5].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[6].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[7].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[8].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat  ; ffxkclk     ; work         ;
+;       |ffxkclk:i_bit[9].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat  ; ffxkclk     ; work         ;
+;    |full_sub:ifullsub1|           ; 27 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1                            ; full_sub    ; work         ;
+;       |full_adder:FAgen[10].fai|  ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[10].fai   ; full_adder  ; work         ;
+;       |full_adder:FAgen[12].fai|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[12].fai   ; full_adder  ; work         ;
+;       |full_adder:FAgen[1].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[1].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[3].fai|   ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[3].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[5].fai|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[5].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[7].fai|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[7].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[9].fai|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub1|full_adder:FAgen[9].fai    ; full_adder  ; work         ;
+;    |full_sub:ifullsub2|           ; 15 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2                            ; full_sub    ; work         ;
+;       |full_adder:FAgen[1].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[1].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[3].fai|   ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[3].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[5].fai|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[5].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[6].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[6].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[7].fai|   ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[7].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[8].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[8].fai    ; full_adder  ; work         ;
+;       |full_adder:FAgen[9].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|full_sub:ifullsub2|full_adder:FAgen[9].fai    ; full_adder  ; work         ;
+;    |fulladder2f:ifulladder2f1|    ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f1                     ; fulladder2f ; work         ;
+;    |fulladder2f:ifulladder2f2|    ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f2                     ; fulladder2f ; work         ;
+;    |fulladder2f:ifulladder2f3|    ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f3                     ; fulladder2f ; work         ;
+;    |fulladder2f:ifulladder2f4|    ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f4                     ; fulladder2f ; work         ;
+;    |fulladder2f:ifulladder2f5|    ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |k2red|fulladder2f:ifulladder2f5                     ; fulladder2f ; work         ;
++-----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                              ;
++----------------------------------------+----------------------------------------+
+; Register name                          ; Reason for Removal                     ;
++----------------------------------------+----------------------------------------+
+; fflopx:ifflopx10|odat[0,1,10,11]       ; Stuck at GND due to stuck port data_in ;
+; fflopx:ifflopx9|odat[0..2,11]          ; Stuck at GND due to stuck port data_in ;
+; fflopx:ifflopx8|odat[8..11]            ; Stuck at GND due to stuck port data_in ;
+; fflopx:ifflopx5|odat[0,1,10..15]       ; Stuck at GND due to stuck port data_in ;
+; fflopx:ifflopx4|odat[0..2,11..15]      ; Stuck at GND due to stuck port data_in ;
+; fflopx:ifflopx3|odat[8..15]            ; Stuck at GND due to stuck port data_in ;
+; fflopx:ifflopx7|odat[7..9,11]          ; Merged with fflopx:ifflopx7|odat[10]   ;
+; fflopx:ifflopx8|odat[0]                ; Merged with fflopx:ifflopx10|odat[2]   ;
+; fflopx:ifflopx9|odat[3]                ; Merged with fflopx:ifflopx10|odat[2]   ;
+; fflopx:ifflopx8|odat[1]                ; Merged with fflopx:ifflopx10|odat[3]   ;
+; fflopx:ifflopx9|odat[4]                ; Merged with fflopx:ifflopx10|odat[3]   ;
+; fflopx:ifflopx8|odat[2]                ; Merged with fflopx:ifflopx10|odat[4]   ;
+; fflopx:ifflopx9|odat[5]                ; Merged with fflopx:ifflopx10|odat[4]   ;
+; fflopx:ifflopx8|odat[3]                ; Merged with fflopx:ifflopx10|odat[5]   ;
+; fflopx:ifflopx9|odat[6]                ; Merged with fflopx:ifflopx10|odat[5]   ;
+; fflopx:ifflopx8|odat[4]                ; Merged with fflopx:ifflopx10|odat[6]   ;
+; fflopx:ifflopx9|odat[7]                ; Merged with fflopx:ifflopx10|odat[6]   ;
+; fflopx:ifflopx8|odat[5]                ; Merged with fflopx:ifflopx10|odat[7]   ;
+; fflopx:ifflopx9|odat[8]                ; Merged with fflopx:ifflopx10|odat[7]   ;
+; fflopx:ifflopx8|odat[6]                ; Merged with fflopx:ifflopx10|odat[8]   ;
+; fflopx:ifflopx9|odat[9]                ; Merged with fflopx:ifflopx10|odat[8]   ;
+; fflopx:ifflopx8|odat[7]                ; Merged with fflopx:ifflopx10|odat[9]   ;
+; fflopx:ifflopx9|odat[10]               ; Merged with fflopx:ifflopx10|odat[9]   ;
+; fflopx:ifflopx4|odat[3]                ; Merged with fflopx:ifflopx3|odat[0]    ;
+; fflopx:ifflopx5|odat[2]                ; Merged with fflopx:ifflopx3|odat[0]    ;
+; fflopx:ifflopx4|odat[4]                ; Merged with fflopx:ifflopx3|odat[1]    ;
+; fflopx:ifflopx5|odat[3]                ; Merged with fflopx:ifflopx3|odat[1]    ;
+; fflopx:ifflopx4|odat[5]                ; Merged with fflopx:ifflopx3|odat[2]    ;
+; fflopx:ifflopx5|odat[4]                ; Merged with fflopx:ifflopx3|odat[2]    ;
+; fflopx:ifflopx4|odat[6]                ; Merged with fflopx:ifflopx3|odat[3]    ;
+; fflopx:ifflopx5|odat[5]                ; Merged with fflopx:ifflopx3|odat[3]    ;
+; fflopx:ifflopx4|odat[7]                ; Merged with fflopx:ifflopx3|odat[4]    ;
+; fflopx:ifflopx5|odat[6]                ; Merged with fflopx:ifflopx3|odat[4]    ;
+; fflopx:ifflopx4|odat[8]                ; Merged with fflopx:ifflopx3|odat[5]    ;
+; fflopx:ifflopx5|odat[7]                ; Merged with fflopx:ifflopx3|odat[5]    ;
+; fflopx:ifflopx4|odat[9]                ; Merged with fflopx:ifflopx3|odat[6]    ;
+; fflopx:ifflopx5|odat[8]                ; Merged with fflopx:ifflopx3|odat[6]    ;
+; fflopx:ifflopx4|odat[10]               ; Merged with fflopx:ifflopx3|odat[7]    ;
+; fflopx:ifflopx5|odat[9]                ; Merged with fflopx:ifflopx3|odat[7]    ;
+; Total Number of Removed Registers = 72 ;                                        ;
++----------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -306,14 +355,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Total registers                              ; 80    ;
+; Number of registers using Synchronous Clear  ; 68    ;
+; Number of registers using Synchronous Load   ; 12    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |k2red|fflopx:ifflopx1|odat[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
 
 
 +-----------------------------------------------------------------------+
@@ -323,7 +381,52 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+-------+----------------------------------------------+
 ; WID            ; 24    ; Signed Integer                               ;
 ; WID2           ; 12    ; Signed Integer                               ;
+; DELAY          ; 1     ; Signed Integer                               ;
 +----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx2 ;
++----------------+------------------+--------------------------+
+; Parameter Name ; Value            ; Type                     ;
++----------------+------------------+--------------------------+
+; WIDTH          ; 16               ; Signed Integer           ;
+; RESET_VALUE    ; 0000000000000000 ; Unsigned Binary          ;
++----------------+------------------+--------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx3 ;
++----------------+------------------+--------------------------+
+; Parameter Name ; Value            ; Type                     ;
++----------------+------------------+--------------------------+
+; WIDTH          ; 16               ; Signed Integer           ;
+; RESET_VALUE    ; 0000000000000000 ; Unsigned Binary          ;
++----------------+------------------+--------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx4 ;
++----------------+------------------+--------------------------+
+; Parameter Name ; Value            ; Type                     ;
++----------------+------------------+--------------------------+
+; WIDTH          ; 16               ; Signed Integer           ;
+; RESET_VALUE    ; 0000000000000000 ; Unsigned Binary          ;
++----------------+------------------+--------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx5 ;
++----------------+------------------+--------------------------+
+; Parameter Name ; Value            ; Type                     ;
++----------------+------------------+--------------------------+
+; WIDTH          ; 16               ; Signed Integer           ;
+; RESET_VALUE    ; 0000000000000000 ; Unsigned Binary          ;
++----------------+------------------+--------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -357,6 +460,61 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx6 ;
++----------------+------------------+--------------------------+
+; Parameter Name ; Value            ; Type                     ;
++----------------+------------------+--------------------------+
+; WIDTH          ; 16               ; Signed Integer           ;
+; RESET_VALUE    ; 0000000000000000 ; Unsigned Binary          ;
++----------------+------------------+--------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx7 ;
++----------------+--------------+------------------------------+
+; Parameter Name ; Value        ; Type                         ;
++----------------+--------------+------------------------------+
+; WIDTH          ; 12           ; Signed Integer               ;
+; RESET_VALUE    ; 000000000000 ; Unsigned Binary              ;
++----------------+--------------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx8 ;
++----------------+--------------+------------------------------+
+; Parameter Name ; Value        ; Type                         ;
++----------------+--------------+------------------------------+
+; WIDTH          ; 12           ; Signed Integer               ;
+; RESET_VALUE    ; 000000000000 ; Unsigned Binary              ;
++----------------+--------------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx9 ;
++----------------+--------------+------------------------------+
+; Parameter Name ; Value        ; Type                         ;
++----------------+--------------+------------------------------+
+; WIDTH          ; 12           ; Signed Integer               ;
+; RESET_VALUE    ; 000000000000 ; Unsigned Binary              ;
++----------------+--------------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx10 ;
++----------------+--------------+-------------------------------+
+; Parameter Name ; Value        ; Type                          ;
++----------------+--------------+-------------------------------+
+; WIDTH          ; 12           ; Signed Integer                ;
+; RESET_VALUE    ; 000000000000 ; Unsigned Binary               ;
++----------------+--------------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: full_sub:ifullsub2 ;
 +----------------+-------+----------------------------------------+
@@ -387,6 +545,137 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; K              ; 1     ; Signed Integer                          ;
+; W              ; 12    ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 1     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: fulladder2f:ifulladder2f5 ;
 +----------------+-------+-----------------------------------------------+
@@ -394,6 +683,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------+
 ; N              ; 12    ; Signed Integer                                ;
 +----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx1 ;
++----------------+--------------+------------------------------+
+; Parameter Name ; Value        ; Type                         ;
++----------------+--------------+------------------------------+
+; WIDTH          ; 12           ; Signed Integer               ;
+; RESET_VALUE    ; 000000000000 ; Unsigned Binary              ;
++----------------+--------------+------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -410,25 +710,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------+-------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "fulladder2f:ifulladder2f3|full_adder:generate_N_bit_Adder[11].f"                    ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; c_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------+
-; Port Connectivity Checks: "fulladder2f:ifulladder2f3" ;
-+----------------+-------+----------+-------------------+
-; Port           ; Type  ; Severity ; Details           ;
-+----------------+-------+----------+-------------------+
-; input1[1..0]   ; Input ; Info     ; Stuck at GND      ;
-; input2[11..10] ; Input ; Info     ; Stuck at GND      ;
-+----------------+-------+----------+-------------------+
-
-
 +------------------------------------------------------------------------+
 ; Port Connectivity Checks: "full_sub:ifullsub2|full_adder:FAgen[0].fai" ;
 +------+-------+----------+----------------------------------------------+
@@ -438,34 +719,40 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+----------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_sub:ifullsub2"                                                                    ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; a[2..0] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; a[11]   ; Input  ; Info     ; Stuck at GND                                                                        ;
-; c       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "fulladder2f:ifulladder2f1|full_adder:generate_N_bit_Adder[15].f"                    ;
+; Port Connectivity Checks: "full_sub:ifullsub2"                                                                 ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                             ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-; c_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; c    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------+
-; Port Connectivity Checks: "fulladder2f:ifulladder2f1" ;
-+----------------+-------+----------+-------------------+
-; Port           ; Type  ; Severity ; Details           ;
-+----------------+-------+----------+-------------------+
-; input1[1..0]   ; Input ; Info     ; Stuck at GND      ;
-; input2[15..14] ; Input ; Info     ; Stuck at GND      ;
-+----------------+-------+----------+-------------------+
++----------------------------------------------+
+; Port Connectivity Checks: "fflopx:ifflopx10" ;
++------------+-------+----------+--------------+
+; Port       ; Type  ; Severity ; Details      ;
++------------+-------+----------+--------------+
+; idat[1..0] ; Input ; Info     ; Stuck at GND ;
++------------+-------+----------+--------------+
+
+
++----------------------------------------------+
+; Port Connectivity Checks: "fflopx:ifflopx9"  ;
++------------+-------+----------+--------------+
+; Port       ; Type  ; Severity ; Details      ;
++------------+-------+----------+--------------+
+; idat[2..0] ; Input ; Info     ; Stuck at GND ;
++------------+-------+----------+--------------+
+
+
++-----------------------------------------------+
+; Port Connectivity Checks: "fflopx:ifflopx8"   ;
++-------------+-------+----------+--------------+
+; Port        ; Type  ; Severity ; Details      ;
++-------------+-------+----------+--------------+
+; idat[11..8] ; Input ; Info     ; Stuck at GND ;
++-------------+-------+----------+--------------+
 
 
 +------------------------------------------------------------------------+
@@ -477,15 +764,40 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+----------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_sub:ifullsub1"                                                                      ;
-+-----------+--------+----------+-------------------------------------------------------------------------------------+
-; Port      ; Type   ; Severity ; Details                                                                             ;
-+-----------+--------+----------+-------------------------------------------------------------------------------------+
-; a[15..11] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; a[2..0]   ; Input  ; Info     ; Stuck at GND                                                                        ;
-; c         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-----------+--------+----------+-------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "full_sub:ifullsub1"                                                                 ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; c    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------+
+; Port Connectivity Checks: "fflopx:ifflopx5"  ;
++------------+-------+----------+--------------+
+; Port       ; Type  ; Severity ; Details      ;
++------------+-------+----------+--------------+
+; idat[1..0] ; Input ; Info     ; Stuck at GND ;
++------------+-------+----------+--------------+
+
+
++----------------------------------------------+
+; Port Connectivity Checks: "fflopx:ifflopx4"  ;
++------------+-------+----------+--------------+
+; Port       ; Type  ; Severity ; Details      ;
++------------+-------+----------+--------------+
+; idat[2..0] ; Input ; Info     ; Stuck at GND ;
++------------+-------+----------+--------------+
+
+
++-----------------------------------------------+
+; Port Connectivity Checks: "fflopx:ifflopx3"   ;
++-------------+-------+----------+--------------+
+; Port        ; Type  ; Severity ; Details      ;
++-------------+-------+----------+--------------+
+; idat[15..8] ; Input ; Info     ; Stuck at GND ;
++-------------+-------+----------+--------------+
 
 
 +-----------------------------------------------------+
@@ -493,18 +805,28 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 134                         ;
-;     normal            ; 134                         ;
-;         1 data inputs ; 6                           ;
-;         2 data inputs ; 8                           ;
-;         3 data inputs ; 14                          ;
-;         4 data inputs ; 17                          ;
-;         5 data inputs ; 39                          ;
-;         6 data inputs ; 50                          ;
-; boundary_port         ; 36                          ;
+; arriav_ff             ; 80                          ;
+;     SCLR              ; 56                          ;
+;     SCLR SLD          ; 12                          ;
+;     plain             ; 12                          ;
+; arriav_lcell_comb     ; 103                         ;
+;     arith             ; 58                          ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 16                          ;
+;         2 data inputs ; 14                          ;
+;         3 data inputs ; 3                           ;
+;         4 data inputs ; 7                           ;
+;         5 data inputs ; 16                          ;
+;     normal            ; 45                          ;
+;         2 data inputs ; 18                          ;
+;         3 data inputs ; 3                           ;
+;         4 data inputs ; 13                          ;
+;         5 data inputs ; 6                           ;
+;         6 data inputs ; 5                           ;
+; boundary_port         ; 38                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 12.00                       ;
-; Average LUT depth     ; 10.91                       ;
+; Max LUT depth         ; 5.20                        ;
+; Average LUT depth     ; 2.58                        ;
 +-----------------------+-----------------------------+
 
 
@@ -513,7 +835,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -523,7 +845,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Sep 29 13:21:36 2021
+    Info: Processing started: Thu Oct 21 01:16:34 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off k2red -c k2red
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -554,25 +876,26 @@ Info (12021): Found 1 design units, including 1 entities, in source file /kyber9
 Info (12021): Found 1 design units, including 1 entities, in source file /kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v
     Info (12023): Found entity 1: fflopx File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fflopx.v Line: 14
 Info (12127): Elaborating entity "k2red" for the top level hierarchy
-Info (12128): Elaborating entity "full_sub" for hierarchy "full_sub:ifullsub1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 49
+Info (12128): Elaborating entity "fflopx" for hierarchy "fflopx:ifflopx2" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 51
+Info (12128): Elaborating entity "full_sub" for hierarchy "full_sub:ifullsub1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 60
 Info (12128): Elaborating entity "full_adder" for hierarchy "full_sub:ifullsub1|full_adder:FAgen[0].fai" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/full_sub.v Line: 62
-Info (12128): Elaborating entity "fulladder2f" for hierarchy "fulladder2f:ifulladder2f1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 50
-Warning (10036): Verilog HDL or VHDL warning at fulladder2f.v(7): object "carry_out" assigned a value but never read File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v Line: 7
-Info (12128): Elaborating entity "half_adder" for hierarchy "fulladder2f:ifulladder2f1|half_adder:generate_N_bit_Adder[0].f" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v Line: 14
-Info (12128): Elaborating entity "full_sub" for hierarchy "full_sub:ifullsub2" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 77
-Info (12128): Elaborating entity "fulladder2f" for hierarchy "fulladder2f:ifulladder2f3" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 78
-Warning (10036): Verilog HDL or VHDL warning at fulladder2f.v(7): object "carry_out" assigned a value but never read File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/fulladder2f.v Line: 7
+Info (12128): Elaborating entity "fulladder2f" for hierarchy "fulladder2f:ifulladder2f1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 61
+Info (12128): Elaborating entity "fflopx" for hierarchy "fflopx:ifflopx7" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 90
+Info (12128): Elaborating entity "full_sub" for hierarchy "full_sub:ifullsub2" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 102
+Info (12128): Elaborating entity "fulladder2f" for hierarchy "fulladder2f:ifulladder2f3" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 103
+Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx1" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/k2red.v Line: 112
+Info (12128): Elaborating entity "ffxkclk" for hierarchy "ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat" File: K:/kyber90sfpga/kyber90sfpga/quartus-butterfly/alpha/ffxkclkx.v Line: 45
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 164 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 24 input pins
+Info (21057): Implemented 181 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 26 input pins
     Info (21059): Implemented 12 output pins
-    Info (21061): Implemented 128 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4818 megabytes
-    Info: Processing ended: Wed Sep 29 13:21:50 2021
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:26
+    Info (21061): Implemented 143 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4829 megabytes
+    Info: Processing ended: Thu Oct 21 01:16:51 2021
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:25
 
 
