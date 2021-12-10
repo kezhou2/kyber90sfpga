@@ -1,0 +1,29 @@
+K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_xx1
+
+Top level modules:
+	mux_xx1
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module poly_mod_add
+
+Top level modules:
+	poly_mod_add
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq/fflopx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq/fflopx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fflopx
+
+Top level modules:
+	fflopx
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module modhalfq_tb
+
+Top level modules:
+	modhalfq_tb
+
+} {} {}}

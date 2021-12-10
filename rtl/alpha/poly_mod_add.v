@@ -25,7 +25,7 @@
 module poly_mod_add (a,b,o);
 ///////////////////////////////
 parameter WIDTH = 12;
-parameter METHOD = 1;//NOTHING
+//parameter METHOD = 1;//NOTHING
 /////////////////////////////
 input [WIDTH-1:0] a,b;
 output [WIDTH-1:0] o;

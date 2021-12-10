@@ -25,7 +25,7 @@ module sim_mult (clk,rst,a,b,o);
 parameter WIDTH = 12;
 parameter OWID = 2*WIDTH;
 parameter METHOD = 1;
-parameter DELAY = 2;
+parameter DELAY = 1;
 parameter DELAYO = 1;
 input clk,rst;
 input [WIDTH-1:0] a,b;

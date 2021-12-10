@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/kyber90sfpga/kyber90sfpga/modelsim-k2red
+vfflopx
+Z0 !s110 1638602336
+!i10b 1
+!s100 c[XDNRVEALC[aoHXQC2K[2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ico>akVi?=3H=HIokAO:zJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dK:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq
+Z4 w1630829153
+8K:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq/fflopx.v
+FK:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq/fflopx.v
+!i122 26
+L0 14 25
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1638602336.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq/fflopx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/modelsim-modhalfq/fflopx.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmodhalfq
+R0
+!i10b 1
+!s100 Gdlj5N>?iQo;H2nH`ZHOY1
+R1
+I?ET;NYHkIaQ[h;?_6V=7e3
+R2
+R3
+w1638602332
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v
+!i122 22
+L0 1 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v|
+!i113 1
+R7
+R8
+vmodhalfq_tb
+R0
+!i10b 1
+!s100 nQ0zUkolC>NIa3a_nJD>Y0
+R1
+IE[EG`W[kd69Ok_Pd2D8Lk2
+R2
+R3
+w1638601436
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
+!i122 23
+L0 1 43
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v|
+!i113 1
+R7
+R8
+vmux_xx1
+R0
+!i10b 1
+!s100 llEm9NFG0WaAd`K6Vm_6?0
+R1
+IPYZf;0In^VomNdQAB0V863
+R2
+R3
+R4
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v
+!i122 24
+L0 14 30
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v|
+!i113 1
+R7
+R8
+vpoly_mod_add
+R0
+!i10b 1
+!s100 egWfl9l0lUblQMQXG7FV?0
+R1
+I7?:U16^LBRiD4IY[m?SIW3
+R2
+R3
+w1638510826
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
+!i122 25
+L0 25 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v|
+!i113 1
+R7
+R8

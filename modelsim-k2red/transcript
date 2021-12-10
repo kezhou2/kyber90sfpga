@@ -1,0 +1,198 @@
+# Compile of fflopx.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of tb_k2red.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_k2red
+# vsim -gui work.tb_k2red 
+# Start time: 01:52:09 on Dec 07,2021
+# Loading work.tb_k2red
+# Loading work.k2red
+# Loading work.fflopx
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.ffxkclkx
+# Loading work.full_adder
+# Loading work.ffxkclk
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb_k2red/*
+run
+# ==========OUTPUT FOR Q = 3329==========
+# c =        0 and c reduction =    x
+# c =        0 and c reduction =    0
+# c =        0 and c reduction =    x
+# c =        0 and c reduction =    0
+# c =        1 and c reduction =    0
+# c =        1 and c reduction =  169
+# c =        2 and c reduction =  169
+# c =        2 and c reduction =  338
+# c =        3 and c reduction =  338
+# c =        3 and c reduction =  507
+# c =        4 and c reduction =  507
+# c =        4 and c reduction =  676
+# c =        5 and c reduction =  676
+# c =        5 and c reduction =  845
+# c =        6 and c reduction =  845
+# c =        6 and c reduction = 1014
+# c =        7 and c reduction = 1014
+# c =        7 and c reduction = 1183
+# c =        8 and c reduction = 1183
+# c =        8 and c reduction = 1352
+# c =        9 and c reduction = 1352
+# c =        9 and c reduction = 1521
+run
+# c =       10 and c reduction = 1521
+# c =       10 and c reduction = 1690
+# c =       11 and c reduction = 1690
+# c =       11 and c reduction = 1859
+# c =       12 and c reduction = 1859
+# c =       12 and c reduction = 2028
+# c =       13 and c reduction = 2028
+# c =       13 and c reduction = 2197
+# c =       14 and c reduction = 2197
+# c =       14 and c reduction = 2366
+# c =       15 and c reduction = 2366
+# c =       15 and c reduction = 2535
+# c =       16 and c reduction = 2535
+# c =       16 and c reduction = 2704
+# c =       17 and c reduction = 2704
+# c =       17 and c reduction = 2873
+# c =       18 and c reduction = 2873
+# c =       18 and c reduction = 3042
+# c =       19 and c reduction = 3042
+# c =       19 and c reduction = 3211
+run
+# c =       20 and c reduction = 3211
+# c =       20 and c reduction =   51
+# c =       21 and c reduction =   51
+# c =       21 and c reduction =  220
+# c =       22 and c reduction =  220
+# c =       22 and c reduction =  389
+# c =       23 and c reduction =  389
+# c =       23 and c reduction =  558
+# c =       24 and c reduction =  558
+# c =       24 and c reduction =  727
+# c =       25 and c reduction =  727
+# c =       25 and c reduction =  896
+# c =       26 and c reduction =  896
+# c =       26 and c reduction = 1065
+# c =       27 and c reduction = 1065
+# c =       27 and c reduction = 1234
+# c =       28 and c reduction = 1234
+# c =       28 and c reduction = 1403
+# c =       29 and c reduction = 1403
+# c =       29 and c reduction = 1572
+run
+# c =       30 and c reduction = 1572
+# c =       30 and c reduction = 1741
+# c =       31 and c reduction = 1741
+# c =       31 and c reduction = 1910
+# c =       32 and c reduction = 1910
+# c =       32 and c reduction = 2079
+# c =       33 and c reduction = 2079
+# c =       33 and c reduction = 2248
+# c =       34 and c reduction = 2248
+# c =       34 and c reduction = 2417
+# c =       35 and c reduction = 2417
+# c =       35 and c reduction = 2586
+# c =       36 and c reduction = 2586
+# c =       36 and c reduction = 2755
+# c =       37 and c reduction = 2755
+# c =       37 and c reduction = 2924
+# c =       38 and c reduction = 2924
+# c =       38 and c reduction = 3093
+# c =       39 and c reduction = 3093
+# c =       39 and c reduction = 3262
+run
+# c =       40 and c reduction = 3262
+# c =       40 and c reduction =  102
+# c =       41 and c reduction =  102
+# c =       41 and c reduction =  271
+# c =       42 and c reduction =  271
+# c =       42 and c reduction =  440
+# c =       43 and c reduction =  440
+# c =       43 and c reduction =  609
+# c =       44 and c reduction =  609
+# c =       44 and c reduction =  778
+# c =       45 and c reduction =  778
+# c =       45 and c reduction =  947
+# c =       46 and c reduction =  947
+# c =       46 and c reduction = 1116
+# c =       47 and c reduction = 1116
+# c =       47 and c reduction = 1285
+# c =       48 and c reduction = 1285
+# c =       48 and c reduction = 1454
+# c =       49 and c reduction = 1454
+# c =       49 and c reduction = 1623
+run
+# c =       50 and c reduction = 1623
+# c =       50 and c reduction = 1792
+# c =       51 and c reduction = 1792
+# c =       51 and c reduction = 1961
+# c =       52 and c reduction = 1961
+# c =       52 and c reduction = 2130
+# c =       53 and c reduction = 2130
+# c =       53 and c reduction = 2299
+# c =       54 and c reduction = 2299
+# c =       54 and c reduction = 2468
+# c =       55 and c reduction = 2468
+# c =       55 and c reduction = 2637
+# c =       56 and c reduction = 2637
+# c =       56 and c reduction = 2806
+# c =       57 and c reduction = 2806
+# c =       57 and c reduction = 2975
+# c =       58 and c reduction = 2975
+# c =       58 and c reduction = 3144
+# c =       59 and c reduction = 3144
+# c =       59 and c reduction = 3313
+run
+# c =       60 and c reduction = 3313
+# c =       60 and c reduction =  153
+# c =       61 and c reduction =  153
+# c =       61 and c reduction =  322
+# c =       62 and c reduction =  322
+# c =       62 and c reduction =  491
+# c =       63 and c reduction =  491
+# c =       63 and c reduction =  660
+# c =       64 and c reduction =  660
+# c =       64 and c reduction =  829
+# c =       65 and c reduction =  829
+# c =       65 and c reduction =  998
+# c =       66 and c reduction =  998
+# c =       66 and c reduction = 1167
+# c =       67 and c reduction = 1167
+# c =       67 and c reduction = 1336
+# c =       68 and c reduction = 1336
+# c =       68 and c reduction = 1505
+# c =       69 and c reduction = 1505
+# c =       69 and c reduction = 1674
+run
+# c =       70 and c reduction = 1674
+# c =       70 and c reduction = 1843
+# c =       71 and c reduction = 1843
+# c =       71 and c reduction = 2012
+# c =       72 and c reduction = 2012
+# c =       72 and c reduction = 2181
+# c =       73 and c reduction = 2181
+# c =       73 and c reduction = 2350
+# c =       74 and c reduction = 2350
+# c =       74 and c reduction = 2519
+# c =       75 and c reduction = 2519
+# c =       75 and c reduction = 2688
+# c =       76 and c reduction = 2688
+# c =       76 and c reduction = 2857
+# c =       77 and c reduction = 2857
+# c =       77 and c reduction = 3026
+# c =       78 and c reduction = 3026
+# c =       78 and c reduction = 3195
+# c =       79 and c reduction = 3195
+# c =       79 and c reduction =   35
+quit -sim
+# End time: 02:26:56 on Dec 08,2021, Elapsed time: 24:34:47
+# Errors: 0, Warnings: 5
