@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/kyber90sfpga/kyber90sfpga/modelsim-butterfly
+vfflopx
+Z0 !s110 1638816710
+!i10b 1
+!s100 c[XDNRVEALC[aoHXQC2K[2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INCAn;>j79^>3CBXo1e_F=0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dK:/kyber90sfpga/kyber90sfpga/modelsim-k2red
+Z4 w1630829153
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v
+!i122 28
+L0 14 25
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1638816710.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vffxkclk
+R0
+!i10b 1
+!s100 g^0dKMEcU0XE7<k>>76Dc3
+R1
+IFHjI`j0J>mPGK;X7_UFd;1
+R2
+R3
+w1631119687
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v
+!i122 32
+Z9 L0 14 36
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v|
+!i113 1
+R7
+R8
+vffxkclkx
+Z10 !s110 1638816711
+!i10b 1
+!s100 fJn4gcoh0JOXPL2gBVj<W2
+R1
+Iez6<Bl0c74=h09U^]lQ`A2
+R2
+R3
+w1631119709
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v
+!i122 33
+R9
+R5
+r1
+!s85 0
+31
+Z11 !s108 1638816711.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v|
+!i113 1
+R7
+R8
+vfull_adder
+R10
+!i10b 1
+!s100 6A4>[gE<<AI3hAf5O`Z110
+R1
+I6d4nI_BG?JUBfDPUn5nZ@0
+R2
+R3
+R4
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v
+!i122 34
+L0 14 32
+R5
+r1
+!s85 0
+31
+R11
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v|
+!i113 1
+R7
+R8
+vfull_sub
+R0
+!i10b 1
+!s100 _?X]]lFjbnITU]iIU?Xj62
+R1
+IheAMhJL]34Lo=jc]d=A_Z0
+R2
+R3
+R4
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v
+!i122 29
+L0 14 56
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v|
+!i113 1
+R7
+R8
+vfulladder2f
+R0
+!i10b 1
+!s100 O^8ZJO4673:<l6?E^7lDg2
+R1
+I_keQYg5KHJRNIdG^HVkPm0
+R2
+R3
+w1632930952
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fulladder2f.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/fulladder2f.v
+!i122 30
+L0 3 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fulladder2f.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fulladder2f.v|
+!i113 1
+R7
+R8
+vhalf_adder
+R0
+!i10b 1
+!s100 ePGWWXIoGX;OznmR[c>`i2
+R1
+I7]db2P5<A4mW5J9RDkWe81
+R2
+R3
+R4
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/half_adder.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/half_adder.v
+!i122 31
+L0 4 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/half_adder.v|
+!i113 1
+R7
+R8
+vk2red
+R10
+!i10b 1
+!s100 1dbIK]AIB21TLGg`D@W;I2
+R1
+I0G0`Z>1=7VN4eh8NNzONT1
+R2
+R3
+w1638816475
+8K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v
+!i122 35
+L0 1 126
+R5
+r1
+!s85 0
+31
+R11
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/k2red/k2red.v|
+!i113 1
+R7
+R8
+vtb_k2red
+R10
+!i10b 1
+!s100 ]8D]8cJOB9MIi;cn_`Njm1
+R1
+ID^?IGe^`RMea3mzkUJ;j@0
+R2
+R3
+w1634714487
+8K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v
+!i122 36
+L0 2 124
+R5
+r1
+!s85 0
+31
+R11
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/k2red/tb_k2red.v|
+!i113 1
+R7
+R8

@@ -1,14 +1,15 @@
 `timescale 1ps/1ps
 module tb_k2red;
 
-//reg clk;
-/*
+reg clk;
+reg rst;
+
 always begin
 clk = 0;
 #1 clk=1;
 #1;
 end
-*/
+
 //input reg/output wire
 
 reg [23:0] c;
@@ -17,8 +18,8 @@ wire [11:0] cred;
 
 k2red ik2red
 (
-    //clk,
-    //rst,
+    .clk(clk),
+    .rst(rst),
     .c(c),
     .cred(cred)
 );
@@ -32,7 +33,7 @@ initial begin
 while(counter<=(2**23)) begin
 //$display ("DZO NE`");
 c = counter;
-#1;
+#10;
 if (cred != ((169*c)%3329))
 begin
 $display ("SAI O c = %d",c," ket qua la %d",(169*c)%3329," nhung lai tinh ra la %d",cred);
