@@ -14,7 +14,7 @@ module polyunit_core2(
 /////////////////////////////////////////////////////////
 
 parameter WID   = 12;
-parameter RDWID = WID*4; //RAM DATAWID
+parameter DWID = WID*4; //RAM DATAWID
 parameter ADDWID = 5;//32 address ram
 
 //poly statemachine
@@ -29,8 +29,8 @@ localparam          P_DATAIN    = 3'd4;//
 input    clk;
 input    rst;
     
-input [RDWID-1:0] data_in;
-input [RDWID-1:0] data_out; //NTT RAM
+input [DWID-1:0] data_in;
+input [DWID-1:0] data_out; //NTT RAM
 
 input [1:0] mode;//mode of operation // NTT 01 or INTT 10 or datain 00
 input run;
@@ -73,12 +73,39 @@ always @(posedge clk) begin
 end
 
 /////////////////////////////////////////////
+//main RAM
+wire wren;
+wire [DWID-1:0] rddata,wrdata;
+wire [AWID-1] rdadd,wradd;
 
 
+alram112x #(DWID,ADDWID) ialram112x
+    (
+     .clkw(clk),//clock write
+     .clkr(clk),//clock read
+     .rst(rst),
+     
+     .rdo(rddata),//data from ram
+     .ra(rdadd),//read address
+     
+     .wdi(wrdata),//data to ram
+     .wa(wradd),//write address
+     .we(wren) //write enable
+     );
 
 /////////////////////////////////////////////
-//NTT operation
-wire mainntt;
+//main ROM (w)
+wire wrenrom;
 
-assign mainntt = main_state == P_NTT;
+mem_gen1 #(DWID) imem_gen1
+(
+    .clk(clk),
+    .addr(rdadd),
+    .wr_ena(wrenrom),
+    .data(romdata)
+);
 
+/////////////////////////////////////////////
+
+
+endmodule
