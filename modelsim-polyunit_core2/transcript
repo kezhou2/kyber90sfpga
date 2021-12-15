@@ -1,0 +1,869 @@
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v failed with 1 errors.
+# 22 compiles, 1 failed with 1 error.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# 22 compiles, 0 failed with no errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v failed with 1 errors.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# 22 compiles, 1 failed with 1 error.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# 22 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# 22 compiles, 0 failed with no errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v failed with 2 errors.
+# 23 compiles, 1 failed with 2 errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Load canceled
+# Load canceled
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -gui work.polyunit_core2_tb
+# vsim -gui work.polyunit_core2_tb 
+# Start time: 19:16:03 on Dec 14,2021
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (48) does not match connection size (12) for port 'data_out'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (5) for port 'addr'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/imem_gen1 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v Line: 64
+# Compile of modfa.v was successful.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+quit -sim
+# End time: 19:17:55 on Dec 14,2021, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 20
+vsim -gui work.polyunit_core2_tb
+# vsim -gui work.polyunit_core2_tb 
+# Start time: 19:18:02 on Dec 14,2021
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+add wave -position insertpoint sim:/polyunit_core2_tb/*
+add wave -position insertpoint sim:/polyunit_core2_tb/ipolyunit_core2/*
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# WARNING: No extended dataflow license exists
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+restart -f
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v failed with 1 errors.
+# 23 compiles, 1 failed with 1 error.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v failed with 1 errors.
+# 23 compiles, 1 failed with 1 error.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Load canceled
+restart -f
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+restart -f
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.mem_gen1
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# Loading work.full_adder
+# Warning in wave window restart: (vish-4014) No objects found matching '/polyunit_core2_tb/ipolyunit_core2/dataout'. 
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# 23 compiles, 0 failed with no errors.

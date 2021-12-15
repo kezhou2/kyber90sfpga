@@ -1,0 +1,8 @@
+
+State Machine - |polyunit_core2|main_state
+Name main_state.P_DATAIN main_state.P_INTT main_state.P_NTT main_state.P_IDLE main_state.P_DATAOUT 
+main_state.P_IDLE 0 0 0 0 0 
+main_state.P_NTT 0 0 1 1 0 
+main_state.P_INTT 0 1 0 1 0 
+main_state.P_DATAIN 1 0 0 1 0 
+main_state.P_DATAOUT 0 0 0 1 1 
