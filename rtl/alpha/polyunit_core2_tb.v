@@ -101,6 +101,11 @@ initial begin
     #2;
     run_tb = 1'b0;
     #200;
+    mode_tb = M_NTT;
+    run_tb = 1'b1;
+    #2;
+    run_tb = 1'b0;
+    #1000;
     //begin testing datain function
 end
 

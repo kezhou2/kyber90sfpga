@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dK:/kyber90sfpga/kyber90sfpga/modelsim-polyunit_core2
+vsipo
+!s110 1639643695
+!i10b 1
+!s100 kh6mJRdXE52Hz7lN48ze01
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I7kV8Wel4K]=g1I=DIR6Q`0
+VDg1SIo80bB@j0V0VzS_@n1
+dK:/kyber90sfpga/kyber90sfpga/modelsim-sipo
+w1639643687
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
+!i122 2
+L0 1 27
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1639643695.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v|
+!i113 1
+o-work work
+tCvgOpt 0

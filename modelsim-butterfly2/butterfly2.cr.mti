@@ -96,11 +96,4 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	poly_mod_add
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module butterfly2
-
-Top level modules:
-	butterfly2
-
 } {} {}}

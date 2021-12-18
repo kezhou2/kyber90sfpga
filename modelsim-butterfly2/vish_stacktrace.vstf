@@ -1,0 +1,17 @@
+# Current time Fri Dec 17 02:34:39 2021
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 77c99e65. Traceback:
+# 0    0x77c99e65: 'Tcl_GetString + 0x5'
+# 1    0x77cb9d91: 'TclCallVarTraces + 0x2e1'
+# 2    0x77c636ad: 'Tcl_CreateHashEntry + 0xad'
+# 3    0x77c635ef: 'Tcl_FindHashEntry + 0x1f'
+# 4    0x63726061: 'Itcl_ClassVarResolver + 0x291'
+StackWalk failed 299
+# End of Stack Trace
+

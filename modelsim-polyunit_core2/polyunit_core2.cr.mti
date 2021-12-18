@@ -1,4 +1,11 @@
-K:/kyber90sfpga/kyber90sfpga/rtl/alpha/alram112x.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/alram112x.v
+K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module polyunit_core2
+
+Top level modules:
+	polyunit_core2
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/alram112x.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/alram112x.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module alram112x
 
@@ -124,6 +131,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	full_adder
 
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module butterfly2
+
+Top level modules:
+	butterfly2
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_gen3
+
+Top level modules:
+	mem_gen3
+
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module poly_mod_diff
@@ -146,11 +167,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	addsub_tb
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module butterfly2
+-- Compiling module sipo
 
 Top level modules:
-	butterfly2
+	sipo
 
 } {} {}}

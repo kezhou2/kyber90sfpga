@@ -10,7 +10,7 @@ z2
 cModel Technology
 dK:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2
 vaddsub
-Z0 !s110 1639491210
+Z0 !s110 1639818912
 !i10b 1
 !s100 <XAlF1TZ>^j=`KA@^Od@;1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dK:/kyber90sfpga/kyber90sfpga/modelsim-polyunit_core2
 Z4 w1622403626
 Z5 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v
 Z6 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v
-!i122 541
+!i122 1194
 L0 23 24
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1639491210.000000
+Z8 !s108 1639818912.000000
 Z9 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v|
 !i113 1
@@ -43,7 +43,7 @@ R3
 R4
 R5
 R6
-!i122 541
+!i122 1194
 L0 50 34
 R7
 r1
@@ -66,7 +66,7 @@ R3
 Z13 w1630829153
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/alram112x.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/alram112x.v
-!i122 542
+!i122 1195
 L0 15 73
 R7
 r1
@@ -79,18 +79,18 @@ R8
 R11
 R12
 vbutterfly2
-Z14 !s110 1639491211
+Z14 !s110 1639818913
 !i10b 1
-!s100 ehMNJ0UAOH0<QVh1z`<GT0
+!s100 I3WjoZC7LA]M26fi7WQ_d0
 R1
-IGKC;7nWo_]^[l79;4G]OK2
+I]mLcKA[_kOZf:F>4HJDBV1
 R2
 R3
-w1638906572
+w1639818881
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
-!i122 543
-L0 1 110
+!i122 1196
+L0 1 128
 R7
 r1
 !s85 0
@@ -112,13 +112,13 @@ R3
 R13
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v
-!i122 544
+!i122 1197
 L0 14 25
 R7
 r1
 !s85 0
 31
-Z15 !s108 1639491211.000000
+Z15 !s108 1639818913.000000
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v|
 !i113 1
@@ -135,7 +135,7 @@ R3
 w1631119687
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v
-!i122 545
+!i122 1198
 Z16 L0 14 36
 R7
 r1
@@ -158,7 +158,7 @@ R3
 w1631119709
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v
-!i122 546
+!i122 1199
 R16
 R7
 r1
@@ -171,7 +171,7 @@ R15
 R11
 R12
 vfull_adder
-Z17 !s110 1639491212
+Z17 !s110 1639818914
 !i10b 1
 !s100 6A4>[gE<<AI3hAf5O`Z110
 R1
@@ -181,13 +181,13 @@ R3
 R13
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v
-!i122 547
+!i122 1200
 L0 14 32
 R7
 r1
 !s85 0
 31
-R15
+Z18 !s108 1639818914.000000
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v|
 !i113 1
@@ -204,13 +204,13 @@ R3
 R13
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v
-!i122 548
+!i122 1201
 L0 14 56
 R7
 r1
 !s85 0
 31
-Z18 !s108 1639491212.000000
+R18
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v|
 !i113 1
@@ -227,7 +227,7 @@ R3
 w1632930952
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fulladder2f.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/fulladder2f.v
-!i122 549
+!i122 1202
 L0 3 9
 R7
 r1
@@ -250,7 +250,7 @@ R3
 R13
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/half_adder.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/half_adder.v
-!i122 550
+!i122 1203
 L0 4 6
 R7
 r1
@@ -263,7 +263,7 @@ R18
 R11
 R12
 vk2red
-R17
+Z19 !s110 1639818915
 !i10b 1
 !s100 1dbIK]AIB21TLGg`D@W;I2
 R1
@@ -273,7 +273,7 @@ R3
 w1633016934
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v
-!i122 551
+!i122 1204
 L0 1 126
 R7
 r1
@@ -286,7 +286,7 @@ R18
 R11
 R12
 vmem_gen1
-Z19 !s110 1639491213
+R19
 !i10b 1
 !s100 C9L`g3I;L@No2@X]]DF>?2
 R1
@@ -296,20 +296,20 @@ R3
 w1639248406
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen1.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen1.v
-!i122 552
+!i122 1205
 L0 1 141
 R7
 r1
 !s85 0
 31
-Z20 !s108 1639491213.000000
+Z20 !s108 1639818915.000000
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen1.v|
 !i113 1
 R11
 R12
 vmem_gen2
-Z21 !s110 1639491215
+Z21 !s110 1639818917
 !i10b 1
 !s100 ea5@5KZ<E7iAQ`<DJ8j?c2
 R1
@@ -319,15 +319,38 @@ R3
 w1639485130
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v
-!i122 562
+!i122 1215
 L0 1 45
 R7
 r1
 !s85 0
 31
-Z22 !s108 1639491215.000000
+Z22 !s108 1639818917.000000
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v|
+!i113 1
+R11
+R12
+vmem_gen3
+R21
+!i10b 1
+!s100 DM`MYnAH]@Anmm4SM_6C71
+R1
+IAKiNV2`4foHnA7[SooPTB0
+R2
+R3
+w1639592083
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v
+!i122 1217
+L0 1 173
+R7
+r1
+!s85 0
+31
+R22
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v|
 !i113 1
 R11
 R12
@@ -342,7 +365,7 @@ R3
 w1558031178
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modfa.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/modfa.v
-!i122 553
+!i122 1206
 L0 14 175
 R7
 r1
@@ -365,7 +388,7 @@ R3
 w1638815970
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v
-!i122 554
+!i122 1207
 L0 1 53
 R7
 r1
@@ -378,7 +401,7 @@ R20
 R11
 R12
 vmodhalfq_tb
-Z23 !s110 1639491214
+Z23 !s110 1639818916
 !i10b 1
 !s100 nQ0zUkolC>NIa3a_nJD>Y0
 R1
@@ -388,7 +411,7 @@ R3
 w1638601436
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
-!i122 555
+!i122 1208
 L0 1 43
 R7
 r1
@@ -411,13 +434,13 @@ R3
 R13
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v
-!i122 556
+!i122 1209
 L0 14 30
 R7
 r1
 !s85 0
 31
-Z24 !s108 1639491214.000000
+Z24 !s108 1639818916.000000
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx1.v|
 !i113 1
@@ -434,7 +457,7 @@ R3
 w1632915978
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx2.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/mux_xx2.v
-!i122 557
+!i122 1210
 L0 14 37
 R7
 r1
@@ -457,7 +480,7 @@ R3
 w1638510826
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
-!i122 558
+!i122 1211
 L0 25 19
 R7
 r1
@@ -487,8 +510,8 @@ r1
 !s85 0
 31
 !s108 1639484083.000000
-!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v|
-Z27 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v|
+Z27 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v|
+Z28 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v|
 !i113 1
 R11
 R12
@@ -503,7 +526,7 @@ R3
 w1633016661
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
-!i122 559
+!i122 1212
 L0 25 21
 R7
 r1
@@ -518,46 +541,46 @@ R12
 vpolyunit_core2
 R21
 !i10b 1
-!s100 8]J<cTWR3eRY[;;JXO]Jg3
+!s100 0zT[n3BTg1`EbHWE6b17N1
 R1
-IE7GAIDE_m5DZYKk7oni731
+IfQM@_<OUoeo`<EM2Xh3VG1
 R2
 R3
-w1639491118
+w1639682032
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v
-!i122 560
-L0 1 440
+!i122 1213
+L0 1 522
 R7
 r1
 !s85 0
 31
-R22
+R24
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v|
 !i113 1
 R11
 R12
 vpolyunit_core2_tb
-!s110 1639491216
+R21
 !i10b 1
-!s100 j1EDBiU^=A<4GeJcfgI5B3
+!s100 BY`Q@Ynn6PT?f@0<cHXl41
 R1
-I]Q6?CI]88@_ngFG_gZbI21
+IUAmDJUYF[]E6NX<<?U7861
 R2
 R3
-w1639490288
+w1639641854
 R25
 R26
-!i122 563
-L0 1 107
+!i122 1216
+L0 1 112
 R7
 r1
 !s85 0
 31
 R22
-Z28 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v|
 R27
+R28
 !i113 1
 R11
 R12
@@ -572,7 +595,7 @@ R3
 w1638819514
 8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v
 FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v
-!i122 561
+!i122 1214
 L0 23 22
 R7
 r1
@@ -581,6 +604,29 @@ r1
 R22
 !s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v|
 !s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v|
+!i113 1
+R11
+R12
+vsipo
+!s110 1639818918
+!i10b 1
+!s100 K6iNS<_z=5cK=6:JQDcLD2
+R1
+IkZCFmNNN^>Pn`l[67lJA@3
+R2
+R3
+w1639679889
+8K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
+FK:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
+!i122 1218
+L0 1 27
+R7
+r1
+!s85 0
+31
+!s108 1639818918.000000
+!s107 K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v|
 !i113 1
 R11
 R12

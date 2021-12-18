@@ -1,0 +1,56 @@
+# Compile of butterfly2.v was successful.
+# Compile of butterfly2_tb.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of k2red.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.butterfly2_tb
+# vsim -gui work.butterfly2_tb 
+# Start time: 16:28:31 on Dec 18,2021
+# Loading work.butterfly2_tb
+# Loading work.butterfly2
+# Loading work.fflopx
+# Loading work.ffxkclkx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.ffxkclk
+# Loading work.full_adder
+# WARNING: No extended dataflow license exists
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/butterfly2_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hakatu  Hostname: DESKTOP-B3O1HT9  ProcessID: 22780
+#           Attempting to use alternate WLF file "./wlftvreys7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvreys7
+add wave -position insertpoint sim:/butterfly2_tb/ibutterfly2/*
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+restart -f
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/wave.do

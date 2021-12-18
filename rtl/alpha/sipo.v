@@ -11,10 +11,17 @@ reg [OWID-1:0] siporeg;
 always @(posedge clk) begin
     if(rst)
     begin
-        siporeg <= 0;
+    siporeg <= 0;
     end
     else
-    siporeg <= {siporeg[35:0],di};
+    begin
+    siporeg[11:0] <= di;
+    siporeg[23:12] <= siporeg[11:0];
+    siporeg[35:24] <= siporeg[23:12];
+    siporeg[47:36] <= siporeg[35:24];
+    end
 end
+
+assign do = siporeg;
 
 endmodule
