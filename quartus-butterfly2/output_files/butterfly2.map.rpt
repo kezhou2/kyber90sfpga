@@ -1,5 +1,5 @@
 Analysis & Synthesis report for butterfly2
-Sat Dec 11 22:47:59 2021
+Sun Dec 19 22:45:46 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -21,148 +21,204 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  13. Parameter Settings for User Entity Instance: fflopx:ifflopx1
  14. Parameter Settings for User Entity Instance: fflopx:ifflopx2
  15. Parameter Settings for User Entity Instance: fflopx:ifflopx3
- 16. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1
- 17. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
- 18. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
- 19. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
- 20. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
- 21. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
- 22. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
- 23. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
- 24. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
- 25. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
- 26. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
- 27. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
- 28. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
- 29. Parameter Settings for User Entity Instance: poly_mod_add:ipoly_mod_add
- 30. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1
- 31. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx1
- 32. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx2
- 33. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|poly_mod_add:ipoly_mod_add1
- 34. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx3
- 35. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx4
- 36. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|mux_xx1:imux_xx1
- 37. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2
- 38. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[0].flxodat
- 39. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[1].flxodat
- 40. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[2].flxodat
- 41. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[3].flxodat
- 42. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[4].flxodat
- 43. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[5].flxodat
- 44. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[6].flxodat
- 45. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[7].flxodat
- 46. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[8].flxodat
- 47. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[9].flxodat
- 48. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[10].flxodat
- 49. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[11].flxodat
- 50. Parameter Settings for User Entity Instance: poly_mod_diff:ipoly_mod_diff
- 51. Parameter Settings for User Entity Instance: sim_mult:isim_mult
- 52. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1
- 53. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
- 54. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
- 55. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
- 56. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
- 57. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
- 58. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
- 59. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
- 60. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
- 61. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
- 62. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
- 63. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
- 64. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
- 65. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2
- 66. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[0].flxodat
- 67. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[1].flxodat
- 68. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[2].flxodat
- 69. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[3].flxodat
- 70. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[4].flxodat
- 71. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[5].flxodat
- 72. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[6].flxodat
- 73. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[7].flxodat
- 74. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[8].flxodat
- 75. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[9].flxodat
- 76. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[10].flxodat
- 77. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[11].flxodat
- 78. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3
- 79. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[0].flxodat
- 80. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[1].flxodat
- 81. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[2].flxodat
- 82. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[3].flxodat
- 83. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[4].flxodat
- 84. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[5].flxodat
- 85. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[6].flxodat
- 86. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[7].flxodat
- 87. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[8].flxodat
- 88. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[9].flxodat
- 89. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[10].flxodat
- 90. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[11].flxodat
- 91. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[12].flxodat
- 92. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[13].flxodat
- 93. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[14].flxodat
- 94. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[15].flxodat
- 95. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[16].flxodat
- 96. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[17].flxodat
- 97. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[18].flxodat
- 98. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[19].flxodat
- 99. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[20].flxodat
-100. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[21].flxodat
-101. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[22].flxodat
-102. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[23].flxodat
-103. Parameter Settings for User Entity Instance: k2red:ik2red
-104. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx2
-105. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx3
-106. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx4
-107. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx5
-108. Parameter Settings for User Entity Instance: k2red:ik2red|full_sub:ifullsub1
-109. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f1
-110. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f2
-111. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx6
-112. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx7
-113. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx8
-114. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx9
-115. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx10
-116. Parameter Settings for User Entity Instance: k2red:ik2red|full_sub:ifullsub2
-117. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f3
-118. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f4
-119. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1
-120. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
-121. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
-122. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
-123. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
-124. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
-125. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
-126. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
-127. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
-128. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
-129. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
-130. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
-131. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
-132. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f5
-133. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx1
-134. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2
-135. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx1
-136. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx2
-137. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|poly_mod_add:ipoly_mod_add1
-138. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx3
-139. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx4
-140. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|mux_xx1:imux_xx1
-141. Parameter Settings for User Entity Instance: mux_xx1:imux_xxout1
-142. Parameter Settings for User Entity Instance: mux_xx1:imux_xxout2
-143. Port Connectivity Checks: "k2red:ik2red|fulladder2f:ifulladder2f5"
-144. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub2|full_adder:FAgen[0].fai"
-145. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub2"
-146. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx10"
-147. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx9"
-148. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx8"
-149. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[0].fai"
-150. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub1"
-151. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx5"
-152. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx4"
-153. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx3"
-154. Port Connectivity Checks: "modhalfq:imodhalfq1|poly_mod_add:ipoly_mod_add1"
-155. Post-Synthesis Netlist Statistics for Top Partition
-156. Elapsed Time Per Partition
-157. Analysis & Synthesis Messages
+ 16. Parameter Settings for User Entity Instance: fflopx:ifflopx4
+ 17. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx5
+ 18. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx5|ffxkclk:i_bit[0].flxodat
+ 19. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx5|ffxkclk:i_bit[1].flxodat
+ 20. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1
+ 21. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
+ 22. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
+ 23. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
+ 24. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
+ 25. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
+ 26. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
+ 27. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
+ 28. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
+ 29. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
+ 30. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
+ 31. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
+ 32. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
+ 33. Parameter Settings for User Entity Instance: poly_mod_add:ipoly_mod_add
+ 34. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1
+ 35. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx1
+ 36. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx2
+ 37. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|poly_mod_add:ipoly_mod_add1
+ 38. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx3
+ 39. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|fflopx:ifflopx4
+ 40. Parameter Settings for User Entity Instance: modhalfq:imodhalfq1|mux_xx1:imux_xx1
+ 41. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2
+ 42. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[0].flxodat
+ 43. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[1].flxodat
+ 44. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[2].flxodat
+ 45. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[3].flxodat
+ 46. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[4].flxodat
+ 47. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[5].flxodat
+ 48. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[6].flxodat
+ 49. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[7].flxodat
+ 50. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[8].flxodat
+ 51. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[9].flxodat
+ 52. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[10].flxodat
+ 53. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx2|ffxkclk:i_bit[11].flxodat
+ 54. Parameter Settings for User Entity Instance: poly_mod_diff:ipoly_mod_diff
+ 55. Parameter Settings for User Entity Instance: sim_mult:isim_mult
+ 56. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1
+ 57. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
+ 58. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
+ 59. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
+ 60. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
+ 61. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
+ 62. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
+ 63. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
+ 64. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
+ 65. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
+ 66. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
+ 67. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
+ 68. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
+ 69. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2
+ 70. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[0].flxodat
+ 71. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[1].flxodat
+ 72. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[2].flxodat
+ 73. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[3].flxodat
+ 74. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[4].flxodat
+ 75. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[5].flxodat
+ 76. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[6].flxodat
+ 77. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[7].flxodat
+ 78. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[8].flxodat
+ 79. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[9].flxodat
+ 80. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[10].flxodat
+ 81. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[11].flxodat
+ 82. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3
+ 83. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[0].flxodat
+ 84. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[1].flxodat
+ 85. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[2].flxodat
+ 86. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[3].flxodat
+ 87. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[4].flxodat
+ 88. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[5].flxodat
+ 89. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[6].flxodat
+ 90. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[7].flxodat
+ 91. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[8].flxodat
+ 92. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[9].flxodat
+ 93. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[10].flxodat
+ 94. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[11].flxodat
+ 95. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[12].flxodat
+ 96. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[13].flxodat
+ 97. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[14].flxodat
+ 98. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[15].flxodat
+ 99. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[16].flxodat
+100. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[17].flxodat
+101. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[18].flxodat
+102. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[19].flxodat
+103. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[20].flxodat
+104. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[21].flxodat
+105. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[22].flxodat
+106. Parameter Settings for User Entity Instance: sim_mult:isim_mult|ffxkclkx:iffxkclkx3|ffxkclk:i_bit[23].flxodat
+107. Parameter Settings for User Entity Instance: k2red:ik2red
+108. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx2
+109. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx3
+110. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx4
+111. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx5
+112. Parameter Settings for User Entity Instance: k2red:ik2red|full_sub:ifullsub1
+113. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f1
+114. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f2
+115. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx6
+116. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx7
+117. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx8
+118. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx9
+119. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx10
+120. Parameter Settings for User Entity Instance: k2red:ik2red|full_sub:ifullsub2
+121. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f3
+122. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f4
+123. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1
+124. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat
+125. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat
+126. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat
+127. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat
+128. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat
+129. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat
+130. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat
+131. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat
+132. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat
+133. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat
+134. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat
+135. Parameter Settings for User Entity Instance: k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat
+136. Parameter Settings for User Entity Instance: k2red:ik2red|fulladder2f:ifulladder2f5
+137. Parameter Settings for User Entity Instance: k2red:ik2red|fflopx:ifflopx1
+138. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2
+139. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx1
+140. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx2
+141. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|poly_mod_add:ipoly_mod_add1
+142. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx3
+143. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|fflopx:ifflopx4
+144. Parameter Settings for User Entity Instance: modhalfq:imodhalfq2|mux_xx1:imux_xx1
+145. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10
+146. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[0].flxodat
+147. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[1].flxodat
+148. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[2].flxodat
+149. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[3].flxodat
+150. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[4].flxodat
+151. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[5].flxodat
+152. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[6].flxodat
+153. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[7].flxodat
+154. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[8].flxodat
+155. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[9].flxodat
+156. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[10].flxodat
+157. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[11].flxodat
+158. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11
+159. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[0].flxodat
+160. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[1].flxodat
+161. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[2].flxodat
+162. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[3].flxodat
+163. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[4].flxodat
+164. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[5].flxodat
+165. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[6].flxodat
+166. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[7].flxodat
+167. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[8].flxodat
+168. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[9].flxodat
+169. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[10].flxodat
+170. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[11].flxodat
+171. Parameter Settings for User Entity Instance: mux_xx1:imux_xxout1
+172. Parameter Settings for User Entity Instance: mux_xx1:imux_xxout2
+173. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12
+174. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat
+175. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat
+176. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat
+177. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat
+178. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat
+179. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat
+180. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat
+181. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat
+182. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat
+183. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat
+184. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat
+185. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat
+186. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14
+187. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[0].flxodat
+188. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[1].flxodat
+189. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[2].flxodat
+190. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[3].flxodat
+191. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[4].flxodat
+192. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[5].flxodat
+193. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[6].flxodat
+194. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[7].flxodat
+195. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[8].flxodat
+196. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[9].flxodat
+197. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[10].flxodat
+198. Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[11].flxodat
+199. Port Connectivity Checks: "k2red:ik2red|fulladder2f:ifulladder2f5"
+200. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub2|full_adder:FAgen[0].fai"
+201. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub2"
+202. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx10"
+203. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx9"
+204. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx8"
+205. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[0].fai"
+206. Port Connectivity Checks: "k2red:ik2red|full_sub:ifullsub1"
+207. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx5"
+208. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx4"
+209. Port Connectivity Checks: "k2red:ik2red|fflopx:ifflopx3"
+210. Port Connectivity Checks: "modhalfq:imodhalfq1|poly_mod_add:ipoly_mod_add1"
+211. Post-Synthesis Netlist Statistics for Top Partition
+212. Elapsed Time Per Partition
+213. Analysis & Synthesis Messages
 
 
 
@@ -188,14 +244,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Dec 11 22:47:59 2021       ;
+; Analysis & Synthesis Status     ; Successful - Sun Dec 19 22:45:46 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; butterfly2                                  ;
 ; Top-level Entity Name           ; butterfly2                                  ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 404                                         ;
-; Total pins                      ; 63                                          ;
+; Total registers                 ; 604                                         ;
+; Total pins                      ; 64                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 1                                           ;
@@ -340,25 +396,25 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 316       ;
+; Estimate of Logic utilization (ALMs needed) ; 399       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 459       ;
-;     -- 7 input functions                    ; 1         ;
-;     -- 6 input functions                    ; 70        ;
-;     -- 5 input functions                    ; 71        ;
-;     -- 4 input functions                    ; 114       ;
-;     -- <=3 input functions                  ; 203       ;
+; Combinational ALUT usage for logic          ; 449       ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 81        ;
+;     -- 5 input functions                    ; 63        ;
+;     -- 4 input functions                    ; 131       ;
+;     -- <=3 input functions                  ; 174       ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 404       ;
+; Dedicated logic registers                   ; 604       ;
 ;                                             ;           ;
-; I/O pins                                    ; 63        ;
+; I/O pins                                    ; 64        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 1         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 404       ;
-; Total fan-out                               ; 3004      ;
-; Average fan-out                             ; 3.03      ;
+; Maximum fan-out                             ; 604       ;
+; Total fan-out                               ; 3455      ;
+; Average fan-out                             ; 2.92      ;
 +---------------------------------------------+-----------+
 
 
@@ -367,23 +423,76 @@ refer to the applicable agreement for further details.
 +--------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------+--------------+
 ; Compilation Hierarchy Node           ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                          ; Entity Name   ; Library Name ;
 +--------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------+--------------+
-; |butterfly2                          ; 459 (11)            ; 404 (0)                   ; 0                 ; 1          ; 63   ; 0            ; |butterfly2                                                                  ; butterfly2    ; work         ;
+; |butterfly2                          ; 449 (37)            ; 604 (0)                   ; 0                 ; 1          ; 64   ; 0            ; |butterfly2                                                                  ; butterfly2    ; work         ;
 ;    |fflopx:ifflopx1|                 ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|fflopx:ifflopx1                                                  ; fflopx        ; work         ;
 ;    |fflopx:ifflopx2|                 ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|fflopx:ifflopx2                                                  ; fflopx        ; work         ;
 ;    |fflopx:ifflopx3|                 ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|fflopx:ifflopx3                                                  ; fflopx        ; work         ;
-;    |ffxkclkx:iffxkclkx1|             ; 0 (0)               ; 84 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1                                              ; ffxkclkx      ; work         ;
-;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat                    ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[11].flxodat|    ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat                    ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[2].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[3].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[4].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[5].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[6].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat                     ; ffxkclk       ; work         ;
-;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat                     ; ffxkclk       ; work         ;
+;    |fflopx:ifflopx4|                 ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|fflopx:ifflopx4                                                  ; fflopx        ; work         ;
+;    |ffxkclkx:iffxkclkx10|            ; 0 (0)               ; 24 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10                                             ; ffxkclkx      ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[0].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[10].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[11].flxodat|    ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[11].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[1].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[2].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[2].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[3].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[3].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[4].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[4].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[5].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[5].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[6].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[6].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[7].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[8].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[9].flxodat                    ; ffxkclk       ; work         ;
+;    |ffxkclkx:iffxkclkx11|            ; 0 (0)               ; 24 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11                                             ; ffxkclkx      ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[0].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[10].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[11].flxodat|    ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[11].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[1].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[2].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[2].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[3].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[3].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[4].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[4].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[5].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[5].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[6].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[6].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[7].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[8].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[9].flxodat                    ; ffxkclk       ; work         ;
+;    |ffxkclkx:iffxkclkx12|            ; 0 (0)               ; 36 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12                                             ; ffxkclkx      ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[11].flxodat|    ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[2].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[3].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[4].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[5].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[6].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat                    ; ffxkclk       ; work         ;
+;    |ffxkclkx:iffxkclkx14|            ; 0 (0)               ; 108 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14                                             ; ffxkclkx      ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[0].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[10].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[11].flxodat|    ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[11].flxodat                   ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[1].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[2].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[2].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[3].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[3].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[4].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[4].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[5].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[5].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[6].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[6].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[7].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[8].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[9].flxodat                    ; ffxkclk       ; work         ;
+;    |ffxkclkx:iffxkclkx1|             ; 0 (0)               ; 72 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1                                              ; ffxkclkx      ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[11].flxodat|    ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat                    ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[2].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[3].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[4].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[5].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[6].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat                     ; ffxkclk       ; work         ;
 ;    |ffxkclkx:iffxkclkx2|             ; 0 (0)               ; 84 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx2                                              ; ffxkclkx      ; work         ;
 ;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[0].flxodat                     ; ffxkclk       ; work         ;
 ;       |ffxkclk:i_bit[10].flxodat|    ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[10].flxodat                    ; ffxkclk       ; work         ;
@@ -397,7 +506,10 @@ refer to the applicable agreement for further details.
 ;       |ffxkclk:i_bit[7].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[7].flxodat                     ; ffxkclk       ; work         ;
 ;       |ffxkclk:i_bit[8].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[8].flxodat                     ; ffxkclk       ; work         ;
 ;       |ffxkclk:i_bit[9].flxodat|     ; 0 (0)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx2|ffxkclk:i_bit[9].flxodat                     ; ffxkclk       ; work         ;
-;    |k2red:ik2red|                    ; 101 (3)             ; 80 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red                                                     ; k2red         ; work         ;
+;    |ffxkclkx:iffxkclkx5|             ; 0 (0)               ; 18 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx5                                              ; ffxkclkx      ; work         ;
+;       |ffxkclk:i_bit[0].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx5|ffxkclk:i_bit[0].flxodat                     ; ffxkclk       ; work         ;
+;       |ffxkclk:i_bit[1].flxodat|     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|ffxkclkx:iffxkclkx5|ffxkclk:i_bit[1].flxodat                     ; ffxkclk       ; work         ;
+;    |k2red:ik2red|                    ; 97 (3)              ; 80 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red                                                     ; k2red         ; work         ;
 ;       |fflopx:ifflopx10|             ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|fflopx:ifflopx10                                    ; fflopx        ; work         ;
 ;       |fflopx:ifflopx1|              ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|fflopx:ifflopx1                                     ; fflopx        ; work         ;
 ;       |fflopx:ifflopx2|              ; 0 (0)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|fflopx:ifflopx2                                     ; fflopx        ; work         ;
@@ -417,14 +529,14 @@ refer to the applicable agreement for further details.
 ;          |ffxkclk:i_bit[7].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat        ; ffxkclk       ; work         ;
 ;          |ffxkclk:i_bit[8].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat        ; ffxkclk       ; work         ;
 ;          |ffxkclk:i_bit[9].flxodat|  ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat        ; ffxkclk       ; work         ;
-;       |full_sub:ifullsub1|           ; 24 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1                                  ; full_sub      ; work         ;
+;       |full_sub:ifullsub1|           ; 20 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1                                  ; full_sub      ; work         ;
 ;          |full_adder:FAgen[10].fai|  ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[10].fai         ; full_adder    ; work         ;
-;          |full_adder:FAgen[12].fai|  ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[12].fai         ; full_adder    ; work         ;
+;          |full_adder:FAgen[12].fai|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[12].fai         ; full_adder    ; work         ;
 ;          |full_adder:FAgen[1].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[1].fai          ; full_adder    ; work         ;
 ;          |full_adder:FAgen[3].fai|   ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[3].fai          ; full_adder    ; work         ;
 ;          |full_adder:FAgen[5].fai|   ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[5].fai          ; full_adder    ; work         ;
-;          |full_adder:FAgen[7].fai|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[7].fai          ; full_adder    ; work         ;
-;          |full_adder:FAgen[9].fai|   ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[9].fai          ; full_adder    ; work         ;
+;          |full_adder:FAgen[7].fai|   ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[7].fai          ; full_adder    ; work         ;
+;          |full_adder:FAgen[9].fai|   ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[9].fai          ; full_adder    ; work         ;
 ;       |full_sub:ifullsub2|           ; 16 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub2                                  ; full_sub      ; work         ;
 ;          |full_adder:FAgen[1].fai|   ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub2|full_adder:FAgen[1].fai          ; full_adder    ; work         ;
 ;          |full_adder:FAgen[3].fai|   ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|full_sub:ifullsub2|full_adder:FAgen[3].fai          ; full_adder    ; work         ;
@@ -438,22 +550,20 @@ refer to the applicable agreement for further details.
 ;       |fulladder2f:ifulladder2f3|    ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|fulladder2f:ifulladder2f3                           ; fulladder2f   ; work         ;
 ;       |fulladder2f:ifulladder2f4|    ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|fulladder2f:ifulladder2f4                           ; fulladder2f   ; work         ;
 ;       |fulladder2f:ifulladder2f5|    ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|k2red:ik2red|fulladder2f:ifulladder2f5                           ; fulladder2f   ; work         ;
-;    |modhalfq:imodhalfq1|             ; 56 (0)              ; 36 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1                                              ; modhalfq      ; work         ;
+;    |modhalfq:imodhalfq1|             ; 57 (0)              ; 36 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1                                              ; modhalfq      ; work         ;
 ;       |fflopx:ifflopx1|              ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|fflopx:ifflopx1                              ; fflopx        ; work         ;
 ;       |fflopx:ifflopx2|              ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|fflopx:ifflopx2                              ; fflopx        ; work         ;
 ;       |fflopx:ifflopx3|              ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|fflopx:ifflopx3                              ; fflopx        ; work         ;
 ;       |fflopx:ifflopx4|              ; 0 (0)               ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|fflopx:ifflopx4                              ; fflopx        ; work         ;
 ;       |mux_xx1:imux_xx1|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|mux_xx1:imux_xx1                             ; mux_xx1       ; work         ;
-;       |poly_mod_add:ipoly_mod_add1|  ; 55 (55)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|poly_mod_add:ipoly_mod_add1                  ; poly_mod_add  ; work         ;
-;    |modhalfq:imodhalfq2|             ; 55 (0)              ; 36 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2                                              ; modhalfq      ; work         ;
+;       |poly_mod_add:ipoly_mod_add1|  ; 56 (56)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq1|poly_mod_add:ipoly_mod_add1                  ; poly_mod_add  ; work         ;
+;    |modhalfq:imodhalfq2|             ; 56 (0)              ; 36 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2                                              ; modhalfq      ; work         ;
 ;       |fflopx:ifflopx1|              ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2|fflopx:ifflopx1                              ; fflopx        ; work         ;
 ;       |fflopx:ifflopx2|              ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2|fflopx:ifflopx2                              ; fflopx        ; work         ;
 ;       |fflopx:ifflopx3|              ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2|fflopx:ifflopx3                              ; fflopx        ; work         ;
 ;       |fflopx:ifflopx4|              ; 0 (0)               ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2|fflopx:ifflopx4                              ; fflopx        ; work         ;
-;       |poly_mod_add:ipoly_mod_add1|  ; 55 (55)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2|poly_mod_add:ipoly_mod_add1                  ; poly_mod_add  ; work         ;
-;    |mux_xx1:imux_xxout1|             ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|mux_xx1:imux_xxout1                                              ; mux_xx1       ; work         ;
-;    |mux_xx1:imux_xxout2|             ; 23 (23)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|mux_xx1:imux_xxout2                                              ; mux_xx1       ; work         ;
-;    |poly_mod_add:ipoly_mod_add|      ; 71 (71)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|poly_mod_add:ipoly_mod_add                                       ; poly_mod_add  ; work         ;
+;       |poly_mod_add:ipoly_mod_add1|  ; 56 (56)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|modhalfq:imodhalfq2|poly_mod_add:ipoly_mod_add1                  ; poly_mod_add  ; work         ;
+;    |poly_mod_add:ipoly_mod_add|      ; 72 (72)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|poly_mod_add:ipoly_mod_add                                       ; poly_mod_add  ; work         ;
 ;    |poly_mod_diff:ipoly_mod_diff|    ; 130 (130)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|poly_mod_diff:ipoly_mod_diff                                     ; poly_mod_diff ; work         ;
 ;    |sim_mult:isim_mult|              ; 0 (0)               ; 48 (0)                    ; 0                 ; 1          ; 0    ; 0            ; |butterfly2|sim_mult:isim_mult                                               ; sim_mult      ; work         ;
 ;       |ffxkclkx:iffxkclkx1|          ; 0 (0)               ; 12 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |butterfly2|sim_mult:isim_mult|ffxkclkx:iffxkclkx1                           ; ffxkclkx      ; work         ;
@@ -523,54 +633,138 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                 ;
-+------------------------------------------------+---------------------------------------------------+
-; Register name                                  ; Reason for Removal                                ;
-+------------------------------------------------+---------------------------------------------------+
-; modhalfq:imodhalfq2|fflopx:ifflopx4|odat[11]   ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx10|odat[0,1,10,11]  ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx9|odat[0..2,11]     ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx8|odat[8..11]       ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx5|odat[0,1,10..15]  ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx4|odat[0..2,11..15] ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx3|odat[8..15]       ; Stuck at GND due to stuck port data_in            ;
-; modhalfq:imodhalfq1|fflopx:ifflopx4|odat[11]   ; Stuck at GND due to stuck port data_in            ;
-; k2red:ik2red|fflopx:ifflopx7|odat[7..9,11]     ; Merged with k2red:ik2red|fflopx:ifflopx7|odat[10] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[0]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[2] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[3]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[2] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[1]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[3] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[4]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[3] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[2]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[4] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[5]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[4] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[3]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[5] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[6]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[5] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[4]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[6] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[7]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[6] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[5]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[7] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[8]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[7] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[6]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[8] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[9]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[8] ;
-; k2red:ik2red|fflopx:ifflopx8|odat[7]           ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[9] ;
-; k2red:ik2red|fflopx:ifflopx9|odat[10]          ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[9] ;
-; k2red:ik2red|fflopx:ifflopx4|odat[3]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[0]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[2]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[0]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[4]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[1]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[3]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[1]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[5]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[2]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[4]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[2]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[6]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[3]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[5]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[3]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[7]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[4]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[6]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[4]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[8]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[5]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[7]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[5]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[9]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[6]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[8]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[6]  ;
-; k2red:ik2red|fflopx:ifflopx4|odat[10]          ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[7]  ;
-; k2red:ik2red|fflopx:ifflopx5|odat[9]           ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[7]  ;
-; Total Number of Removed Registers = 74         ;                                                   ;
-+------------------------------------------------+---------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                    ;
++-------------------------------------------------------------+-------------------------------------------------------------------------+
+; Register name                                               ; Reason for Removal                                                      ;
++-------------------------------------------------------------+-------------------------------------------------------------------------+
+; modhalfq:imodhalfq2|fflopx:ifflopx4|odat[11]                ; Stuck at GND due to stuck port data_in                                  ;
+; k2red:ik2red|fflopx:ifflopx10|odat[0,1,10,11]               ; Stuck at GND due to stuck port data_in                                  ;
+; k2red:ik2red|fflopx:ifflopx9|odat[0..2,11]                  ; Stuck at GND due to stuck port data_in                                  ;
+; k2red:ik2red|fflopx:ifflopx8|odat[8..11]                    ; Stuck at GND due to stuck port data_in                                  ;
+; k2red:ik2red|fflopx:ifflopx5|odat[0,1,10..15]               ; Stuck at GND due to stuck port data_in                                  ;
+; k2red:ik2red|fflopx:ifflopx4|odat[0..2,11..15]              ; Stuck at GND due to stuck port data_in                                  ;
+; k2red:ik2red|fflopx:ifflopx3|odat[8..15]                    ; Stuck at GND due to stuck port data_in                                  ;
+; modhalfq:imodhalfq1|fflopx:ifflopx4|odat[11]                ; Stuck at GND due to stuck port data_in                                  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[0]  ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[0] ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[0]  ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[0] ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[0]   ; Merged with ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[0]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[1] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[1]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[2] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[2]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[3] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[3]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[4] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[4]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[5] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[5]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat|shift_dat[6] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[11].flxodat|shift_dat[6]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[1] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[1]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[2] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[2]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[3] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[3]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[4] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[4]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[5] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[5]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat|shift_dat[6] ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[10].flxodat|shift_dat[6]  ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[9].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[8].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[7].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[6].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[5].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[4].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[3].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[2].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[1].flxodat|shift_dat[6]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[1]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[1]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[2]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[2]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[3]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[3]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[4]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[4]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[5]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[5]   ;
+; ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat|shift_dat[6]  ; Merged with ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat|shift_dat[6]   ;
+; k2red:ik2red|fflopx:ifflopx7|odat[7..9,11]                  ; Merged with k2red:ik2red|fflopx:ifflopx7|odat[10]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[0]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[2]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[3]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[2]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[1]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[3]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[4]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[3]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[2]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[4]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[5]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[4]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[3]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[5]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[6]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[5]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[4]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[6]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[7]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[6]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[5]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[7]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[8]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[7]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[6]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[8]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[9]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[8]                       ;
+; k2red:ik2red|fflopx:ifflopx8|odat[7]                        ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[9]                       ;
+; k2red:ik2red|fflopx:ifflopx9|odat[10]                       ; Merged with k2red:ik2red|fflopx:ifflopx10|odat[9]                       ;
+; k2red:ik2red|fflopx:ifflopx4|odat[3]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[0]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[2]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[0]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[4]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[1]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[3]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[1]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[5]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[2]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[4]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[2]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[6]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[3]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[5]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[3]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[7]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[4]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[6]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[4]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[8]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[5]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[7]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[5]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[9]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[6]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[8]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[6]                        ;
+; k2red:ik2red|fflopx:ifflopx4|odat[10]                       ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[7]                        ;
+; k2red:ik2red|fflopx:ifflopx5|odat[9]                        ; Merged with k2red:ik2red|fflopx:ifflopx3|odat[7]                        ;
+; Total Number of Removed Registers = 158                     ;                                                                         ;
++-------------------------------------------------------------+-------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -578,9 +772,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 404   ;
-; Number of registers using Synchronous Clear  ; 176   ;
-; Number of registers using Synchronous Load   ; 59    ;
+; Total registers                              ; 604   ;
+; Number of registers using Synchronous Clear  ; 178   ;
+; Number of registers using Synchronous Load   ; 83    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
@@ -593,10 +787,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |butterfly2|k2red:ik2red|fflopx:ifflopx1|odat[5]        ;
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |butterfly2|modhalfq:imodhalfq2|fflopx:ifflopx3|odat[3] ;
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |butterfly2|modhalfq:imodhalfq1|fflopx:ifflopx3|odat[0] ;
-; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |butterfly2|mux_xx1:imux_xxout2|c[6]                    ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |butterfly2|modhalfq:imodhalfq2|fflopx:ifflopx3|odat[4] ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |butterfly2|k2red:ik2red|fflopx:ifflopx1|odat[7]        ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |butterfly2|modhalfq:imodhalfq1|fflopx:ifflopx3|odat[2] ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |butterfly2|s0                                          ;
+; 4:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |butterfly2|s1                                          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
 
 
@@ -606,7 +801,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
 ; WID            ; 12    ; Signed Integer                                    ;
-; SELWID         ; 1     ; Signed Integer                                    ;
+; SELWID         ; 2     ; Signed Integer                                    ;
 ; DELAYUCT       ; 7     ; Signed Integer                                    ;
 ; DELAYUGS       ; 7     ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
@@ -643,6 +838,48 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; WIDTH          ; 12           ; Signed Integer               ;
 ; RESET_VALUE    ; 000000000000 ; Unsigned Binary              ;
 +----------------+--------------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fflopx:ifflopx4 ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                      ;
+; RESET_VALUE    ; 00    ; Unsigned Binary                     ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx5 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; K              ; 9     ; Signed Integer                          ;
+; W              ; 2     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx5|ffxkclk:i_bit[0].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx5|ffxkclk:i_bit[1].flxodat ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1929,6 +2166,268 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; K              ; 2     ; Signed Integer                           ;
+; W              ; 12    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[0].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[1].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[2].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[3].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[4].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[5].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[6].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[7].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[8].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[9].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[10].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx10|ffxkclk:i_bit[11].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; K              ; 2     ; Signed Integer                           ;
+; W              ; 12    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[0].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[1].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[2].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[3].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[4].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[5].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[6].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[7].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[8].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[9].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[10].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx11|ffxkclk:i_bit[11].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 2     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: mux_xx1:imux_xxout1 ;
 +----------------+-------+-----------------------------------------+
@@ -1946,6 +2445,268 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; WIDTH          ; 12    ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; K              ; 9     ; Signed Integer                           ;
+; W              ; 12    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; K              ; 9     ; Signed Integer                           ;
+; W              ; 12    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[0].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[1].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[2].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[3].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[4].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[5].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[6].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[7].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[8].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[9].flxodat ;
++----------------+-------+-------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                              ;
++----------------+-------+-------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                    ;
++----------------+-------+-------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[10].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ffxkclkx:iffxkclkx14|ffxkclk:i_bit[11].flxodat ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; K              ; 9     ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2071,12 +2832,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 404                         ;
-;     SCLR              ; 140                         ;
+; arriav_ff             ; 604                         ;
+;     SCLR              ; 142                         ;
 ;     SCLR SLD          ; 36                          ;
-;     SLD               ; 23                          ;
-;     plain             ; 205                         ;
-; arriav_lcell_comb     ; 459                         ;
+;     SLD               ; 47                          ;
+;     plain             ; 379                         ;
+; arriav_lcell_comb     ; 449                         ;
 ;     arith             ; 237                         ;
 ;         0 data inputs ; 9                           ;
 ;         1 data inputs ; 102                         ;
@@ -2084,19 +2845,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;         3 data inputs ; 3                           ;
 ;         4 data inputs ; 80                          ;
 ;         5 data inputs ; 29                          ;
-;     extend            ; 1                           ;
-;         7 data inputs ; 1                           ;
-;     normal            ; 221                         ;
+;     normal            ; 212                         ;
 ;         2 data inputs ; 29                          ;
-;         3 data inputs ; 46                          ;
-;         4 data inputs ; 34                          ;
-;         5 data inputs ; 42                          ;
-;         6 data inputs ; 70                          ;
+;         3 data inputs ; 17                          ;
+;         4 data inputs ; 51                          ;
+;         5 data inputs ; 34                          ;
+;         6 data inputs ; 81                          ;
 ; arriav_mac            ; 1                           ;
-; boundary_port         ; 63                          ;
+; boundary_port         ; 64                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 11.30                       ;
-; Average LUT depth     ; 5.25                        ;
+; Max LUT depth         ; 12.20                       ;
+; Average LUT depth     ; 4.52                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2105,7 +2864,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -2115,7 +2874,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Dec 11 22:47:41 2021
+    Info: Processing started: Sun Dec 19 22:45:31 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off butterfly2 -c butterfly2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -2155,37 +2914,43 @@ Info (12021): Found 2 design units, including 2 entities, in source file /kyber9
     Info (12023): Found entity 1: addsub File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v Line: 23
     Info (12023): Found entity 2: addsub_tb File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v Line: 50
 Info (12127): Elaborating entity "butterfly2" for the top level hierarchy
-Info (12128): Elaborating entity "fflopx" for hierarchy "fflopx:ifflopx1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 45
-Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 51
+Info (12128): Elaborating entity "fflopx" for hierarchy "fflopx:ifflopx1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 46
+Info (12128): Elaborating entity "fflopx" for hierarchy "fflopx:ifflopx4" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 49
+Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx5" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 50
+Info (12128): Elaborating entity "ffxkclk" for hierarchy "ffxkclkx:iffxkclkx5|ffxkclk:i_bit[0].flxodat" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v Line: 45
+Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 54
 Info (12128): Elaborating entity "ffxkclk" for hierarchy "ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v Line: 45
-Info (12128): Elaborating entity "poly_mod_add" for hierarchy "poly_mod_add:ipoly_mod_add" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 66
-Info (12128): Elaborating entity "modhalfq" for hierarchy "modhalfq:imodhalfq1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 68
+Info (12128): Elaborating entity "poly_mod_add" for hierarchy "poly_mod_add:ipoly_mod_add" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 69
+Info (12128): Elaborating entity "modhalfq" for hierarchy "modhalfq:imodhalfq1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 71
 Info (12128): Elaborating entity "fflopx" for hierarchy "modhalfq:imodhalfq1|fflopx:ifflopx2" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v Line: 29
 Info (12128): Elaborating entity "mux_xx1" for hierarchy "modhalfq:imodhalfq1|mux_xx1:imux_xx1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq.v Line: 49
-Info (12128): Elaborating entity "poly_mod_diff" for hierarchy "poly_mod_diff:ipoly_mod_diff" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 81
-Info (12128): Elaborating entity "sim_mult" for hierarchy "sim_mult:isim_mult" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 90
+Info (12128): Elaborating entity "poly_mod_diff" for hierarchy "poly_mod_diff:ipoly_mod_diff" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 84
+Info (12128): Elaborating entity "sim_mult" for hierarchy "sim_mult:isim_mult" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 93
 Info (12128): Elaborating entity "ffxkclkx" for hierarchy "sim_mult:isim_mult|ffxkclkx:iffxkclkx1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v Line: 37
 Info (12128): Elaborating entity "ffxkclk" for hierarchy "sim_mult:isim_mult|ffxkclkx:iffxkclkx1|ffxkclk:i_bit[0].flxodat" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v Line: 45
 Info (12128): Elaborating entity "ffxkclkx" for hierarchy "sim_mult:isim_mult|ffxkclkx:iffxkclkx3" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v Line: 42
-Info (12128): Elaborating entity "k2red" for hierarchy "k2red:ik2red" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 92
+Info (12128): Elaborating entity "k2red" for hierarchy "k2red:ik2red" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 95
 Info (12128): Elaborating entity "fflopx" for hierarchy "k2red:ik2red|fflopx:ifflopx2" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 51
 Info (12128): Elaborating entity "full_sub" for hierarchy "k2red:ik2red|full_sub:ifullsub1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 60
 Info (12128): Elaborating entity "full_adder" for hierarchy "k2red:ik2red|full_sub:ifullsub1|full_adder:FAgen[0].fai" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_sub.v Line: 62
 Info (12128): Elaborating entity "fulladder2f" for hierarchy "k2red:ik2red|fulladder2f:ifulladder2f1" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 61
 Info (12128): Elaborating entity "full_sub" for hierarchy "k2red:ik2red|full_sub:ifullsub2" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 102
 Info (12128): Elaborating entity "fulladder2f" for hierarchy "k2red:ik2red|fulladder2f:ifulladder2f3" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 103
+Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx10" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 111
+Info (12128): Elaborating entity "ffxkclk" for hierarchy "ffxkclkx:iffxkclkx10|ffxkclk:i_bit[0].flxodat" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v Line: 45
+Info (12128): Elaborating entity "ffxkclkx" for hierarchy "ffxkclkx:iffxkclkx12" File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 121
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 850 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 39 input pins
+Info (21057): Implemented 1041 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 40 input pins
     Info (21059): Implemented 24 output pins
-    Info (21061): Implemented 786 logic cells
+    Info (21061): Implemented 976 logic cells
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4842 megabytes
-    Info: Processing ended: Sat Dec 11 22:47:59 2021
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:29
+    Info: Peak virtual memory: 4840 megabytes
+    Info: Processing ended: Sun Dec 19 22:45:46 2021
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:27
 
 

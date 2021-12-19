@@ -94,6 +94,8 @@ initial begin
     #64
     loaddi = 1'b0;
     data_in_done_tb = 1'b1;
+    #2;
+    data_in_done_tb = 1'b0;
     #20
     //begin testing dataout function
     mode_tb = M_DATAOUT;

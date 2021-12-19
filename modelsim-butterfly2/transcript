@@ -54,3 +54,6 @@ run
 run
 run
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/wave.do
+quit -sim
+# End time: 16:49:04 on Dec 18,2021, Elapsed time: 0:20:33
+# Errors: 0, Warnings: 1

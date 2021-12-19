@@ -1,16 +1,16 @@
-Fitter Status : Successful - Tue Dec 14 21:43:57 2021
+Fitter Status : Successful - Sun Dec 19 22:36:44 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : polyunit_core2
 Top-level Entity Name : polyunit_core2
 Family : Cyclone V
 Device : 5CGXFC7C7F23C8
 Timing Models : Final
-Logic utilization (in ALMs) : 1,100 / 56,480 ( 2 % )
-Total registers : 1472
+Logic utilization (in ALMs) : 1,288 / 56,480 ( 2 % )
+Total registers : 2154
 Total pins : 108 / 268 ( 40 % )
 Total virtual pins : 0
-Total block memory bits : 1,536 / 7,024,640 ( < 1 % )
-Total RAM Blocks : 2 / 686 ( < 1 % )
+Total block memory bits : 1,779 / 7,024,640 ( < 1 % )
+Total RAM Blocks : 3 / 686 ( < 1 % )
 Total DSP Blocks : 4 / 156 ( 3 % )
 Total HSSI RX PCSs : 0 / 6 ( 0 % )
 Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )

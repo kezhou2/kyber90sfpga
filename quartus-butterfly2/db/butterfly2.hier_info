@@ -1,6 +1,6 @@
 |butterfly2
-clk => clk.IN9
-rst => rst.IN9
+clk => clk.IN15
+rst => rst.IN15
 u[0] => u[0].IN1
 u[1] => u[1].IN1
 u[2] => u[2].IN1
@@ -37,31 +37,32 @@ w[8] => w[8].IN1
 w[9] => w[9].IN1
 w[10] => w[10].IN1
 w[11] => w[11].IN1
-s0[0] <= mux_xx1:imux_xxout1.port3
-s0[1] <= mux_xx1:imux_xxout1.port3
-s0[2] <= mux_xx1:imux_xxout1.port3
-s0[3] <= mux_xx1:imux_xxout1.port3
-s0[4] <= mux_xx1:imux_xxout1.port3
-s0[5] <= mux_xx1:imux_xxout1.port3
-s0[6] <= mux_xx1:imux_xxout1.port3
-s0[7] <= mux_xx1:imux_xxout1.port3
-s0[8] <= mux_xx1:imux_xxout1.port3
-s0[9] <= mux_xx1:imux_xxout1.port3
-s0[10] <= mux_xx1:imux_xxout1.port3
-s0[11] <= mux_xx1:imux_xxout1.port3
-s1[0] <= mux_xx1:imux_xxout2.port3
-s1[1] <= mux_xx1:imux_xxout2.port3
-s1[2] <= mux_xx1:imux_xxout2.port3
-s1[3] <= mux_xx1:imux_xxout2.port3
-s1[4] <= mux_xx1:imux_xxout2.port3
-s1[5] <= mux_xx1:imux_xxout2.port3
-s1[6] <= mux_xx1:imux_xxout2.port3
-s1[7] <= mux_xx1:imux_xxout2.port3
-s1[8] <= mux_xx1:imux_xxout2.port3
-s1[9] <= mux_xx1:imux_xxout2.port3
-s1[10] <= mux_xx1:imux_xxout2.port3
-s1[11] <= mux_xx1:imux_xxout2.port3
-sel[0] => sel[0].IN2
+s0[0] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[1] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[2] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[3] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[4] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[5] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[6] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[7] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[8] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[9] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[10] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s0[11] <= s0.DB_MAX_OUTPUT_PORT_TYPE
+s1[0] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[1] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[2] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[3] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[4] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[5] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[6] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[7] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[8] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[9] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[10] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s1[11] <= s1.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
 
 
 |butterfly2|fflopx:ifflopx1
@@ -215,6 +216,56 @@ odat[8] <= odat[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[9] <= odat[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[10] <= odat[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 odat[11] <= odat[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|fflopx:ifflopx4
+clk => odat[0]~reg0.CLK
+clk => odat[1]~reg0.CLK
+rst => odat.OUTPUTSELECT
+rst => odat.OUTPUTSELECT
+idat[0] => odat.DATAA
+idat[1] => odat.DATAA
+odat[0] <= odat[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+odat[1] <= odat[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx5
+clk => clk.IN2
+rst => rst.IN2
+idat[0] => idat[0].IN1
+idat[1] => idat[1].IN1
+odat[0] <= ffxkclk:i_bit[0].flxodat.port3
+odat[1] <= ffxkclk:i_bit[1].flxodat.port3
+
+
+|butterfly2|ffxkclkx:iffxkclkx5|ffxkclk:i_bit[0].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx5|ffxkclk:i_bit[1].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |butterfly2|ffxkclkx:iffxkclkx1
@@ -3086,6 +3137,256 @@ c[10] <= c.DB_MAX_OUTPUT_PORT_TYPE
 c[11] <= c.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|butterfly2|ffxkclkx:iffxkclkx10
+clk => clk.IN12
+rst => rst.IN12
+idat[0] => idat[0].IN1
+idat[1] => idat[1].IN1
+idat[2] => idat[2].IN1
+idat[3] => idat[3].IN1
+idat[4] => idat[4].IN1
+idat[5] => idat[5].IN1
+idat[6] => idat[6].IN1
+idat[7] => idat[7].IN1
+idat[8] => idat[8].IN1
+idat[9] => idat[9].IN1
+idat[10] => idat[10].IN1
+idat[11] => idat[11].IN1
+odat[0] <= ffxkclk:i_bit[0].flxodat.port3
+odat[1] <= ffxkclk:i_bit[1].flxodat.port3
+odat[2] <= ffxkclk:i_bit[2].flxodat.port3
+odat[3] <= ffxkclk:i_bit[3].flxodat.port3
+odat[4] <= ffxkclk:i_bit[4].flxodat.port3
+odat[5] <= ffxkclk:i_bit[5].flxodat.port3
+odat[6] <= ffxkclk:i_bit[6].flxodat.port3
+odat[7] <= ffxkclk:i_bit[7].flxodat.port3
+odat[8] <= ffxkclk:i_bit[8].flxodat.port3
+odat[9] <= ffxkclk:i_bit[9].flxodat.port3
+odat[10] <= ffxkclk:i_bit[10].flxodat.port3
+odat[11] <= ffxkclk:i_bit[11].flxodat.port3
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[0].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[1].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[2].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[3].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[4].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[5].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[6].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[7].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[8].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[9].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[10].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx10|ffxkclk:i_bit[11].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11
+clk => clk.IN12
+rst => rst.IN12
+idat[0] => idat[0].IN1
+idat[1] => idat[1].IN1
+idat[2] => idat[2].IN1
+idat[3] => idat[3].IN1
+idat[4] => idat[4].IN1
+idat[5] => idat[5].IN1
+idat[6] => idat[6].IN1
+idat[7] => idat[7].IN1
+idat[8] => idat[8].IN1
+idat[9] => idat[9].IN1
+idat[10] => idat[10].IN1
+idat[11] => idat[11].IN1
+odat[0] <= ffxkclk:i_bit[0].flxodat.port3
+odat[1] <= ffxkclk:i_bit[1].flxodat.port3
+odat[2] <= ffxkclk:i_bit[2].flxodat.port3
+odat[3] <= ffxkclk:i_bit[3].flxodat.port3
+odat[4] <= ffxkclk:i_bit[4].flxodat.port3
+odat[5] <= ffxkclk:i_bit[5].flxodat.port3
+odat[6] <= ffxkclk:i_bit[6].flxodat.port3
+odat[7] <= ffxkclk:i_bit[7].flxodat.port3
+odat[8] <= ffxkclk:i_bit[8].flxodat.port3
+odat[9] <= ffxkclk:i_bit[9].flxodat.port3
+odat[10] <= ffxkclk:i_bit[10].flxodat.port3
+odat[11] <= ffxkclk:i_bit[11].flxodat.port3
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[0].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[1].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[2].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[3].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[4].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[5].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[6].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[7].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[8].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[9].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[10].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx11|ffxkclk:i_bit[11].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
 |butterfly2|mux_xx1:imux_xxout1
 a[0] => c.DATAA
 a[1] => c.DATAA
@@ -3186,5 +3487,423 @@ c[8] <= c.DB_MAX_OUTPUT_PORT_TYPE
 c[9] <= c.DB_MAX_OUTPUT_PORT_TYPE
 c[10] <= c.DB_MAX_OUTPUT_PORT_TYPE
 c[11] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12
+clk => clk.IN12
+rst => rst.IN12
+idat[0] => idat[0].IN1
+idat[1] => idat[1].IN1
+idat[2] => idat[2].IN1
+idat[3] => idat[3].IN1
+idat[4] => idat[4].IN1
+idat[5] => idat[5].IN1
+idat[6] => idat[6].IN1
+idat[7] => idat[7].IN1
+idat[8] => idat[8].IN1
+idat[9] => idat[9].IN1
+idat[10] => idat[10].IN1
+idat[11] => idat[11].IN1
+odat[0] <= ffxkclk:i_bit[0].flxodat.port3
+odat[1] <= ffxkclk:i_bit[1].flxodat.port3
+odat[2] <= ffxkclk:i_bit[2].flxodat.port3
+odat[3] <= ffxkclk:i_bit[3].flxodat.port3
+odat[4] <= ffxkclk:i_bit[4].flxodat.port3
+odat[5] <= ffxkclk:i_bit[5].flxodat.port3
+odat[6] <= ffxkclk:i_bit[6].flxodat.port3
+odat[7] <= ffxkclk:i_bit[7].flxodat.port3
+odat[8] <= ffxkclk:i_bit[8].flxodat.port3
+odat[9] <= ffxkclk:i_bit[9].flxodat.port3
+odat[10] <= ffxkclk:i_bit[10].flxodat.port3
+odat[11] <= ffxkclk:i_bit[11].flxodat.port3
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[0].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[1].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[2].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[3].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[4].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[5].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[6].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[7].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[8].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[9].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[10].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx12|ffxkclk:i_bit[11].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14
+clk => clk.IN12
+rst => rst.IN12
+idat[0] => idat[0].IN1
+idat[1] => idat[1].IN1
+idat[2] => idat[2].IN1
+idat[3] => idat[3].IN1
+idat[4] => idat[4].IN1
+idat[5] => idat[5].IN1
+idat[6] => idat[6].IN1
+idat[7] => idat[7].IN1
+idat[8] => idat[8].IN1
+idat[9] => idat[9].IN1
+idat[10] => idat[10].IN1
+idat[11] => idat[11].IN1
+odat[0] <= ffxkclk:i_bit[0].flxodat.port3
+odat[1] <= ffxkclk:i_bit[1].flxodat.port3
+odat[2] <= ffxkclk:i_bit[2].flxodat.port3
+odat[3] <= ffxkclk:i_bit[3].flxodat.port3
+odat[4] <= ffxkclk:i_bit[4].flxodat.port3
+odat[5] <= ffxkclk:i_bit[5].flxodat.port3
+odat[6] <= ffxkclk:i_bit[6].flxodat.port3
+odat[7] <= ffxkclk:i_bit[7].flxodat.port3
+odat[8] <= ffxkclk:i_bit[8].flxodat.port3
+odat[9] <= ffxkclk:i_bit[9].flxodat.port3
+odat[10] <= ffxkclk:i_bit[10].flxodat.port3
+odat[11] <= ffxkclk:i_bit[11].flxodat.port3
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[0].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[1].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[2].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[3].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[4].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[5].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[6].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[7].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[8].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[9].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[10].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|butterfly2|ffxkclkx:iffxkclkx14|ffxkclk:i_bit[11].flxodat
+clk => shift_dat[0].CLK
+clk => shift_dat[1].CLK
+clk => shift_dat[2].CLK
+clk => shift_dat[3].CLK
+clk => shift_dat[4].CLK
+clk => shift_dat[5].CLK
+clk => shift_dat[6].CLK
+clk => shift_dat[7].CLK
+clk => shift_dat[8].CLK
+rst => ~NO_FANOUT~
+idat => shift_dat[0].DATAIN
+odat <= shift_dat[8].DB_MAX_OUTPUT_PORT_TYPE
 
 

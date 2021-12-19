@@ -196,7 +196,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "rst",
+					"name" : "done",
 					"strict" : false
 				},
 				{
@@ -213,6 +213,10 @@
 				},
 				{
 					"name" : "data_in_done",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
 					"strict" : false
 				},
 				{

@@ -1,5 +1,5 @@
 Flow report for polyunit_core2
-Tue Dec 14 23:25:19 2021
+Sun Dec 19 22:37:20 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -37,24 +37,29 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Flow Summary                                                              ;
-+-----------------------------+---------------------------------------------+
-; Flow Status                 ; Flow Failed - Tue Dec 14 23:25:19 2021      ;
-; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name               ; polyunit_core2                              ;
-; Top-level Entity Name       ; polyunit_core2                              ;
-; Family                      ; Cyclone V                                   ;
-; Device                      ; 5CGXFC7C7F23C8                              ;
-; Timing Models               ; Final                                       ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sun Dec 19 22:37:04 2021       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; polyunit_core2                              ;
+; Top-level Entity Name           ; polyunit_core2                              ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CGXFC7C7F23C8                              ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 1,288 / 56,480 ( 2 % )                      ;
+; Total registers                 ; 2154                                        ;
+; Total pins                      ; 108 / 268 ( 40 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 1,779 / 7,024,640 ( < 1 % )                 ;
+; Total DSP Blocks                ; 4 / 156 ( 3 % )                             ;
+; Total HSSI RX PCSs              ; 0 / 6 ( 0 % )                               ;
+; Total HSSI PMA RX Deserializers ; 0 / 6 ( 0 % )                               ;
+; Total HSSI TX PCSs              ; 0 / 6 ( 0 % )                               ;
+; Total HSSI PMA TX Serializers   ; 0 / 6 ( 0 % )                               ;
+; Total PLLs                      ; 0 / 13 ( 0 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -62,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/14/2021 23:25:07 ;
+; Start date & time ; 12/19/2021 22:34:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; polyunit_core2      ;
 +-------------------+---------------------+
@@ -73,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 104252179705287.163949910714464        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 104252179705287.163992808319088        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -90,8 +95,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4773 MB             ; 00:00:25                           ;
-; Total                ; 00:00:12     ; --                      ; --                  ; 00:00:25                           ;
+; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4871 MB             ; 00:00:32                           ;
+; Fitter               ; 00:01:35     ; 1.1                     ; 6868 MB             ; 00:02:41                           ;
+; Assembler            ; 00:00:15     ; 1.0                     ; 4846 MB             ; 00:00:11                           ;
+; Timing Analyzer      ; 00:00:15     ; 1.7                     ; 5294 MB             ; 00:00:19                           ;
+; Total                ; 00:02:28     ; --                      ; --                  ; 00:03:43                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -101,6 +109,9 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -108,6 +119,9 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
+quartus_fit --read_settings_files=off --write_settings_files=off polyunit_core2 -c polyunit_core2
+quartus_asm --read_settings_files=off --write_settings_files=off polyunit_core2 -c polyunit_core2
+quartus_sta polyunit_core2 -c polyunit_core2
 
 
 

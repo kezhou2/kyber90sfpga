@@ -40,7 +40,6 @@ localparam          N_CY1       = 3'd1;// //full
 localparam          N_CY2       = 3'd2;// //full
 localparam          N_CY3       = 3'd3;// //full
 localparam          N_CY4       = 3'd4;// //bypass 2 
-localparam          N_CY5       = 3'd5;// //bypass 1
 
 /////////////////////////////////////////////////////////
 
@@ -61,6 +60,7 @@ output done;
 /////////////////////////////////////////////////////////
 //for dataout datain
 //32-counter
+wire ntt_donedelay;
 
 wire wrenntt;
 
@@ -76,32 +76,28 @@ wire nfsmidle;
 
 assign nfsmidle = nfsm == N_IDLE;
 
-wire nfsmcy1;
+//wire nfsmcy1;
 
-assign nfsmcy1 = nfsm == N_CY1;
+//assign nfsmcy1 = nfsm == N_CY1;
 
-wire nfsmcy2;
+//wire nfsmcy2;
 
-assign nfsmcy2 = nfsm == N_CY2;
+//assign nfsmcy2 = nfsm == N_CY2;
 
-wire nfsmcy3;
+//wire nfsmcy3;
 
-assign nfsmcy3 = nfsm == N_CY3;
+//assign nfsmcy3 = nfsm == N_CY3;
 
 wire nfsmcy4;
 
 assign nfsmcy4 = nfsm == N_CY4;
 
-wire nfsmcy5;
-
-assign nfsmcy5 = nfsm == N_CY5;
-
-reg [7:0] nttcycle; //max to 160
+reg [6:0] nttcycle; //max to 127
 wire sixrelease;
 reg [2:0] sixcnt;
 
 reg ntthalt;
-wire nttendc1,nttendc2,nttendc3,nttendc4,nttendc5;
+wire nttendc1,nttendc2,nttendc3,nttendc4;
 
 wire [4:0] nttadd;
 ///////FSM////////
@@ -201,7 +197,8 @@ alram112x #(DWID,AWID) ialram112x
 
 wire wrenrom;
 wire [WID-1:0] romdata00,romdata10,romdata11;
-wire [6:0] rdadd00,rdadd10,rdadd11;
+wire [5:0] rdadd00,rdadd10,rdadd11;//64 
+wire [17:0] triromadd;
 
 mem_gen1 #(WID) imem_gen1
 (
@@ -227,20 +224,31 @@ mem_gen1 #(WID) imem_gen3
     .data(romdata11)
 );
 
+mem_gen4 #(18) imem_gen11
+(
+    .clk(clk),
+    .addr(nttcycle), //using with 
+    .wr_ena(wrenrom),
+    .data(triromadd)
+);
+
 assign wrenrom = 1'b0; //gan gia tri tranh float
 
 //ROM address logic (temp of course)
-//assign rdadd00 = 7'd0;
-//assign rdadd10 = 7'd1;
-//assign rdadd11 = 7'd2;
+
+assign rdadd00 = triromadd[5:0];
+
+assign rdadd10 = triromadd[11:6];
+
+assign rdadd11 = triromadd[17:12];
 
 /////////////////////////////////////////////
 //main butterflys
 wire [1:0] butsel1,butsel2;
 wire bypass1,bypass2;
 
-assign bypass1 = nfsmcy4|nfsmcy5;
-assign bypass2 = nfsmcy4;
+assign bypass1 = nfsmcy4;
+assign bypass2 = 1'b0;
 
 assign butsel1 = {bypass1,mainntt};
 assign butsel2 = {bypass2,mainntt};
@@ -304,16 +312,22 @@ butterfly2 ibutterfly4(
     .sel(butsel2) //mode of operation NTT:1 INTT:0
 );
 
-//without delay;
+//with delay;
 
 assign u00 = rddata[11:0];
-assign t00 = rddata[23:12];
-assign u01 = rddata[35:24];
+assign t00 = rddata[35:24];
+assign u01 = rddata[23:12];//doi nguoc chieu` 0x64
 assign t01 = rddata[47:36];
 
-assign w00 = romdata00;
-assign w10 = romdata10;
-assign w11 = romdata11;
+wire [WID-1:0] romdata00d,romdata10d,romdata01d;
+
+ffxkclkx #(2,WID) iffxkclkx66 (clk,rst,romdata00,romdata00d);
+ffxkclkx #(2,WID) iffxkclkx67 (clk,rst,romdata10,romdata10d);
+ffxkclkx #(2,WID) iffxkclkx68 (clk,rst,romdata11,romdata11d);
+
+assign w00 = romdata00d;
+assign w10 = romdata10d;
+assign w11 = romdata11d;
 
 //to write back data to RAM
 
@@ -363,7 +377,7 @@ assign rdadd = (mainntt)? nttadd :
 ////
 wire [4:0] nttadddelay;
 
-ffxkclkx #(23,5) iffxkclkx5 (clk,rst,nttadd,nttadddelay);
+ffxkclkx #(27,5) iffxkclkx5 (clk,rst,nttadd,nttadddelay);
 
 //test delay
 
@@ -389,10 +403,10 @@ end
 assign wrenntt = !nfsmidle&!ntthalt;
 
 wire wrennttdelay;
-ffxkclkx #(23,1) iffxkclkx6 (clk,rst,wrenntt,wrennttdelay);
+ffxkclkx #(27,1) iffxkclkx6 (clk,rst,wrenntt,wrennttdelay);
 
 assign wren = maindatain? wrenrg :
-                mainntt? wrennttdelay : 0;
+                mainntt? wrennttdelay : 1'b0;
 
 ////////////////
 //dataout
@@ -409,7 +423,7 @@ always @(posedge clk) begin
     docnt <= docnt;
 end
 
-assign data_out = mainidle? 1'b0 : rddata;
+assign data_out = maindataout? rddata : 1'b0;
 assign data_out_done = docnt == 5'd31;
 
 ////////////////////
@@ -417,17 +431,12 @@ assign data_out_done = docnt == 5'd31;
 
 assign caldone = maindatain? data_in_done :
                 maindataout? data_out_done :
-                mainntt? ntt_done :
+                mainntt? ntt_donedelay :
                 mainintt? intt_done :
                 1'b0;
 
 ///////////////////////
 //NTT/INTT logic
-
-//read rom //temp
-assign rdadd00 = 7'd0; // m + j
-assign rdadd10 = 7'd1; //2*(m+j)
-assign rdadd11 = 7'd2; //2*(m+j)+1
 
 //////////////
 //read/write seq data
@@ -437,16 +446,15 @@ mem_gen3 imem_gen4(clk,nttcycle,wrenrom,nttadd);
 //state machine //NTT FSM
 
 
-assign nttendc1 = nttcycle == 8'd31;
-assign nttendc2 = nttcycle == 8'd63;
-assign nttendc3 = nttcycle == 8'd95;
-assign nttendc4 = nttcycle == 8'd127;
-assign nttendc5 = nttcycle == 8'd159;
+assign nttendc1 = nttcycle == 7'd31;
+assign nttendc2 = nttcycle == 7'd63;
+assign nttendc3 = nttcycle == 7'd95;
+assign nttendc4 = nttcycle == 7'd127;
 
 always @(posedge clk) begin
     if(rst)
     nfsm <= N_IDLE;
-    else if(mainntt&nfsmidle)
+    else if(startntt)
     nfsm <= N_CY1;
     else if(nttendc1)
     nfsm <= N_CY2;
@@ -455,8 +463,6 @@ always @(posedge clk) begin
     else if(nttendc3)
     nfsm <= N_CY4;
     else if(nttendc4)
-    nfsm <= N_CY5;
-    else if(nttendc5)
     nfsm <= N_IDLE;
     else
     nfsm <= nfsm;
@@ -476,13 +482,16 @@ always @(posedge clk) begin
     ntthalt <= 1;
     else if(nttendc4)
     ntthalt <= 1;
-    else if(nttendc5)
-    ntthalt <= 1;
     else
     ntthalt <= ntthalt;
 end
 
-assign ntt_done = nttendc5;
+assign ntt_done = nttendc4;
+
+
+
+ffxkclkx #(27,1) iffxkclkx65 (clk,rst,ntt_done,ntt_donedelay);
+
 //ntt cycle counter
 
 always @(posedge clk) begin
@@ -491,7 +500,7 @@ always @(posedge clk) begin
     else if(nfsmidle)
     nttcycle <= 0;
     else if(!ntthalt)
-    nttcycle <= nttcycle + 8'd1;
+    nttcycle <= nttcycle + 7'd1;
     else
     nttcycle <= nttcycle;
 end
@@ -514,7 +523,7 @@ assign sixrelease = sixcnt == 6;
 //wreno for sipos sequence
 wire [1:0] nttcycledelay;
 
-ffxkclkx #(23,2) iffxkclkx91 (clk,rst,nttcycle[1:0],nttcycledelay);
+ffxkclkx #(27,2) iffxkclkx91 (clk,rst,nttcycle[1:0],nttcycledelay);
 
 assign wreno = nttcycledelay;
 
