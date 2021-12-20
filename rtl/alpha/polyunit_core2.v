@@ -197,6 +197,8 @@ alram112x #(DWID,AWID) ialram112x
 
 wire wrenrom;
 wire [WID-1:0] romdata00,romdata10,romdata11;
+wire [WID-1:0] romdata00ntt,romdata10ntt,romdata11ntt;
+wire [WID-1:0] romdata00intt,romdata10intt,romdata11intt;
 wire [5:0] rdadd00,rdadd10,rdadd11;//64 
 wire [17:0] triromadd;
 
@@ -205,7 +207,7 @@ mem_gen1 #(WID) imem_gen1
     .clk(clk),
     .addr(rdadd00), //using with 
     .wr_ena(wrenrom),
-    .data(romdata00)
+    .data(romdata00ntt)
 );
 
 mem_gen1 #(WID) imem_gen2
@@ -213,7 +215,7 @@ mem_gen1 #(WID) imem_gen2
     .clk(clk),
     .addr(rdadd10), //using with 
     .wr_ena(wrenrom),
-    .data(romdata10)
+    .data(romdata10ntt)
 );
 
 mem_gen1 #(WID) imem_gen3
@@ -221,7 +223,31 @@ mem_gen1 #(WID) imem_gen3
     .clk(clk),
     .addr(rdadd11), //using with 
     .wr_ena(wrenrom),
-    .data(romdata11)
+    .data(romdata11ntt)
+);
+
+mem_gen5 #(WID) imem_gen85
+(
+    .clk(clk),
+    .addr(rdadd00), //using with 
+    .wr_ena(wrenrom),
+    .data(romdata00intt)
+);
+
+mem_gen5 #(WID) imem_gen86
+(
+    .clk(clk),
+    .addr(rdadd10), //using with 
+    .wr_ena(wrenrom),
+    .data(romdata10intt)
+);
+
+mem_gen5 #(WID) imem_gen87
+(
+    .clk(clk),
+    .addr(rdadd11), //using with 
+    .wr_ena(wrenrom),
+    .data(romdata11intt)
 );
 
 mem_gen4 #(18) imem_gen11
@@ -242,16 +268,22 @@ assign rdadd10 = triromadd[11:6];
 
 assign rdadd11 = triromadd[17:12];
 
+assign romdata00 = mainntt? romdata00ntt : romdata00intt;
+assign romdata10 = mainntt? romdata10ntt : romdata10intt;
+assign romdata11 = mainntt? romdata11ntt : romdata11intt;
+
 /////////////////////////////////////////////
 //main butterflys
 wire [1:0] butsel1,butsel2;
 wire bypass1,bypass2;
-
+wire selntt;
 assign bypass1 = nfsmcy4;
 assign bypass2 = 1'b0;
 
-assign butsel1 = {bypass1,mainntt};
-assign butsel2 = {bypass2,mainntt};
+assign selntt = mainntt? 1'b1 : 1'b0;
+
+assign butsel1 = {bypass1,selntt};
+assign butsel2 = {bypass2,selntt};
 
 wire [WID-1:0] u00,t00,u01,t01,u10,t10,u11,t11,u20,t20,u21,t21;
 wire [WID-1:0] w00,w10,w11;
@@ -319,7 +351,7 @@ assign t00 = rddata[35:24];
 assign u01 = rddata[23:12];//doi nguoc chieu` 0x64
 assign t01 = rddata[47:36];
 
-wire [WID-1:0] romdata00d,romdata10d,romdata01d;
+wire [WID-1:0] romdata00d,romdata10d,romdata11d;
 
 ffxkclkx #(2,WID) iffxkclkx66 (clk,rst,romdata00,romdata00d);
 ffxkclkx #(2,WID) iffxkclkx67 (clk,rst,romdata10,romdata10d);
@@ -369,7 +401,7 @@ always@(posedge clk) begin
     rdaddrg <= rdaddrg;
 end
 */
-assign rdadd = (mainntt)? nttadd : 
+assign rdadd = (mainntt|mainintt)? nttadd : 
                 maindataout? docnt : 5'd0;
 
 /////////////
@@ -431,8 +463,7 @@ assign data_out_done = docnt == 5'd31;
 
 assign caldone = maindatain? data_in_done :
                 maindataout? data_out_done :
-                mainntt? ntt_donedelay :
-                mainintt? intt_done :
+                (mainntt|mainintt)? ntt_donedelay :
                 1'b0;
 
 ///////////////////////
@@ -454,7 +485,7 @@ assign nttendc4 = nttcycle == 7'd127;
 always @(posedge clk) begin
     if(rst)
     nfsm <= N_IDLE;
-    else if(startntt)
+    else if(startntt|startintt)
     nfsm <= N_CY1;
     else if(nttendc1)
     nfsm <= N_CY2;
