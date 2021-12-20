@@ -1,112 +1,4 @@
 # Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v failed with 3 errors.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# 9 compiles, 1 failed with 3 errors.
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v failed with 1 errors.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# 9 compiles, 1 failed with 1 error.
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v failed with 1 errors.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# 9 compiles, 1 failed with 1 error.
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v failed with 1 errors.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# 9 compiles, 1 failed with 1 error.
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# 9 compiles, 0 failed with no errors.
-vsim -gui work.butterfly2_tb
-# vsim -gui work.butterfly2_tb 
-# Start time: 02:30:18 on Dec 08,2021
-# Loading work.butterfly2_tb
-# Loading work.butterfly2
-# Loading work.fflopx
-# Loading work.ffxkclkx
-# Loading work.poly_mod_add
-# ** Error: (vsim-3033) Instantiation of 'modhalfq' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 68
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# Loading work.poly_mod_diff
-# Loading work.sim_mult
-# Loading work.k2red
-# ** Error: (vsim-3033) Instantiation of 'full_sub' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 60
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'fulladder2f' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 61
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'fulladder2f' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 64
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'full_sub' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 102
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'fulladder2f' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 103
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'fulladder2f' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 108
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'fulladder2f' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ik2red File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 114
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'modhalfq' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 94
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'mux_xx1' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 106
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# ** Error: (vsim-3033) Instantiation of 'mux_xx1' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 107
-#         Searched libraries:
-#             K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/work
-# Error loading design
-# End time: 02:30:18 on Dec 08,2021, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 11
-# Compile of butterfly2.v was successful.
 # Compile of butterfly2_tb.v was successful.
 # Compile of fflopx.v was successful.
 # Compile of ffxkclk.v was successful.
@@ -124,53 +16,7 @@ vsim -gui work.butterfly2_tb
 # 15 compiles, 0 failed with no errors.
 vsim -gui work.butterfly2_tb
 # vsim -gui work.butterfly2_tb 
-# Start time: 02:31:31 on Dec 08,2021
-# Loading work.butterfly2_tb
-# Loading work.butterfly2
-# Loading work.fflopx
-# Loading work.ffxkclkx
-# Loading work.poly_mod_add
-# Loading work.modhalfq
-# Loading work.mux_xx1
-# Loading work.poly_mod_diff
-# Loading work.sim_mult
-# Loading work.k2red
-# Loading work.full_sub
-# Loading work.fulladder2f
-# Loading work.ffxkclk
-# Loading work.full_adder
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'idat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/fflopx.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/ifflopx2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 46
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'idat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/iffxkclkx1 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 51
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'odat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/iffxkclkx1 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 51
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'idat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(18).
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/iffxkclkx2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 70
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'odat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /butterfly2_tb/ibutterfly2/iffxkclkx2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v Line: 70
-# WARNING: No extended dataflow license exists
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# Compile of modhalfq.v was successful.
-# Compile of mux_xx1.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# 15 compiles, 0 failed with no errors.
-vsim -gui work.butterfly2_tb
-# End time: 02:34:15 on Dec 08,2021, Elapsed time: 0:02:44
-# Errors: 0, Warnings: 10
-# vsim -gui work.butterfly2_tb 
-# Start time: 02:34:15 on Dec 08,2021
+# Start time: 16:28:31 on Dec 18,2021
 # Loading work.butterfly2_tb
 # Loading work.butterfly2
 # Loading work.fflopx
@@ -186,150 +32,28 @@ vsim -gui work.butterfly2_tb
 # Loading work.ffxkclk
 # Loading work.full_adder
 # WARNING: No extended dataflow license exists
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 add wave -position insertpoint sim:/butterfly2_tb/*
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hakatu  Hostname: DESKTOP-B3O1HT9  ProcessID: 22780
+#           Attempting to use alternate WLF file "./wlftvreys7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvreys7
 add wave -position insertpoint sim:/butterfly2_tb/ibutterfly2/*
-restart -f
 run
 run
 run
-run
-run
-run
-run
-run
-run
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# Compile of modhalfq.v was successful.
-# Compile of mux_xx1.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# 15 compiles, 0 failed with no errors.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.butterfly2_tb
-# Loading work.butterfly2
-# Loading work.fflopx
-# Loading work.ffxkclkx
-# Loading work.poly_mod_add
-# Loading work.modhalfq
-# Loading work.mux_xx1
-# Loading work.poly_mod_diff
-# Loading work.sim_mult
-# Loading work.k2red
-# Loading work.full_sub
-# Loading work.fulladder2f
-# Loading work.ffxkclk
-# Loading work.full_adder
-run
-run
-run
-run
-run
-run
-run
-run
-run
 restart -f
 run
 run
 run
 run
-run
-run
-run
-run
-# Compile of butterfly2.v was successful.
-# Compile of butterfly2_tb.v was successful.
-# Compile of fflopx.v was successful.
-# Compile of ffxkclk.v was successful.
-# Compile of ffxkclkx.v was successful.
-# Compile of k2red.v was successful.
-# Compile of poly_mod_add.v was successful.
-# Compile of poly_mod_diff.v was successful.
-# Compile of sim_mult.v was successful.
-# Compile of modhalfq.v was successful.
-# Compile of mux_xx1.v was successful.
-# Compile of full_adder.v was successful.
-# Compile of full_sub.v was successful.
-# Compile of fulladder2f.v was successful.
-# Compile of half_adder.v was successful.
-# 15 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.butterfly2_tb
-# Loading work.butterfly2
-# Loading work.fflopx
-# Loading work.ffxkclkx
-# Loading work.poly_mod_add
-# Loading work.modhalfq
-# Loading work.mux_xx1
-# Loading work.poly_mod_diff
-# Loading work.sim_mult
-# Loading work.k2red
-# Loading work.full_sub
-# Loading work.fulladder2f
-# Loading work.ffxkclk
-# Loading work.full_adder
-run
-run
-run
-run
-run
-run
-# End time: 19:03:12 on Dec 08,2021, Elapsed time: 16:28:57
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf K:/kyber90sfpga/kyber90sfpga/modelsim-butterfly2/wave.do
+quit -sim
+# End time: 16:49:04 on Dec 18,2021, Elapsed time: 0:20:33
 # Errors: 0, Warnings: 1

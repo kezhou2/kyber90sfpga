@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Dec 19 22:35:07 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : polyunit_core2
+Top-level Entity Name : polyunit_core2
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 2235
+Total pins : 108
+Total virtual pins : 0
+Total block memory bits : 1,779
+Total DSP Blocks : 4
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

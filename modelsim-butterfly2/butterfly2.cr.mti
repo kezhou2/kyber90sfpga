@@ -82,12 +82,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	full_adder
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module butterfly2
+-- Compiling module poly_mod_diff
 
 Top level modules:
-	butterfly2
+	poly_mod_diff
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -95,12 +95,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	poly_mod_add
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module poly_mod_diff
-
-Top level modules:
-	poly_mod_diff
 
 } {} {}}

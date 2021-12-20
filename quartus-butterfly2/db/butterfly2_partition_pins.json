@@ -100,10 +100,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "sel[0]",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
@@ -112,23 +108,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "u[10]",
-					"strict" : false
-				},
-				{
-					"name" : "t[10]",
-					"strict" : false
-				},
-				{
-					"name" : "u[11]",
-					"strict" : false
-				},
-				{
-					"name" : "t[11]",
-					"strict" : false
-				},
-				{
-					"name" : "u[0]",
+					"name" : "sel[0]",
 					"strict" : false
 				},
 				{
@@ -136,7 +116,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "u[9]",
+					"name" : "u[0]",
 					"strict" : false
 				},
 				{
@@ -144,7 +124,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "u[8]",
+					"name" : "u[9]",
 					"strict" : false
 				},
 				{
@@ -152,7 +132,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "u[5]",
+					"name" : "u[8]",
 					"strict" : false
 				},
 				{
@@ -160,43 +140,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "u[6]",
+					"name" : "u[5]",
 					"strict" : false
 				},
 				{
-					"name" : "t[6]",
-					"strict" : false
-				},
-				{
-					"name" : "u[7]",
-					"strict" : false
-				},
-				{
-					"name" : "t[7]",
-					"strict" : false
-				},
-				{
-					"name" : "u[1]",
-					"strict" : false
-				},
-				{
-					"name" : "t[1]",
-					"strict" : false
-				},
-				{
-					"name" : "u[2]",
-					"strict" : false
-				},
-				{
-					"name" : "t[2]",
-					"strict" : false
-				},
-				{
-					"name" : "u[3]",
-					"strict" : false
-				},
-				{
-					"name" : "t[3]",
+					"name" : "t[4]",
 					"strict" : false
 				},
 				{
@@ -204,7 +152,63 @@
 					"strict" : false
 				},
 				{
-					"name" : "t[4]",
+					"name" : "t[3]",
+					"strict" : false
+				},
+				{
+					"name" : "u[3]",
+					"strict" : false
+				},
+				{
+					"name" : "t[2]",
+					"strict" : false
+				},
+				{
+					"name" : "u[2]",
+					"strict" : false
+				},
+				{
+					"name" : "t[1]",
+					"strict" : false
+				},
+				{
+					"name" : "u[1]",
+					"strict" : false
+				},
+				{
+					"name" : "t[6]",
+					"strict" : false
+				},
+				{
+					"name" : "u[6]",
+					"strict" : false
+				},
+				{
+					"name" : "t[7]",
+					"strict" : false
+				},
+				{
+					"name" : "u[7]",
+					"strict" : false
+				},
+				{
+					"name" : "t[10]",
+					"strict" : false
+				},
+				{
+					"name" : "u[10]",
+					"strict" : false
+				},
+				{
+					"name" : "t[11]",
+					"strict" : false
+				},
+				{
+					"name" : "u[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sel[1]",
 					"strict" : false
 				},
 				{
