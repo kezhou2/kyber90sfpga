@@ -295,3 +295,5 @@ add wave -position insertpoint sim:/polyunit_core2_tb/ipolyunit_core2/*
 run
 run
 run
+# End time: 12:04:06 on Dec 20,2021, Elapsed time: 10:30:42
+# Errors: 0, Warnings: 1
