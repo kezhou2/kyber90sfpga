@@ -1,0 +1,66 @@
+Fitter Finalize Stage Report for polyunit_core2
+Thu Jan  6 17:23:20 2022
+Quartus Prime Version 18.1.0 Build 222 09/21/2018 SJ Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter HSLP Summary
+  3. Finalize Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Fitter HSLP Summary                                                           ;
++--------------------------------------------------------+---------------+------+
+; Resource                                               ; Usage         ; %    ;
++--------------------------------------------------------+---------------+------+
+;                                                        ;               ;      ;
+; Programmable power technology high-speed tiles         ; 135 / 3,531   ; 4 %  ;
+; Programmable power technology low-power tiles          ; 3,396 / 3,531 ; 96 % ;
+;     -- low-power tiles that are used by the design     ; 213 / 3,396   ; 6 %  ;
+;     -- unused tiles (low-power)                        ; 3,183 / 3,396 ; 94 % ;
+;                                                        ;               ;      ;
+; Programmable power technology high-speed LAB tiles     ; 129 / 2,642   ; 5 %  ;
+; Programmable power technology low-power LAB tiles      ; 2,513 / 2,642 ; 95 % ;
+;     -- low-power LAB tiles that are used by the design ; 205 / 2,513   ; 8 %  ;
+;     -- unused LAB tiles (low-power)                    ; 2,308 / 2,513 ; 92 % ;
+;                                                        ;               ;      ;
++--------------------------------------------------------+---------------+------+
+
+
++-------------------+
+; Finalize Messages ;
++-------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 18.1.0 Build 222 09/21/2018 SJ Pro Edition
+    Info: Processing started: Thu Jan  6 17:20:02 2022
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = polyunit_core2
+Info: Revision = polyunit_core2
+Info (11888): Total time spent on timing analysis during Post-Routing is 0.32 seconds.
+
+
