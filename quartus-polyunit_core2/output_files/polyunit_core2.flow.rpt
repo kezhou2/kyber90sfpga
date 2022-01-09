@@ -1,21 +1,31 @@
 Flow report for polyunit_core2
-Sun Dec 19 22:37:20 2021
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Thu Jan  6 17:24:02 2022
+Quartus Prime Version 18.1.0 Build 222 09/21/2018 SJ Pro Edition
 
 
 ---------------------
 ; Table of Contents ;
 ---------------------
-  1. Legal Notice
-  2. Flow Summary
-  3. Flow Settings
-  4. Flow Non-Default Global Settings
-  5. Flow Elapsed Time
-  6. Flow OS Summary
-  7. Flow Log
-  8. Flow Messages
-  9. Flow Suppressed Messages
+  1. Parallel Compilation
+  2. Legal Notice
+  3. Flow Summary
+  4. Flow Settings
+  5. Flow Non-Default Global Settings
+  6. Flow Elapsed Time
+  7. Flow OS Summary
+  8. Flow Log
 
+
+
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 4      ;
+; Maximum used               ; 4      ;
++----------------------------+--------+
 
 
 ----------------
@@ -37,29 +47,26 @@ refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Dec 19 22:37:04 2021       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                   ; polyunit_core2                              ;
-; Top-level Entity Name           ; polyunit_core2                              ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CGXFC7C7F23C8                              ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1,288 / 56,480 ( 2 % )                      ;
-; Total registers                 ; 2154                                        ;
-; Total pins                      ; 108 / 268 ( 40 % )                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 1,779 / 7,024,640 ( < 1 % )                 ;
-; Total DSP Blocks                ; 4 / 156 ( 3 % )                             ;
-; Total HSSI RX PCSs              ; 0 / 6 ( 0 % )                               ;
-; Total HSSI PMA RX Deserializers ; 0 / 6 ( 0 % )                               ;
-; Total HSSI TX PCSs              ; 0 / 6 ( 0 % )                               ;
-; Total HSSI PMA TX Serializers   ; 0 / 6 ( 0 % )                               ;
-; Total PLLs                      ; 0 / 13 ( 0 % )                              ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
-+---------------------------------+---------------------------------------------+
++--------------------------------------------------------------------------+
+; Flow Summary                                                             ;
++-----------------------------+--------------------------------------------+
+; Flow Status                 ; Successful - Thu Jan  6 17:24:02 2022      ;
+; Quartus Prime Version       ; 18.1.0 Build 222 09/21/2018 SJ Pro Edition ;
+; Revision Name               ; polyunit_core2                             ;
+; Top-level Entity Name       ; polyunit_core2                             ;
+; Family                      ; Cyclone 10 GX                              ;
+; Device                      ; 10CX220YF780I5G                            ;
+; Timing Models               ; Final                                      ;
+; Logic utilization (in ALMs) ; 1,511 / 80,330 ( 2 % )                     ;
+; Total registers             ; 3682                                       ;
+; Total pins                  ; 108 / 340 ( 32 % )                         ;
+; Total virtual pins          ; 0                                          ;
+; Total block memory bits     ; 1,536 / 12,021,760 ( < 1 % )               ;
+; Total DSP Blocks            ; 2 / 192 ( 1 % )                            ;
+; Total HSSI RX channels      ; 0 / 12 ( 0 % )                             ;
+; Total HSSI TX channels      ; 0 / 12 ( 0 % )                             ;
+; Total PLLs                  ; 0 / 30 ( 0 % )                             ;
++-----------------------------+--------------------------------------------+
 
 
 +-----------------------------------------+
@@ -67,61 +74,72 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/19/2021 22:34:43 ;
+; Start date & time ; 01/06/2022 17:19:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; polyunit_core2      ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 104252179705287.163992808319088        ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                    ;
++-------------------------------------+----------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                              ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------------------+---------------+-------------+------------+
+; ALLOW_DSP_RETIMING                  ; On                                                 ; Off           ; --          ; --         ;
+; ALLOW_RAM_RETIMING                  ; On                                                 ; Off           ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 104252179705287.164146438301708                    ; --            ; --          ; --         ;
+; FITTER_EFFORT                       ; Standard Fit                                       ; Auto Fit      ; --          ; --         ;
+; GLOBAL_PLACEMENT_EFFORT             ; Maximum Effort                                     ; Normal        ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 100                                                ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                  ; --            ; --          ; --         ;
+; MUX_RESTRUCTURE                     ; Off                                                ; Auto          ; --          ; --         ;
+; OPTIMIZATION_MODE                   ; Superior Performance with Maximum Placement Effort ; Balanced      ; --          ; --         ;
+; OPTIMIZATION_TECHNIQUE              ; Speed                                              ; Balanced      ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)             ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)             ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)             ; --            ; --          ; Top        ;
+; PHYSICAL_SYNTHESIS                  ; On                                                 ; Off           ; --          ; --         ;
+; PLACEMENT_EFFORT_MULTIPLIER         ; 4.0                                                ; 1.0           ; --          ; --         ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW              ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                       ; --            ; --          ; --         ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL    ; MAXIMUM                                            ; Normal        ; --          ; --         ;
++-------------------------------------+----------------------------------------------------+---------------+-------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4871 MB             ; 00:00:32                           ;
-; Fitter               ; 00:01:35     ; 1.1                     ; 6868 MB             ; 00:02:41                           ;
-; Assembler            ; 00:00:15     ; 1.0                     ; 4846 MB             ; 00:00:11                           ;
-; Timing Analyzer      ; 00:00:15     ; 1.7                     ; 5294 MB             ; 00:00:19                           ;
-; Total                ; 00:02:28     ; --                      ; --                  ; 00:03:43                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                              ;
++-----------------+--------------+-------------------------+---------------------+
+; Module Name     ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ;
++-----------------+--------------+-------------------------+---------------------+
+; Synthesis       ; 00:00:19     ; 1.0                     ; 5129 MB             ;
+; Fitter          ; 00:03:19     ; 1.1                     ; 9002 MB             ;
+; Timing Analyzer ; 00:00:14     ; 1.1                     ; 6764 MB             ;
+; Assembler       ; 00:00:16     ; 1.5                     ; 6505 MB             ;
+; Total           ; 00:04:08     ; --                      ; --                  ;
++-----------------+--------------+-------------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++-------------------------------------------------------------------------------+
+; Flow OS Summary                                                               ;
++-----------------+------------------+------------+------------+----------------+
+; Module Name     ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-----------------+------------------+------------+------------+----------------+
+; Synthesis       ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter          ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler       ; DESKTOP-B3O1HT9  ; Windows 10 ; 10.0       ; x86_64         ;
++-----------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
-quartus_fit --read_settings_files=off --write_settings_files=off polyunit_core2 -c polyunit_core2
-quartus_asm --read_settings_files=off --write_settings_files=off polyunit_core2 -c polyunit_core2
-quartus_sta polyunit_core2 -c polyunit_core2
+quartus_syn --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
+quartus_syn --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
+quartus_fit --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
+quartus_sta polyunit_core2 -c polyunit_core2 --mode=finalize
+quartus_asm --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
 
 
 

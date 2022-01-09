@@ -92,7 +92,7 @@ wire nfsmcy4;
 
 assign nfsmcy4 = nfsm == N_CY4;
 
-reg [6:0] nttcycle; //max to 127
+reg [6:0] nttcycle; //max to 130
 wire sixrelease;
 reg [2:0] sixcnt;
 
@@ -199,8 +199,8 @@ wire wrenrom;
 wire [WID-1:0] romdata00,romdata10,romdata11;
 wire [WID-1:0] romdata00ntt,romdata10ntt,romdata11ntt;
 wire [WID-1:0] romdata00intt,romdata10intt,romdata11intt;
-wire [5:0] rdadd00,rdadd10,rdadd11;//64 
-wire [17:0] triromadd;
+wire [6:0] rdadd00,rdadd10,rdadd11;//64 
+wire [20:0] triromadd;
 
 mem_gen1 #(WID) imem_gen1
 (
@@ -250,7 +250,7 @@ mem_gen5 #(WID) imem_gen87
     .data(romdata11intt)
 );
 
-mem_gen4 #(18) imem_gen11
+mem_gen4 #(21) imem_gen11
 (
     .clk(clk),
     .addr(nttcycle), //using with 
@@ -262,11 +262,11 @@ assign wrenrom = 1'b0; //gan gia tri tranh float
 
 //ROM address logic (temp of course)
 
-assign rdadd00 = triromadd[5:0];
+assign rdadd00 = triromadd[6:0];
 
-assign rdadd10 = triromadd[11:6];
+assign rdadd10 = triromadd[13:7];
 
-assign rdadd11 = triromadd[17:12];
+assign rdadd11 = triromadd[20:14];
 
 assign romdata00 = mainntt? romdata00ntt : romdata00intt;
 assign romdata10 = mainntt? romdata10ntt : romdata10intt;
@@ -277,7 +277,7 @@ assign romdata11 = mainntt? romdata11ntt : romdata11intt;
 wire [1:0] butsel1,butsel2;
 wire bypass1,bypass2;
 wire selntt;
-assign bypass1 = nfsmcy4;
+assign bypass1 = (mainntt&nfsmcy4)|(mainintt&nfsmcy1);//vi tri sua cuoi cung
 assign bypass2 = 1'b0;
 
 assign selntt = mainntt? 1'b1 : 1'b0;
@@ -368,9 +368,9 @@ wire [DWID-1:0] butd1,butd2,butd3,butd4;
 wire [1:0] wreno;//write enabler number
 
 sipo isipo1 (clk,rst,u20,butd1);
-sipo isipo2 (clk,rst,t20,butd2);
-sipo isipo3 (clk,rst,u21,butd3);
-sipo isipo4 (clk,rst,t21,butd4);
+sipo5 isipo2 (clk,rst,t20,butd2);
+sipo6 isipo3 (clk,rst,u21,butd3);
+sipo7 isipo4 (clk,rst,t21,butd4);
 
 assign butwrdata = (wreno == 2'b01)? butd2:
                     (wreno == 2'b10)? butd3:
@@ -409,7 +409,7 @@ assign rdadd = (mainntt|mainintt)? nttadd :
 ////
 wire [4:0] nttadddelay;
 
-ffxkclkx #(27,5) iffxkclkx5 (clk,rst,nttadd,nttadddelay);
+ffxkclkx #(30,5) iffxkclkx5 (clk,rst,nttadd,nttadddelay);
 
 //test delay
 
@@ -435,7 +435,7 @@ end
 assign wrenntt = !nfsmidle&!ntthalt;
 
 wire wrennttdelay;
-ffxkclkx #(27,1) iffxkclkx6 (clk,rst,wrenntt,wrennttdelay);
+ffxkclkx #(30,1) iffxkclkx6 (clk,rst,wrenntt,wrennttdelay);
 
 assign wren = maindatain? wrenrg :
                 mainntt? wrennttdelay : 1'b0;
@@ -521,7 +521,7 @@ assign ntt_done = nttendc4;
 
 
 
-ffxkclkx #(27,1) iffxkclkx65 (clk,rst,ntt_done,ntt_donedelay);
+ffxkclkx #(30,1) iffxkclkx65 (clk,rst,ntt_done,ntt_donedelay);
 
 //ntt cycle counter
 
@@ -554,7 +554,7 @@ assign sixrelease = sixcnt == 6;
 //wreno for sipos sequence
 wire [1:0] nttcycledelay;
 
-ffxkclkx #(27,2) iffxkclkx91 (clk,rst,nttcycle[1:0],nttcycledelay);
+ffxkclkx #(30,2) iffxkclkx91 (clk,rst,nttcycle[1:0],nttcycledelay);
 
 assign wreno = nttcycledelay;
 

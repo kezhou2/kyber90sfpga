@@ -200,11 +200,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "mode[1]",
+					"name" : "mode[0]",
 					"strict" : false
 				},
 				{
-					"name" : "mode[0]",
+					"name" : "mode[1]",
 					"strict" : false
 				},
 				{

@@ -75,6 +75,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fflopx
 
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo5.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sipo5
+
+Top level modules:
+	sipo5
+
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module k2red
@@ -82,26 +89,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	k2red
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo6.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo6.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module modhalfq_tb
+-- Compiling module sipo6
 
 Top level modules:
-	modhalfq_tb
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ffxkclk
-
-Top level modules:
-	ffxkclk
-
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ffxkclkx
-
-Top level modules:
-	ffxkclkx
+	sipo6
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen1.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -110,19 +103,33 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mem_gen1
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mem_gen2
+-- Compiling module ffxkclkx
 
 Top level modules:
-	mem_gen2
+	ffxkclkx
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclk.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module sim_mult
+-- Compiling module ffxkclk
 
 Top level modules:
-	sim_mult
+	ffxkclk
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/modhalfq_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module modhalfq_tb
+
+Top level modules:
+	modhalfq_tb
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo7.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sipo7
+
+Top level modules:
+	sipo7
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/full_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -131,12 +138,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	full_adder
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sim_mult.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module poly_mod_diff
+-- Compiling module sim_mult
 
 Top level modules:
-	poly_mod_diff
+	sim_mult
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_gen2
+
+Top level modules:
+	mem_gen2
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sipo
+
+Top level modules:
+	sipo
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_add.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -144,6 +165,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	poly_mod_add
+
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_gen3
+
+Top level modules:
+	mem_gen3
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/addsub.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -153,13 +181,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	addsub_tb
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/sipo.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module sipo
-
-Top level modules:
-	sipo
-
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/butterfly2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module butterfly2
@@ -167,12 +188,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	butterfly2
 
-} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen3.v
+} {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/poly_mod_diff.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mem_gen3
+-- Compiling module poly_mod_diff
 
 Top level modules:
-	mem_gen3
+	poly_mod_diff
 
 } {} {}} K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen4.v {1 {vlog -work work -stats=none K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen4.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

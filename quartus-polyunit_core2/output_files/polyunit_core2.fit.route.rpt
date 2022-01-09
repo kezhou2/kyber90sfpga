@@ -1,0 +1,313 @@
+Fitter Route Stage Report for polyunit_core2
+Thu Jan  6 17:22:58 2022
+Quartus Prime Version 18.1.0 Build 222 09/21/2018 SJ Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Delay Chain Summary
+  3. Routing Usage Summary
+  4. Route Messages
+  5. Estimated Delay Added for Hold Timing Summary
+  6. Estimated Delay Added for Hold Timing Details
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                                                                                             ;
++----------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; Name           ; Pin Type ; Input Delay Chain 0 ; Output Delay Chain ; OE Delay Chain ; IO_12_LANE Input Data Delay Chain ; IO_12_LANE Input Strobe Delay Chain ;
++----------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; data_out[0]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[1]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[2]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[3]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[4]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[5]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[6]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[7]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[8]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[9]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[10]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[11]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[12]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[13]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[14]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[15]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[16]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[17]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[18]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[19]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[20]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[21]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[22]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[23]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[24]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[25]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[26]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[27]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[28]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[29]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[30]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[31]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[32]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[33]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[34]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[35]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[36]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[37]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[38]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[39]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[40]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[41]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[42]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[43]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[44]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[45]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[46]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; data_out[47]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; done           ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; clk            ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; run            ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; mode[0]        ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; mode[1]        ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in_done   ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; rst            ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in_add[0] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in_add[1] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in_add[2] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in_add[3] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in_add[4] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[0]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[1]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[2]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[3]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[4]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[5]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[6]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[7]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[8]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[9]     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[10]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[11]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[12]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[13]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[14]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[15]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[16]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[17]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[18]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[19]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[20]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[21]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[22]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[23]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[24]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[25]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[26]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[27]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[28]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[29]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[30]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[31]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[32]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[33]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[34]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[35]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[36]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[37]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[38]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[39]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[40]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[41]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[42]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[43]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[44]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[45]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[46]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; data_in[47]    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
++----------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+
+
++----------------------------------------------------------+
+; Routing Usage Summary                                    ;
++------------------------------+---------------------------+
+; Routing Resource Type        ; Usage                     ;
++------------------------------+---------------------------+
+; Block interconnects          ; 6,160 / 664,374 ( < 1 % ) ;
+; C27 interconnects            ; 47 / 12,769 ( < 1 % )     ;
+; C4 interconnects             ; 2,440 / 514,392 ( < 1 % ) ;
+; Direct links                 ; 1,519 / 664,374 ( < 1 % ) ;
+; Global clocks                ; 1 / 32 ( 3 % )            ;
+; Periphery clocks             ; 0 / 410 ( 0 % )           ;
+; R3 interconnects             ; 2,071 / 246,936 ( < 1 % ) ;
+; R32 interconnects            ; 74 / 28,257 ( < 1 % )     ;
+; R32/C27 interconnect drivers ; 58 / 74,920 ( < 1 % )     ;
+; R6 interconnects             ; 3,231 / 527,108 ( < 1 % ) ;
+; Regional clock lefts         ; 0 / 8 ( 0 % )             ;
+; Regional clock out bottoms   ; 0 / 8 ( 0 % )             ;
+; Regional clock out tops      ; 0 / 8 ( 0 % )             ;
+; Regional clock rights        ; 0 / 8 ( 0 % )             ;
+; Regional clocks              ; 0 / 8 ( 0 % )             ;
+; Spine buffers                ; 1 / 220 ( < 1 % )         ;
+; Spine clocks                 ; 1 / 330 ( < 1 % )         ;
+; Spine feedthroughs           ; 0 / 224 ( 0 % )           ;
++------------------------------+---------------------------+
+
+
++----------------+
+; Route Messages ;
++----------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 18.1.0 Build 222 09/21/2018 SJ Pro Edition
+    Info: Processing started: Thu Jan  6 17:20:02 2022
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off polyunit_core2 -c polyunit_core2
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = polyunit_core2
+Info: Revision = polyunit_core2
+Info (170193): Fitter routing operations beginning
+Info (11888): Total time spent on timing analysis during Routing is 1.79 seconds.
+
+
++------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary              ;
++-----------------+----------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
++-----------------+----------------------+-------------------+
+; clk             ; clk                  ; 501.3             ;
++-----------------+----------------------+-------------------+
+Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
+This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                                                    ;
++--------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+; Source Register                                        ; Destination Register                                                ; Delay Added in ns ;
++--------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+; ibutterfly1|iffxkclkx12|i_bit[6].flxodat|shift_dat[10] ; ibutterfly1|iffxkclkx12|i_bit[6].flxodat|shift_dat[11]              ; 0.313             ;
+; ibutterfly4|ipoly_mod_add|ifflopx2|odat[2]             ; ibutterfly4|ipoly_mod_add|ifflopx3|odat[2]                          ; 0.307             ;
+; ibutterfly3|iffxkclkx1|i_bit[1].flxodat|shift_dat[4]   ; ibutterfly3|iffxkclkx1|i_bit[1].flxodat|shift_dat[5]                ; 0.300             ;
+; ibutterfly4|iffxkclkx1|i_bit[0].flxodat|shift_dat[1]   ; ibutterfly4|iffxkclkx1|i_bit[0].flxodat|shift_dat[2]                ; 0.296             ;
+; main_state.P_DATAIN                                    ; docnt[4]                                                            ; 0.292             ;
+; imem_gen1|data[6]                                      ; iffxkclkx66|i_bit[6].flxodat|shift_dat[0]                           ; 0.289             ;
+; ibutterfly1|ipoly_mod_add|ifflopx1|odat[9]             ; ibutterfly1|ipoly_mod_add|ifflopx2|odat[9]                          ; 0.289             ;
+; main_state.P_DATAOUT                                   ; ialram112x|ra_reg[2]                                                ; 0.289             ;
+; imem_gen85|data[9]                                     ; iffxkclkx66|i_bit[9].flxodat|shift_dat[0]                           ; 0.286             ;
+; ibutterfly1|ik2red|ifflopx7|odat[10]                   ; ibutterfly1|ik2red|iffxkclkx1|i_bit[11].flxodat|shift_dat[0]~RTM_36 ; 0.286             ;
+; nttcycle[6]                                            ; imem_gen11|data[8]                                                  ; 0.286             ;
+; nttcycle[2]                                            ; imem_gen11|data[10]                                                 ; 0.286             ;
+; ibutterfly2|ipoly_mod_diff|ifflopx2|odat[10]           ; ibutterfly2|ipoly_mod_diff|ifflopx3|odat[10]                        ; 0.285             ;
+; ibutterfly1|iffxkclkx2|i_bit[6].flxodat|shift_dat[1]   ; ibutterfly1|iffxkclkx2|i_bit[6].flxodat|shift_dat[2]                ; 0.282             ;
+; ibutterfly2|iffxkclkx11|i_bit[1].flxodat|shift_dat[1]  ; ibutterfly4|ifflopx2|odat[1]                                        ; 0.282             ;
+; ibutterfly1|iffxkclkx12|i_bit[3].flxodat|shift_dat[10] ; ibutterfly1|iffxkclkx12|i_bit[3].flxodat|shift_dat[11]              ; 0.282             ;
+; isipo4|siporeg[10]                                     ; isipo4|siporeg[22]                                                  ; 0.282             ;
+; main_state.P_INTT                                      ; ialram112x|ra_reg[4]                                                ; 0.282             ;
+; ibutterfly3|iffxkclkx2|i_bit[2].flxodat|shift_dat[0]   ; ibutterfly3|iffxkclkx2|i_bit[2].flxodat|shift_dat[1]                ; 0.279             ;
+; ibutterfly4|iffxkclkx11|i_bit[3].flxodat|shift_dat[1]  ; isipo4|siporeg[3]                                                   ; 0.279             ;
+; ibutterfly4|ipoly_mod_add|ifflopx2|odat[4]             ; ibutterfly4|ipoly_mod_add|ifflopx3|odat[4]                          ; 0.279             ;
+; nttcycle[1]                                            ; imem_gen4|data[1]                                                   ; 0.279             ;
+; ibutterfly1|iffxkclkx14|i_bit[2].flxodat|shift_dat[9]  ; ibutterfly1|iffxkclkx14|i_bit[2].flxodat|shift_dat[10]              ; 0.279             ;
+; ibutterfly2|iffxkclkx2|i_bit[0].flxodat|shift_dat[4]   ; ibutterfly2|iffxkclkx2|i_bit[0].flxodat|shift_dat[5]                ; 0.279             ;
+; ibutterfly1|ipoly_mod_add|ifflopx3|odat[11]            ; ibutterfly1|imodhalfq1|ifflopx1|odat[11]                            ; 0.279             ;
+; ibutterfly3|imodhalfq1|ifflopx4|odat[8]                ; ibutterfly3|iffxkclkx2|i_bit[8].flxodat|shift_dat[0]                ; 0.279             ;
+; ibutterfly3|ik2red|ifflopx1|odat[6]                    ; ibutterfly3|imodhalfq2|ifflopx1|odat[6]                             ; 0.279             ;
+; ibutterfly3|ipoly_mod_add|ifflopx2|odat[9]             ; ibutterfly3|ipoly_mod_add|ifflopx3|odat[9]                          ; 0.279             ;
+; main_state.P_NTT                                       ; ialram112x|ra_reg[0]                                                ; 0.279             ;
+; ibutterfly4|ik2red|ifflopx1|odat[0]                    ; ibutterfly4|imodhalfq2|ifflopx1|odat[0]                             ; 0.278             ;
+; ibutterfly2|iffxkclkx14|i_bit[6].flxodat|shift_dat[9]  ; ibutterfly2|iffxkclkx14|i_bit[6].flxodat|shift_dat[10]              ; 0.278             ;
+; ibutterfly2|iffxkclkx1|i_bit[10].flxodat|shift_dat[4]  ; ibutterfly2|iffxkclkx1|i_bit[10].flxodat|shift_dat[5]               ; 0.278             ;
+; ibutterfly3|iffxkclkx1|i_bit[1].flxodat|shift_dat[0]   ; ibutterfly3|iffxkclkx1|i_bit[1].flxodat|shift_dat[1]                ; 0.275             ;
+; ibutterfly4|iffxkclkx1|i_bit[10].flxodat|shift_dat[4]  ; ibutterfly4|iffxkclkx1|i_bit[10].flxodat|shift_dat[5]               ; 0.275             ;
+; ibutterfly2|iffxkclkx11|i_bit[6].flxodat|shift_dat[1]  ; ibutterfly4|ifflopx2|odat[6]                                        ; 0.275             ;
+; ibutterfly2|iffxkclkx11|i_bit[11].flxodat|shift_dat[1] ; ibutterfly4|ifflopx2|odat[11]                                       ; 0.275             ;
+; isipo2|siporeg[34]                                     ; isipo2|siporeg[46]                                                  ; 0.275             ;
+; ibutterfly2|iffxkclkx14|i_bit[8].flxodat|shift_dat[1]  ; ibutterfly2|iffxkclkx14|i_bit[8].flxodat|shift_dat[2]               ; 0.275             ;
+; iffxkclkx67|i_bit[2].flxodat|shift_dat[1]              ; ibutterfly3|ifflopx3|odat[2]                                        ; 0.275             ;
+; iffxkclkx5|i_bit[3].flxodat|shift_dat[20]              ; iffxkclkx5|i_bit[3].flxodat|shift_dat[21]                           ; 0.272             ;
+; nttcycle[4]                                            ; imem_gen4|data[4]                                                   ; 0.272             ;
+; ibutterfly4|iffxkclkx1|i_bit[10].flxodat|shift_dat[1]  ; ibutterfly4|iffxkclkx1|i_bit[10].flxodat|shift_dat[2]               ; 0.272             ;
+; ibutterfly1|iffxkclkx12|i_bit[7].flxodat|shift_dat[11] ; ibutterfly3|ifflopx1|odat[7]                                        ; 0.272             ;
+; ibutterfly4|ik2red|ifflopx6|odat[1]                    ; ibutterfly4|ik2red|ifflopx9|odat[4]                                 ; 0.272             ;
+; ibutterfly4|ik2red|ifflopx7|odat[10]                   ; ibutterfly4|ik2red|iffxkclkx1|i_bit[11].flxodat|shift_dat[0]~RTM_36 ; 0.272             ;
+; ibutterfly3|ik2red|ifflopx6|odat[1]                    ; ibutterfly3|ik2red|ifflopx10|odat[3]                                ; 0.272             ;
+; ntthalt                                                ; sixcnt[0]                                                           ; 0.272             ;
+; ibutterfly2|iffxkclkx1|i_bit[1].flxodat|shift_dat[1]   ; ibutterfly2|iffxkclkx1|i_bit[1].flxodat|shift_dat[2]                ; 0.272             ;
+; ibutterfly1|iffxkclkx1|i_bit[11].flxodat|shift_dat[3]  ; ibutterfly1|iffxkclkx1|i_bit[11].flxodat|shift_dat[4]               ; 0.271             ;
+; imem_gen1|data[9]                                      ; iffxkclkx66|i_bit[9].flxodat|shift_dat[0]                           ; 0.271             ;
+; iffxkclkx66|i_bit[11].flxodat|shift_dat[0]             ; iffxkclkx66|i_bit[11].flxodat|shift_dat[1]                          ; 0.271             ;
+; ibutterfly2|iffxkclkx1|i_bit[10].flxodat|shift_dat[1]  ; ibutterfly2|iffxkclkx1|i_bit[10].flxodat|shift_dat[2]               ; 0.271             ;
+; ibutterfly2|iffxkclkx12|i_bit[1].flxodat|shift_dat[4]  ; ibutterfly2|iffxkclkx12|i_bit[1].flxodat|shift_dat[5]               ; 0.271             ;
+; ibutterfly1|iffxkclkx2|i_bit[10].flxodat|shift_dat[0]  ; ibutterfly1|iffxkclkx2|i_bit[10].flxodat|shift_dat[1]               ; 0.271             ;
+; ibutterfly1|iffxkclkx12|i_bit[5].flxodat|shift_dat[9]  ; ibutterfly1|iffxkclkx12|i_bit[5].flxodat|shift_dat[10]              ; 0.271             ;
+; ibutterfly3|iffxkclkx2|i_bit[2].flxodat|shift_dat[2]   ; ibutterfly3|iffxkclkx2|i_bit[2].flxodat|shift_dat[3]                ; 0.271             ;
+; ibutterfly2|ipoly_mod_diff|ifflopx2|odat[8]            ; ibutterfly2|ipoly_mod_diff|ifflopx3|odat[8]                         ; 0.271             ;
+; ibutterfly2|iffxkclkx14|i_bit[7].flxodat|shift_dat[9]  ; ibutterfly2|iffxkclkx14|i_bit[7].flxodat|shift_dat[10]              ; 0.269             ;
+; imem_gen4|data[4]                                      ; ialram112x|ra_reg[4]                                                ; 0.269             ;
+; ibutterfly2|iffxkclkx14|i_bit[11].flxodat|shift_dat[0] ; ibutterfly2|iffxkclkx14|i_bit[11].flxodat|shift_dat[1]              ; 0.269             ;
+; ibutterfly1|iffxkclkx12|i_bit[1].flxodat|shift_dat[8]  ; ibutterfly1|iffxkclkx12|i_bit[1].flxodat|shift_dat[9]               ; 0.269             ;
+; ibutterfly1|imodhalfq1|ifflopx3|odat[0]                ; ibutterfly1|iffxkclkx2|i_bit[0].flxodat|shift_dat[0]                ; 0.269             ;
+; iffxkclkx65|i_bit[0].flxodat|shift_dat[9]              ; iffxkclkx65|i_bit[0].flxodat|shift_dat[10]                          ; 0.269             ;
+; ibutterfly1|iffxkclkx12|i_bit[6].flxodat|shift_dat[1]  ; ibutterfly1|iffxkclkx12|i_bit[6].flxodat|shift_dat[2]               ; 0.269             ;
+; ibutterfly1|iffxkclkx12|i_bit[1].flxodat|shift_dat[4]  ; ibutterfly1|iffxkclkx12|i_bit[1].flxodat|shift_dat[5]               ; 0.269             ;
+; ibutterfly3|iffxkclkx2|i_bit[10].flxodat|shift_dat[4]  ; ibutterfly3|iffxkclkx2|i_bit[10].flxodat|shift_dat[5]               ; 0.269             ;
+; ibutterfly4|ipoly_mod_add|ifflopx3|odat[0]             ; ibutterfly4|iffxkclkx10|i_bit[0].flxodat|shift_dat[0]               ; 0.268             ;
+; ibutterfly1|iffxkclkx5|i_bit[0].flxodat|shift_dat[0]   ; ibutterfly1|iffxkclkx5|i_bit[0].flxodat|shift_dat[1]                ; 0.268             ;
+; ibutterfly2|iffxkclkx14|i_bit[11].flxodat|shift_dat[2] ; ibutterfly2|iffxkclkx14|i_bit[11].flxodat|shift_dat[3]              ; 0.268             ;
+; ibutterfly3|iffxkclkx1|i_bit[1].flxodat|shift_dat[2]   ; ibutterfly3|iffxkclkx1|i_bit[1].flxodat|shift_dat[3]                ; 0.268             ;
+; ibutterfly4|iffxkclkx10|i_bit[10].flxodat|shift_dat[1] ; isipo3|siporeg[10]                                                  ; 0.268             ;
+; ibutterfly1|ifflopx4|odat[1]                           ; ibutterfly1|iffxkclkx5|i_bit[1].flxodat|shift_dat[0]                ; 0.268             ;
+; ibutterfly3|imodhalfq1|ifflopx3|odat[9]                ; ibutterfly3|iffxkclkx2|i_bit[9].flxodat|shift_dat[0]                ; 0.268             ;
+; isipo2|siporeg[2]                                      ; isipo2|siporeg[14]                                                  ; 0.268             ;
+; ibutterfly1|iffxkclkx1|i_bit[1].flxodat|shift_dat[2]   ; ibutterfly1|iffxkclkx1|i_bit[1].flxodat|shift_dat[3]                ; 0.268             ;
+; ibutterfly1|iffxkclkx5|i_bit[1].flxodat|shift_dat[2]   ; ibutterfly1|iffxkclkx5|i_bit[1].flxodat|shift_dat[3]                ; 0.265             ;
+; ibutterfly2|iffxkclkx12|i_bit[11].flxodat|shift_dat[3] ; ibutterfly2|iffxkclkx12|i_bit[11].flxodat|shift_dat[4]              ; 0.265             ;
+; ibutterfly1|iffxkclkx14|i_bit[7].flxodat|shift_dat[9]  ; ibutterfly1|iffxkclkx14|i_bit[7].flxodat|shift_dat[10]              ; 0.265             ;
+; ibutterfly1|imodhalfq1|ifflopx3|odat[6]                ; ibutterfly1|iffxkclkx2|i_bit[6].flxodat|shift_dat[0]                ; 0.265             ;
+; ibutterfly3|imodhalfq1|ifflopx4|odat[1]                ; ibutterfly3|iffxkclkx2|i_bit[1].flxodat|shift_dat[0]                ; 0.265             ;
+; ibutterfly3|ipoly_mod_add|ifflopx1|odat[2]             ; ibutterfly3|ipoly_mod_add|ifflopx2|odat[2]                          ; 0.265             ;
+; ibutterfly3|imodhalfq2|ifflopx3|odat[7]                ; isipo2|siporeg[7]                                                   ; 0.265             ;
+; ibutterfly1|iffxkclkx14|i_bit[7].flxodat|shift_dat[3]  ; ibutterfly1|iffxkclkx14|i_bit[7].flxodat|shift_dat[4]               ; 0.265             ;
+; iffxkclkx5|i_bit[1].flxodat|shift_dat[12]              ; iffxkclkx5|i_bit[1].flxodat|shift_dat[13]                           ; 0.265             ;
+; iffxkclkx91|i_bit[0].flxodat|shift_dat[13]             ; iffxkclkx91|i_bit[0].flxodat|shift_dat[14]                          ; 0.265             ;
+; ibutterfly1|iffxkclkx1|i_bit[8].flxodat|shift_dat[4]   ; ibutterfly1|iffxkclkx1|i_bit[8].flxodat|shift_dat[5]                ; 0.265             ;
+; ibutterfly2|imodhalfq1|ifflopx3|odat[9]                ; ibutterfly2|iffxkclkx2|i_bit[9].flxodat|shift_dat[0]                ; 0.265             ;
+; ibutterfly4|ifflopx1|odat[10]                          ; ibutterfly4|iffxkclkx1|i_bit[10].flxodat|shift_dat[0]               ; 0.265             ;
+; imem_gen1|data[7]                                      ; iffxkclkx66|i_bit[7].flxodat|shift_dat[0]                           ; 0.265             ;
+; ibutterfly1|ik2red|ifflopx9|odat[7]                    ; ibutterfly1|ik2red|iffxkclkx1|i_bit[11].flxodat|shift_dat[0]~RTM_33 ; 0.265             ;
+; ibutterfly2|iffxkclkx12|i_bit[5].flxodat|shift_dat[4]  ; ibutterfly2|iffxkclkx12|i_bit[5].flxodat|shift_dat[5]               ; 0.264             ;
+; ibutterfly1|iffxkclkx2|i_bit[4].flxodat|shift_dat[2]   ; ibutterfly1|iffxkclkx2|i_bit[4].flxodat|shift_dat[3]                ; 0.264             ;
+; iffxkclkx66|i_bit[0].flxodat|shift_dat[1]              ; ibutterfly1|ifflopx3|odat[0]                                        ; 0.264             ;
+; ibutterfly1|iffxkclkx14|i_bit[3].flxodat|shift_dat[3]  ; ibutterfly1|iffxkclkx14|i_bit[3].flxodat|shift_dat[4]               ; 0.264             ;
+; ibutterfly2|iffxkclkx14|i_bit[2].flxodat|shift_dat[5]  ; ibutterfly2|iffxkclkx14|i_bit[2].flxodat|shift_dat[6]               ; 0.264             ;
+; ibutterfly2|iffxkclkx12|i_bit[7].flxodat|shift_dat[5]  ; ibutterfly2|iffxkclkx12|i_bit[7].flxodat|shift_dat[6]               ; 0.264             ;
+; ibutterfly4|iffxkclkx2|i_bit[5].flxodat|shift_dat[3]   ; ibutterfly4|iffxkclkx2|i_bit[5].flxodat|shift_dat[4]                ; 0.264             ;
+; ibutterfly1|iffxkclkx12|i_bit[6].flxodat|shift_dat[0]  ; ibutterfly1|iffxkclkx12|i_bit[6].flxodat|shift_dat[1]               ; 0.264             ;
+; ibutterfly2|iffxkclkx12|i_bit[2].flxodat|shift_dat[5]  ; ibutterfly2|iffxkclkx12|i_bit[2].flxodat|shift_dat[6]               ; 0.264             ;
+; ibutterfly4|iffxkclkx10|i_bit[10].flxodat|shift_dat[0] ; ibutterfly4|iffxkclkx10|i_bit[10].flxodat|shift_dat[1]              ; 0.264             ;
++--------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
+
+

@@ -1,20 +1,17 @@
-Fitter Status : Successful - Sun Dec 19 22:36:44 2021
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Fitter Status : Successful - Thu Jan  6 17:23:21 2022
+Quartus Prime Version : 18.1.0 Build 222 09/21/2018 SJ Pro Edition
 Revision Name : polyunit_core2
 Top-level Entity Name : polyunit_core2
-Family : Cyclone V
-Device : 5CGXFC7C7F23C8
+Family : Cyclone 10 GX
+Device : 10CX220YF780I5G
 Timing Models : Final
-Logic utilization (in ALMs) : 1,288 / 56,480 ( 2 % )
-Total registers : 2154
-Total pins : 108 / 268 ( 40 % )
+Logic utilization (in ALMs) : 1,511 / 80,330 ( 2 % )
+Total registers : 3682
+Total pins : 108 / 340 ( 32 % )
 Total virtual pins : 0
-Total block memory bits : 1,779 / 7,024,640 ( < 1 % )
-Total RAM Blocks : 3 / 686 ( < 1 % )
-Total DSP Blocks : 4 / 156 ( 3 % )
-Total HSSI RX PCSs : 0 / 6 ( 0 % )
-Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
-Total HSSI TX PCSs : 0 / 6 ( 0 % )
-Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
-Total PLLs : 0 / 13 ( 0 % )
-Total DLLs : 0 / 4 ( 0 % )
+Total block memory bits : 1,536 / 12,021,760 ( < 1 % )
+Total RAM Blocks : 2 / 587 ( < 1 % )
+Total DSP Blocks : 2 / 192 ( 1 % )
+Total HSSI RX channels : 0 / 12 ( 0 % )
+Total HSSI TX channels : 0 / 12 ( 0 % )
+Total PLLs : 0 / 30 ( 0 % )
