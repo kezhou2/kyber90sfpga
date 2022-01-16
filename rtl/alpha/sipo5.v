@@ -1,10 +1,10 @@
-module sipo5 (clk, rst, di, do);
+module sipo5 (clk, rst, di, dout);
 parameter IWID = 12;
 parameter OWID = IWID*5;
 input clk;
 input rst;
 input [IWID-1:0] di;
-output [IWID*4-1:0] do;
+output [IWID*4-1:0] dout;
 
 reg [OWID-1:0] siporeg;
 
@@ -23,6 +23,6 @@ always @(posedge clk) begin
     end
 end
 
-assign do = siporeg[OWID-1:12];
+assign dout = {siporeg[23:12],siporeg[35:24],siporeg[47:36],siporeg[OWID-1:OWID-1-11]};
 
 endmodule

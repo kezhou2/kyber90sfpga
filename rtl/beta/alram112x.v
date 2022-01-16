@@ -11,6 +11,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 //define RWSAMECLK to enable the feature
+`define RWSAMECLK
 
 module alram112x
     (
@@ -54,6 +55,10 @@ reg [WID-1:0]    mem [DEP-1:0]; //
 reg [AWID-1:0]   ra_reg;
 reg [WID-1:0]    rdonor;
 
+wire we2;
+
+ffxkclkx #(2,1) iffxkclkx65 (clk,rst,we,we2); //ko dc sua cai nay
+
 always@(posedge clkw)
     begin
     if(we)
@@ -71,10 +76,10 @@ wire sa; //same address
 wire [WID-1:0] wdi1;
 wire [WID-1:0] wdi2;
 
-assign sa = ra == wa;
+assign sa = (ra == wa) && we2;
 
-fflopx #(256) ifflopx1(clkw,rst,wdi,wdi1);
-fflopx #(256) ifflopx2(clkw,rst,wdi1,wdi2);
+fflopx #(WID) ifflopx1(clkw,rst,wdi,wdi1);
+fflopx #(WID) ifflopx2(clkw,rst,wdi1,wdi2);
 
 assign rdo = sa? wdi2 : rdonor;
 
@@ -83,5 +88,6 @@ assign rdo = sa? wdi2 : rdonor;
 assign rdo =  rdonor;
 
 `endif
+
 
 endmodule

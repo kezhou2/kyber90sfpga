@@ -1,0 +1,34 @@
+# Current time Thu Jan 13 02:52:56 2022
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 538ed005. Traceback:
+# 0    0x538ed005: 'TkWinHandleMenuEvent + 0x1ef5'
+# 1    0x538e9a1f: 'TkpMenuNotifyToplevelCreate + 0xe2f'
+# 2    0x53973567: 'Tk_MainEx + 0x1cd7'
+# 3    0x53b29d91: 'TclCallVarTraces + 0x2e1'
+# 4    0x53ad36ad: 'Tcl_CreateHashEntry + 0xad'
+# 5    0x53ad35ef: 'Tcl_FindHashEntry + 0x1f'
+# 6    0x57816061: 'Itcl_ClassVarResolver + 0x291'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Thu Jan 13 03:08:26 2022
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 736f9e6f. Traceback:
+# 0    0x736f9e6f: 'Tcl_GetString + 0xf'
+# 1    0x736e1f5a: 'TclListObjSetElement + 0x31a'
+# 2    0x73653a49: 'TclNRRunCallbacks + 0x49'
+StackWalk failed 299
+# End of Stack Trace
+

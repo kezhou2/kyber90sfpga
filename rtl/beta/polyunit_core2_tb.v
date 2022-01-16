@@ -6,13 +6,15 @@ reg clk;
 reg rst;
 
 
-wire [47:0] data_in_tb;
+wire [47:0] data_in_tb,data_in_tb1,data_in_tb2;
 wire [4:0] data_in_add_tb;
 reg data_in_done_tb;
 
 reg [1:0] mode_tb;
 reg run_tb;
 wire done_tb;
+
+reg flagmem;
 
 wire [47:0] data_out_tb;
 
@@ -69,16 +71,23 @@ mem_gen2 #(48) imem_gen1
     .clk(clk),
     .addr(dicnt[4:0]), //using with 
     .wr_ena(1'b0),
-    .data(data_in_tb)
+    .data(data_in_tb1)
 );
 
-initial begin
-    
-end
+mem_gen7 #(48) imem_gen2
+(
+    .clk(clk),
+    .addr(dicnt[4:0]), //using with 
+    .wr_ena(1'b0),
+    .data(data_in_tb2)
+);
+
+assign data_in_tb = flagmem? data_in_tb1 : data_in_tb2;
 
 initial begin
     //begin testing datain function
     rst = 1'b1;
+    flagmem = 1;
     data_in_done_tb = 1'b0;
     mode_tb = 0;
     run_tb = 0;
@@ -108,6 +117,20 @@ initial begin
     #2;
     run_tb = 1'b0;
     #1000;
+    ////done NTT///
+    flagmem = 0;
+    mode_tb = M_DATAIN;
+    run_tb = 1'b1;
+    loaddi =  1'b1;
+    #2;
+    run_tb = 1'b0;
+    mode_tb = 0;
+    #64
+    loaddi = 1'b0;
+    data_in_done_tb = 1'b1;
+    #2;
+    data_in_done_tb = 1'b0;
+    #32;
     mode_tb = M_INTT;
     run_tb = 1'b1;
     #2;
