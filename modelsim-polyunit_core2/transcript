@@ -1,4 +1,199 @@
+# Compile of k2red.v was successful.
+vsim -gui work.polyunit_core2_tb
+# vsim -gui work.polyunit_core2_tb 
+# Start time: 12:18:45 on Jan 14,2022
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.ffxkclkx
+# Loading work.fflopx
+# Loading work.mem_gen1
+# Loading work.mem_gen5
+# Loading work.mem_gen4
+# Loading work.butterfly2
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.sipo
+# Loading work.sipo5
+# Loading work.sipo6
+# Loading work.sipo7
+# Loading work.mem_gen3
+# Loading work.mem_gen2
+# Loading work.ffxkclk
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (24) for port 'odat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2/ibutterfly1/ik2red/iffxkclkx54 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (24) for port 'odat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2/ibutterfly2/ik2red/iffxkclkx54 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (24) for port 'odat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2/ibutterfly3/ik2red/iffxkclkx54 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (24) for port 'odat'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/ffxkclkx.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2/ibutterfly4/ik2red/iffxkclkx54 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/k2red.v Line: 141
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/polyunit_core2_tb/ipolyunit_core2/*
+run
+run
+run
+# Compile of k2red.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.k2red
+# Loading work.full_sub
+# Loading work.fulladder2f
+# Loading work.full_adder
+run
+# Compile of k2red.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.k2red
+run
+run
+# Compile of polyunit_core2.v failed with 1 errors.
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+run
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+run
+# Compile of mem_gen4.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_gen4
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
 # Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v failed with 1 errors.
+# Compile of mem_gen3.v was successful.
+# Compile of sipo.v was successful.
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen5.v was successful.
+# Compile of sipo5.v was successful.
+# Compile of sipo6.v was successful.
+# Compile of sipo7.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# 32 compiles, 1 failed with 1 error.
+# Compile of polyunit_core2_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.ffxkclkx
+# Loading work.fflopx
+# Loading work.mem_gen1
+# Loading work.mem_gen5
+# Loading work.mem_gen4
+# Loading work.mem_gen6
+# Loading work.butterfly2
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.sipo
+# Loading work.sipo5
+# Loading work.sipo6
+# Loading work.sipo7
+# Loading work.mem_gen3
+# Loading work.mem_gen2
+# Loading work.mem_gen7
+# Loading work.ffxkclk
+# ** Warning: (vsim-3015) [PCDPC] - Port size (48) does not match connection size (1) for port 'data'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen2.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/imem_gen1 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (48) does not match connection size (1) for port 'data'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen7.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/imem_gen2 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2_tb.v Line: 77
+# Compile of polyunit_core2_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+run
+run
+run
+# Compile of mem_gen7.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_gen7
+run
+run
+run
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+run
+run
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+run
+run
+run
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+run
+run
+run
+restart -f
+# Compile of polyunit_core2.v was successful.
+run
+run
+# Compile of polyunit_core2.v failed with 1 errors.
+# Compile of polyunit_core2.v failed with 1 errors.
+# Compile of polyunit_core2.v was successful.
+# Compile of mem_gen8.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+# Loading work.mem_gen8
+run
+run
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of polyunit_core2.v failed with 1 errors.
+# Compile of mem_gen6.v was successful.
+# Compile of polyunit_core2.v failed with 1 errors.
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+# Loading work.mem_gen4
+# Loading work.mem_gen6
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (28) for port 'data'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen4.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2/imem_gen11 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v Line: 270
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (28) for port 'data'. The port definition is at: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/mem_gen6.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /polyunit_core2_tb/ipolyunit_core2/imem_gen135 File: K:/kyber90sfpga/kyber90sfpga/rtl/alpha/polyunit_core2.v Line: 278
 # Compile of addsub.v was successful.
 # Compile of alram112x.v was successful.
 # Compile of butterfly2.v was successful.
@@ -29,19 +224,143 @@
 # Compile of sipo5.v was successful.
 # Compile of sipo6.v was successful.
 # Compile of sipo7.v was successful.
-# 30 compiles, 0 failed with no errors.
-vsim -gui work.polyunit_core2_tb
-# vsim -gui work.polyunit_core2_tb 
-# Start time: 12:17:29 on Jan 06,2022
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# Compile of mem_gen8.v was successful.
+# 33 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.polyunit_core2_tb
 # Loading work.polyunit_core2
 # Loading work.alram112x
+# Loading work.ffxkclkx
+# Loading work.fflopx
 # Loading work.mem_gen1
 # Loading work.mem_gen5
 # Loading work.mem_gen4
+# Loading work.mem_gen6
 # Loading work.butterfly2
-# Loading work.fflopx
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.sipo
+# Loading work.sipo5
+# Loading work.sipo6
+# Loading work.sipo7
+# Loading work.mem_gen3
+# Loading work.mem_gen8
+# Loading work.mem_gen2
+# Loading work.mem_gen7
+# Loading work.ffxkclk
+run
+run
+run
+# Compile of mem_gen6.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_gen6
+run
+run
+quit -sim
+# End time: 13:47:18 on Jan 15,2022, Elapsed time: 25:28:33
+# Errors: 0, Warnings: 1
+vsim -gui work.polyunit_core2_tb
+# vsim -gui work.polyunit_core2_tb 
+# Start time: 13:48:35 on Jan 15,2022
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
 # Loading work.ffxkclkx
+# Loading work.fflopx
+# Loading work.mem_gen1
+# Loading work.mem_gen5
+# Loading work.mem_gen4
+# Loading work.mem_gen6
+# Loading work.butterfly2
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.sipo
+# Loading work.sipo5
+# Loading work.sipo6
+# Loading work.sipo7
+# Loading work.mem_gen3
+# Loading work.mem_gen8
+# Loading work.mem_gen2
+# Loading work.mem_gen7
+# Loading work.ffxkclk
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/polyunit_core2_tb/ipolyunit_core2/*
+run
+run
+restart -f
+run
+run
+run
+# Compile of mem_gen6.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_gen6
+run
+run
+# Compile of polyunit_core2.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2
+run
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# Compile of mem_gen3.v was successful.
+# Compile of sipo.v was successful.
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen5.v was successful.
+# Compile of sipo5.v was successful.
+# Compile of sipo6.v was successful.
+# Compile of sipo7.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# Compile of mem_gen8.v was successful.
+# 33 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.ffxkclkx
+# Loading work.fflopx
+# Loading work.mem_gen1
+# Loading work.mem_gen5
+# Loading work.mem_gen4
+# Loading work.mem_gen6
+# Loading work.butterfly2
 # Loading work.poly_mod_add
 # Loading work.modhalfq
 # Loading work.mux_xx1
@@ -55,13 +374,239 @@ vsim -gui work.polyunit_core2_tb
 # Loading work.sipo6
 # Loading work.sipo7
 # Loading work.mem_gen3
+# Loading work.mem_gen8
 # Loading work.mem_gen2
+# Loading work.mem_gen7
 # Loading work.ffxkclk
 # Loading work.full_adder
-# WARNING: No extended dataflow license exists
-add wave -position insertpoint sim:/polyunit_core2_tb/ipolyunit_core2/*
+# Warning in wave window restart: (vish-4014) No objects found matching '/polyunit_core2_tb/ipolyunit_core2/intt_done'. 
 run
 run
+# Compile of alram112x.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alram112x
+run
+run
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# Compile of mem_gen3.v was successful.
+# Compile of sipo.v was successful.
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen5.v was successful.
+# Compile of sipo5.v was successful.
+# Compile of sipo6.v was successful.
+# Compile of sipo7.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# Compile of mem_gen8.v was successful.
+# 33 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.ffxkclkx
+# Loading work.fflopx
+# Loading work.mem_gen1
+# Loading work.mem_gen5
+# Loading work.mem_gen4
+# Loading work.mem_gen6
+# Loading work.butterfly2
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.sipo
+# Loading work.sipo5
+# Loading work.sipo6
+# Loading work.sipo7
+# Loading work.mem_gen3
+# Loading work.mem_gen8
+# Loading work.mem_gen2
+# Loading work.mem_gen7
+# Loading work.ffxkclk
+run
+run
+# Compile of alram112x.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alram112x
+run
+run
+# Compile of alram112x.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alram112x
+run
+run
+mem save -o *.mem -f mti -data binary -addr decimal /polyunit_core2_tb/ipolyunit_core2/ialram112x/mem
+# ** UI-Msg: (vsim-7) Failed to open mem file "*.mem" in write mode.
+# Invalid argument. (errno = EINVAL)
+mem save -o K:/kyber90sfpga/kyber90sfpga/modelsim-polyunit_core2/mem/data.mem -f mti -data binary -addr decimal /polyunit_core2_tb/ipolyunit_core2/ialram112x/mem
+# Compile of alram112x.v was successful.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# Compile of mem_gen3.v was successful.
+# Compile of sipo.v was successful.
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen5.v was successful.
+# Compile of sipo5.v was successful.
+# Compile of sipo6.v was successful.
+# Compile of sipo7.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# Compile of mem_gen8.v was successful.
+# 33 compiles, 0 failed with no errors.
 quit -sim
-# End time: 16:24:20 on Jan 06,2022, Elapsed time: 4:06:51
+# End time: 23:51:59 on Jan 15,2022, Elapsed time: 10:03:24
+# Errors: 0, Warnings: 3
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# Compile of mem_gen3.v was successful.
+# Compile of sipo.v was successful.
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen5.v was successful.
+# Compile of sipo5.v was successful.
+# Compile of sipo6.v was successful.
+# Compile of sipo7.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# Compile of mem_gen8.v was successful.
+# 33 compiles, 0 failed with no errors.
+# Compile of addsub.v was successful.
+# Compile of alram112x.v was successful.
+# Compile of butterfly2.v was successful.
+# Compile of fflopx.v was successful.
+# Compile of ffxkclk.v was successful.
+# Compile of ffxkclkx.v was successful.
+# Compile of full_adder.v was successful.
+vsim -gui work.polyunit_core2_tb
+# vsim -gui work.polyunit_core2_tb 
+# Start time: 23:55:16 on Jan 15,2022
+# Loading work.polyunit_core2_tb
+# Loading work.polyunit_core2
+# Loading work.alram112x
+# Loading work.ffxkclkx
+# Loading work.fflopx
+# Loading work.mem_gen1
+# Loading work.mem_gen5
+# Loading work.mem_gen4
+# Loading work.mem_gen6
+# Loading work.butterfly2
+# Loading work.poly_mod_add
+# Loading work.modhalfq
+# Loading work.mux_xx1
+# Loading work.poly_mod_diff
+# Loading work.sim_mult
+# Loading work.k2red
+# Loading work.sipo
+# Loading work.sipo5
+# Loading work.sipo6
+# Loading work.sipo7
+# Loading work.mem_gen3
+# Loading work.mem_gen8
+# Loading work.mem_gen2
+# Loading work.mem_gen7
+# Loading work.ffxkclk
+# WARNING: No extended dataflow license exists
+# Compile of full_sub.v was successful.
+# Compile of fulladder2f.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of k2red.v was successful.
+add wave -position insertpoint sim:/polyunit_core2_tb/ipolyunit_core2/*
+# Compile of mem_gen1.v was successful.
+# Compile of modfa.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# Compile of mux_xx2.v was successful.
+# Compile of poly_mod_add.v was successful.
+# Compile of poly_mod_diff.v was successful.
+# Compile of polyunit_core2.v was successful.
+# Compile of sim_mult.v was successful.
+# Compile of mem_gen2.v was successful.
+# Compile of polyunit_core2_tb.v was successful.
+# Compile of mem_gen3.v was successful.
+# Compile of sipo.v was successful.
+# Compile of mem_gen4.v was successful.
+# Compile of mem_gen5.v was successful.
+# Compile of sipo5.v was successful.
+# Compile of sipo6.v was successful.
+# Compile of sipo7.v was successful.
+# Compile of mem_gen6.v was successful.
+# Compile of mem_gen7.v was successful.
+# Compile of mem_gen8.v was successful.
+# 33 compiles, 0 failed with no errors.
+run
+run
+run
+mem save -o K:/kyber90sfpga/kyber90sfpga/modelsim-polyunit_core2/mem/data.mem -f mti -data binary -addr decimal /polyunit_core2_tb/ipolyunit_core2/ialram112x/mem
+run
+# End time: 12:21:11 on Jan 16,2022, Elapsed time: 12:25:55
 # Errors: 0, Warnings: 3

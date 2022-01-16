@@ -1,3 +1,5 @@
+`define SIMULATION
+
 module k2red
 (
     clk,
@@ -23,6 +25,8 @@ output [WID2-1:0] cred;
 
 
 /////////////////////////////////
+
+`ifdef SYNTHESIS
 
 wire [15:0] ch;
 wire [15:0] cl;
@@ -61,7 +65,9 @@ full_sub #(16) ifullsub1 (clx81,ch1,subrs1,null1);
 fulladder2f #(16) ifulladder2f1 (clx41,cl1,addrs1);
 
 //second addtion
-fulladder2f #(16) ifulladder2f2 (subrs1,addrs1,firstrs);
+//fulladder2f #(16) ifulladder2f2 (subrs1,addrs1,firstrs);
+
+assign firstrs = subrs1 + addrs1 - null1;
 
 wire [15:0] firstrs1;
 
@@ -103,7 +109,7 @@ full_sub #(12) ifullsub2 (clpx81,chp1,subrs2,null2);
 fulladder2f #(12) ifulladder2f3 (clpx41,clp1,addrs2);
 
 //second addtion
-wire [WID2-1:0] negativers1;
+wire [WID2-1:0] negativers1,negativers2,complers1,complers2;
 
 fulladder2f #(12) ifulladder2f4 (subrs2,addrs2,finalrs);
 
@@ -111,16 +117,55 @@ wire [WID2-1:0] finalrs1;
 
 ffxkclkx #(DELAY,WID2) iffxkclkx1 (clk,rst,finalrs,finalrs1);
 
-fulladder2f #(12) ifulladder2f5 (finalrs1,12'd3329,negativers1); //3319 case for c = 453
+wire null21;
+
+ffxkclkx #(7,1) iffxkclkx2 (clk,rst,null2,null21); 
+
+assign negativers1 = finalrs1 + 12'd3329;
+
+assign negativers2 = finalrs1 - 12'd3329;
+
+assign complers1 = finalrs1 + 12'd256;
+
+assign complers2 = finalrs1 + 12'd256 - 12'd3329;
+
+//assign complers2 = finalrs1 - 12'd3840;
 
 wire checkflag;
 
 assign checkflag = finalrs1 >= 12'd3329;
 
+wire cond1,cond2,cond3;//,cond4;
+
+assign cond1 = null2 & checkflag; //truong hop + dung
+
+assign cond2 = !null2 & checkflag; //truong hop - dung
+
+assign cond3 = null2 & !checkflag; //truong hop so lon
+
+//wire cond31;
+
+//ffxkclkx #(7,1) iffxkclkx400 (clk,rst,cond3,cond31); 
+
+//assign cond4 = null21 & ;//cond31; //truong hop thut giua 2 ben so lon
+
+assign cond5 = (complers1 >= 12'd3329)&(cond3);
+
 wire [WID2-1:0] credtemp;
 
-assign credtemp = checkflag? negativers1 : finalrs1;
+assign credtemp = cond5? complers2 : 
+                (cond3)? complers1 :
+                cond1? negativers1 :
+                cond2? negativers2 : finalrs1;
 
 fflopx #(WID2) ifflopx1 (clk,rst,credtemp,cred);
+
+`elsif SIMULATION
+wire [11:0] cred;
+assign cred = (169*c)%3329;
+
+ffxkclkx #(5,12) iffxkclkx54 (clk,rst,cred,c);
+
+`endif
 
 endmodule

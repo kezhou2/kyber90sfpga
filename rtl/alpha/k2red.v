@@ -1,3 +1,5 @@
+`define SIMULATION
+
 module k2red
 (
     clk,
@@ -23,6 +25,7 @@ output [WID2-1:0] cred;
 
 
 /////////////////////////////////
+`ifdef SYNTHESIS
 
 wire [15:0] ch;
 wire [15:0] cl;
@@ -58,6 +61,9 @@ fflopx #(16) ifflopx5(clk,rst,clx4,clx41);
 // first addition layer
 
 full_sub #(16) ifullsub1 (clx81,ch1,subrs1,null1);
+
+//assign subrs1 = clx81 - ch1;
+
 fulladder2f #(16) ifulladder2f1 (clx41,cl1,addrs1);
 
 //second addtion
@@ -100,6 +106,9 @@ wire [11:0] finalrs;
 wire null2; //carry
 
 full_sub #(12) ifullsub2 (clpx81,chp1,subrs2,null2);
+
+//assign subrs2 = clpx81 - chp1;
+
 fulladder2f #(12) ifulladder2f3 (clpx41,clp1,addrs2);
 
 //second addtion
@@ -111,7 +120,9 @@ wire [WID2-1:0] finalrs1;
 
 ffxkclkx #(DELAY,WID2) iffxkclkx1 (clk,rst,finalrs,finalrs1);
 
-fulladder2f #(12) ifulladder2f5 (finalrs1,12'd3329,negativers1); //3319 case for c = 453
+//fulladder2f #(12) ifulladder2f5 (finalrs1,12'd3329,negativers1); //3319 case for c = 453
+
+assign negativers1 = finalrs1 + 12'd3329;
 
 wire checkflag;
 
@@ -122,5 +133,13 @@ wire [WID2-1:0] credtemp;
 assign credtemp = checkflag? negativers1 : finalrs1;
 
 fflopx #(WID2) ifflopx1 (clk,rst,credtemp,cred);
+
+`elsif SIMULATION
+wire [11:0] credtemp;
+assign credtemp = (169*c)%3329;
+
+ffxkclkx #(5,12) iffxkclkx54 (clk,rst,credtemp,cred);
+
+`endif
 
 endmodule
